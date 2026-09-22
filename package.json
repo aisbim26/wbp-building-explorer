@@ -1,0 +1,1 @@
+{"name":"aat-v34-threejs-viewer","version":"1.0.0","private":true,"type":"module","scripts":{"start":"node server.mjs","check":"node --check main.js && node --check server.mjs"},"description":"Self-contained Three.js r180 viewer with vendored dependencies. No installation needed."}

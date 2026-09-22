@@ -25,14 +25,12 @@ The grey L-shaped T1_Closure_Grey_Wall is excluded as requested. The source Blen
 - `models/wbp_demolition_v39.glb`: stationary V39 components grouped by controller, category and material, without animation tracks.
 - `manifest.json`: airport context layers and GIS origin.
 - `vendor/three`: Three.js and its loaders.
-- `reports`: export and validation records. Older records document earlier versions.
-- `previous-exploded-view`: backup of the previous interface.
-- `source`: conversion scripts and preserved Blender backups; not required for website hosting.
 
-Materials reuse the existing baked textures, with projected UVs transferred to the V39 geometry. The silver-grey roof uses the corrected texture. New protective enclosures use their source materials. UV projection distances are recorded in the export report; new cut faces sample the nearest source surface.
+Materials reuse the existing baked textures, with projected UVs transferred to the V39 geometry. The silver-grey roof uses the corrected texture. New protective enclosures use their source materials. New cut faces sample the nearest source surface.
 
 ## Coordinates
 
 HK1980 / EPSG:2326, in metres: E = Three.x + 809874; N = 817662 - Three.z; H = Three.y. The vertical datum follows the source and has not been independently verified. Visibility changes do not move the geometry.
 
-The viewer runs locally and has not been published to GitHub or another hosting service.
+GitHub Pages serves this viewer as a static website. Models load directly in the browser.
+
