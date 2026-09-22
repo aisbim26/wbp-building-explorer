@@ -1,0 +1,499 @@
+{
+  "title": "WBP · Airport 3D viewer",
+  "source": "AAT_Map_34_T1_Building_Closed.blend",
+  "origin": {
+    "crs": "EPSG:2326",
+    "easting": 809874,
+    "northing": 817662,
+    "height": 0,
+    "verticalDatum": "Source height retained; vertical datum unconfirmed"
+  },
+  "coordinates": {
+    "units": "metres",
+    "blender": "X east, Y north, Z up; already local",
+    "three": "X east, Y up, Z south",
+    "toHK1980": "E = x + origin.easting; N = origin.northing - z; H = y + origin.height"
+  },
+  "layers": [
+    {
+      "id": "surrounding_buildings_01",
+      "group": "surrounding_buildings",
+      "label": "Surrounding buildings 01",
+      "url": "models/surrounding_buildings_01.glb",
+      "bytes": 4405440,
+      "enabled": true,
+      "deferred": false,
+      "batches": 8
+    },
+    {
+      "id": "surrounding_buildings_02",
+      "group": "surrounding_buildings",
+      "label": "Surrounding buildings 02",
+      "url": "models/surrounding_buildings_02.glb",
+      "bytes": 4320140,
+      "enabled": true,
+      "deferred": false,
+      "batches": 8
+    },
+    {
+      "id": "surrounding_buildings_03",
+      "group": "surrounding_buildings",
+      "label": "Surrounding buildings 03",
+      "url": "models/surrounding_buildings_03.glb",
+      "bytes": 3414500,
+      "enabled": true,
+      "deferred": false,
+      "batches": 8
+    },
+    {
+      "id": "surrounding_buildings_04",
+      "group": "surrounding_buildings",
+      "label": "Surrounding buildings 04",
+      "url": "models/surrounding_buildings_04.glb",
+      "bytes": 4103572,
+      "enabled": true,
+      "deferred": false,
+      "batches": 8
+    },
+    {
+      "id": "surrounding_buildings_05",
+      "group": "surrounding_buildings",
+      "label": "Surrounding buildings 05",
+      "url": "models/surrounding_buildings_05.glb",
+      "bytes": 5546340,
+      "enabled": true,
+      "deferred": false,
+      "batches": 8
+    },
+    {
+      "id": "surrounding_buildings_06",
+      "group": "surrounding_buildings",
+      "label": "Surrounding buildings 06",
+      "url": "models/surrounding_buildings_06.glb",
+      "bytes": 970796,
+      "enabled": true,
+      "deferred": false,
+      "batches": 8
+    },
+    {
+      "id": "surrounding_buildings_07",
+      "group": "surrounding_buildings",
+      "label": "Surrounding buildings 07",
+      "url": "models/surrounding_buildings_07.glb",
+      "bytes": 1342604,
+      "enabled": true,
+      "deferred": false,
+      "batches": 5
+    },
+    {
+      "id": "terrain_01",
+      "group": "terrain",
+      "label": "Terrain / apron 01",
+      "url": "models/terrain_01.glb",
+      "bytes": 4282448,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "terrain_02",
+      "group": "terrain",
+      "label": "Terrain / apron 02",
+      "url": "models/terrain_02.glb",
+      "bytes": 3055800,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "terrain_03",
+      "group": "terrain",
+      "label": "Terrain / apron 03",
+      "url": "models/terrain_03.glb",
+      "bytes": 4380648,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "terrain_04",
+      "group": "terrain",
+      "label": "Terrain / apron 04",
+      "url": "models/terrain_04.glb",
+      "bytes": 2711540,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "terrain_05",
+      "group": "terrain",
+      "label": "Terrain / apron 05",
+      "url": "models/terrain_05.glb",
+      "bytes": 1639420,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "terrain_06",
+      "group": "terrain",
+      "label": "Terrain / apron 06",
+      "url": "models/terrain_06.glb",
+      "bytes": 1503544,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "terrain_07",
+      "group": "terrain",
+      "label": "Terrain / apron 07",
+      "url": "models/terrain_07.glb",
+      "bytes": 2456436,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "terrain_08",
+      "group": "terrain",
+      "label": "Terrain / apron 08",
+      "url": "models/terrain_08.glb",
+      "bytes": 1220888,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "terrain_09",
+      "group": "terrain",
+      "label": "Terrain / apron 09",
+      "url": "models/terrain_09.glb",
+      "bytes": 634664,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "terrain_10",
+      "group": "terrain",
+      "label": "Terrain / apron 10",
+      "url": "models/terrain_10.glb",
+      "bytes": 637524,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "terrain_11",
+      "group": "terrain",
+      "label": "Terrain / apron 11",
+      "url": "models/terrain_11.glb",
+      "bytes": 320012,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "terrain_12",
+      "group": "terrain",
+      "label": "Terrain / apron 12",
+      "url": "models/terrain_12.glb",
+      "bytes": 285340,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "terrain_13",
+      "group": "terrain",
+      "label": "Terrain / apron 13",
+      "url": "models/terrain_13.glb",
+      "bytes": 378960,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "terrain_14",
+      "group": "terrain",
+      "label": "Terrain / apron 14",
+      "url": "models/terrain_14.glb",
+      "bytes": 330276,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "roads_context_01",
+      "group": "roads_context",
+      "label": "Roads & bridges 01",
+      "url": "models/roads_context_01.glb",
+      "bytes": 5662088,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "roads_context_02",
+      "group": "roads_context",
+      "label": "Roads & bridges 02",
+      "url": "models/roads_context_02.glb",
+      "bytes": 5175332,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "roads_context_03",
+      "group": "roads_context",
+      "label": "Roads & bridges 03",
+      "url": "models/roads_context_03.glb",
+      "bytes": 1956480,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "roads_context_04",
+      "group": "roads_context",
+      "label": "Roads & bridges 04",
+      "url": "models/roads_context_04.glb",
+      "bytes": 6389088,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "roads_context_05",
+      "group": "roads_context",
+      "label": "Roads & bridges 05",
+      "url": "models/roads_context_05.glb",
+      "bytes": 156160,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "roads_context_06",
+      "group": "roads_context",
+      "label": "Roads & bridges 06",
+      "url": "models/roads_context_06.glb",
+      "bytes": 7362444,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "roads_context_07",
+      "group": "roads_context",
+      "label": "Roads & bridges 07",
+      "url": "models/roads_context_07.glb",
+      "bytes": 8997364,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "roads_context_08",
+      "group": "roads_context",
+      "label": "Roads & bridges 08",
+      "url": "models/roads_context_08.glb",
+      "bytes": 1729816,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "roads_context_09",
+      "group": "roads_context",
+      "label": "Roads & bridges 09",
+      "url": "models/roads_context_09.glb",
+      "bytes": 1917640,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "roads_context_10",
+      "group": "roads_context",
+      "label": "Roads & bridges 10",
+      "url": "models/roads_context_10.glb",
+      "bytes": 12182996,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "roads_context_11",
+      "group": "roads_context",
+      "label": "Roads & bridges 11",
+      "url": "models/roads_context_11.glb",
+      "bytes": 4297516,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "roads_context_12",
+      "group": "roads_context",
+      "label": "Roads & bridges 12",
+      "url": "models/roads_context_12.glb",
+      "bytes": 1338440,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "roads_context_13",
+      "group": "roads_context",
+      "label": "Roads & bridges 13",
+      "url": "models/roads_context_13.glb",
+      "bytes": 6133228,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "roads_context_14",
+      "group": "roads_context",
+      "label": "Roads & bridges 14",
+      "url": "models/roads_context_14.glb",
+      "bytes": 2954268,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "roads_context_15",
+      "group": "roads_context",
+      "label": "Roads & bridges 15",
+      "url": "models/roads_context_15.glb",
+      "bytes": 2490296,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "roads_context_16",
+      "group": "roads_context",
+      "label": "Roads & bridges 16",
+      "url": "models/roads_context_16.glb",
+      "bytes": 1036652,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "roads_context_17",
+      "group": "roads_context",
+      "label": "Roads & bridges 17",
+      "url": "models/roads_context_17.glb",
+      "bytes": 1250320,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "roads_context_18",
+      "group": "roads_context",
+      "label": "Roads & bridges 18",
+      "url": "models/roads_context_18.glb",
+      "bytes": 460412,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "roads_context_19",
+      "group": "roads_context",
+      "label": "Roads & bridges 19",
+      "url": "models/roads_context_19.glb",
+      "bytes": 1127624,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "roads_context_20",
+      "group": "roads_context",
+      "label": "Roads & bridges 20",
+      "url": "models/roads_context_20.glb",
+      "bytes": 762668,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "site_surfaces",
+      "group": "site_surfaces",
+      "label": "Site paving",
+      "url": "models/site_surfaces.glb",
+      "bytes": 3266472,
+      "enabled": true,
+      "deferred": false,
+      "batches": 3
+    },
+    {
+      "id": "vegetation",
+      "group": "vegetation",
+      "label": "Grass",
+      "url": "models/vegetation.glb",
+      "bytes": 377352,
+      "enabled": true,
+      "deferred": false,
+      "batches": 1
+    },
+    {
+      "id": "aircraft",
+      "group": "aircraft",
+      "label": "Aircraft",
+      "url": "models/aircraft.glb",
+      "bytes": 6268288,
+      "enabled": true,
+      "deferred": false,
+      "batches": 12
+    },
+    {
+      "id": "ground_equipment",
+      "group": "ground_equipment",
+      "label": "Ground equipment",
+      "url": "models/ground_equipment.glb",
+      "bytes": 2735004,
+      "enabled": true,
+      "deferred": true,
+      "batches": 8
+    },
+    {
+      "id": "road_markings",
+      "group": "road_markings",
+      "label": "Road markings",
+      "url": "models/road_markings.glb",
+      "bytes": 22808,
+      "enabled": true,
+      "deferred": false,
+      "batches": 3
+    },
+    {
+      "id": "security_fence",
+      "group": "security_fence",
+      "label": "Security fencing",
+      "url": "models/security_fence.glb",
+      "bytes": 8873012,
+      "enabled": true,
+      "deferred": true,
+      "batches": 3
+    },
+    {
+      "id": "kerbs_drainage",
+      "group": "kerbs_drainage",
+      "label": "Kerbs & drainage",
+      "url": "models/kerbs_drainage.glb",
+      "bytes": 1015776,
+      "enabled": true,
+      "deferred": false,
+      "batches": 6
+    }
+  ]
+}
