@@ -1704,12 +1704,12 @@
     },
     {
       "id": "foundation",
-      "title": "New foundations",
+      "title": "New foundations · Option 1",
       "version": "V04",
       "source": "New_Foundation_Animation_15s_v04.blend",
       "asset": "models/sequence_foundation.glb",
       "initial": {
-        "title": "New foundations",
+        "title": "New foundations · Option 1",
         "description": "Construct the new foundations, retaining the stationary perimeter piles. Drag the slider to explore; drag left to restore earlier stages."
       },
       "groups": {

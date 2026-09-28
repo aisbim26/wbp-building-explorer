@@ -69,7 +69,7 @@ Remove the existing foundations and install the excavation support. Drag the sli
 10. **Remove foundation beams — zone 7** — Remove the next group of existing foundation beams.
 11. **Remove foundation beams — zone 8** — Remove the next group of existing foundation beams.
 
-## 03 New foundations
+## 03 New foundations · Option 1
 
 Construct the new foundations, retaining the stationary perimeter piles. Drag the slider to explore; drag left to restore earlier stages.
 
