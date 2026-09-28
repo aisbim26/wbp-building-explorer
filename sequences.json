@@ -1,0 +1,5155 @@
+{
+  "schemaVersion": 2,
+  "updated": "2026-09-25",
+  "phases": [
+    {
+      "id": "demolition",
+      "title": "WBP demolition",
+      "version": "V69",
+      "source": "WBP_Upper_Revised_v69.blend",
+      "asset": "models/sequence_demolition.glb",
+      "initial": {
+        "title": "WBP demolition",
+        "description": "Remove the existing WBP building in the revised sequence. Drag the slider to explore; drag left to restore earlier stages."
+      },
+      "groups": {
+        "g0": {
+          "initial": true
+        },
+        "g1": {
+          "initial": true
+        },
+        "g2": {
+          "initial": true
+        },
+        "g3": {
+          "initial": true
+        },
+        "g4": {
+          "initial": true
+        },
+        "g5": {
+          "initial": true
+        },
+        "g6": {
+          "initial": true
+        },
+        "g7": {
+          "initial": true
+        },
+        "g8": {
+          "initial": true
+        },
+        "g9": {
+          "initial": true
+        },
+        "g10": {
+          "initial": true
+        },
+        "g11": {
+          "initial": true
+        },
+        "g12": {
+          "initial": true
+        },
+        "g13": {
+          "initial": true
+        },
+        "g14": {
+          "initial": true
+        },
+        "g15": {
+          "initial": true
+        },
+        "g16": {
+          "initial": true
+        },
+        "g17": {
+          "initial": true
+        },
+        "g18": {
+          "initial": true
+        },
+        "g19": {
+          "initial": true
+        },
+        "g20": {
+          "initial": true
+        },
+        "g21": {
+          "initial": true
+        },
+        "g22": {
+          "initial": true
+        },
+        "g23": {
+          "initial": true
+        },
+        "g24": {
+          "initial": true
+        },
+        "g25": {
+          "initial": true
+        },
+        "g26": {
+          "initial": true
+        },
+        "g27": {
+          "initial": true
+        },
+        "g28": {
+          "initial": true
+        },
+        "g29": {
+          "initial": true
+        },
+        "g30": {
+          "initial": true
+        },
+        "g31": {
+          "initial": true
+        },
+        "g32": {
+          "initial": true
+        },
+        "g33": {
+          "initial": true
+        },
+        "g34": {
+          "initial": true
+        },
+        "g35": {
+          "initial": true
+        },
+        "g36": {
+          "initial": true
+        },
+        "g37": {
+          "initial": true
+        },
+        "g38": {
+          "initial": true
+        },
+        "g39": {
+          "initial": true
+        },
+        "g40": {
+          "initial": true
+        },
+        "g41": {
+          "initial": true
+        },
+        "g42": {
+          "initial": true
+        },
+        "g43": {
+          "initial": true
+        },
+        "g44": {
+          "initial": false
+        },
+        "g45": {
+          "initial": true
+        },
+        "g46": {
+          "initial": true
+        },
+        "g47": {
+          "initial": true
+        },
+        "g48": {
+          "initial": false
+        }
+      },
+      "stages": [
+        {
+          "step": 1,
+          "frame": 145,
+          "title": "Clear cargo and transport equipment",
+          "description": "Remove the indoor cargo and transport equipment before dismantling the building.",
+          "changes": [
+            {
+              "group": "g34",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "frame": 172,
+          "title": "Remove external equipment",
+          "description": "Remove the designated external equipment; retain the protected T1 lift platforms.",
+          "changes": [
+            {
+              "group": "g33",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "frame": 175,
+          "title": "Remove grating, stairs and ladders",
+          "description": "Remove the access grating, stairs and ladders.",
+          "changes": [
+            {
+              "group": "g36",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "frame": 199,
+          "title": "Remove perimeter beams",
+          "description": "Remove the early perimeter beam group in the revised sequence.",
+          "changes": [
+            {
+              "group": "g43",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "frame": 208,
+          "title": "Remove suspended-room rails and ladders",
+          "description": "Clear the rails and access ladders around the suspended room.",
+          "changes": [
+            {
+              "group": "g35",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "frame": 238,
+          "title": "Remove suspended-room enclosure",
+          "description": "Remove the enclosure panels around the suspended room.",
+          "changes": [
+            {
+              "group": "g37",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 7,
+          "frame": 268,
+          "title": "Remove suspended slab and supports",
+          "description": "Remove the suspended-room slab and its local supports.",
+          "changes": [
+            {
+              "group": "g26",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 8,
+          "frame": 271,
+          "title": "Remove original entrance fencing",
+          "description": "Remove the original entrance fence before the temporary hoarding is installed.",
+          "changes": [
+            {
+              "group": "g45",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 9,
+          "frame": 355,
+          "title": "Install site hoarding",
+          "description": "Add the revised plywood site hoarding in its source-model position.",
+          "changes": [
+            {
+              "group": "g48",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 10,
+          "frame": 391,
+          "title": "Remove canopy A deck and ties",
+          "description": "Remove the canopy deck and the five designated tie members.",
+          "changes": [
+            {
+              "group": "g0",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 11,
+          "frame": 417,
+          "title": "Remove canopy A steelwork",
+          "description": "Remove the remaining steelwork of canopy A.",
+          "changes": [
+            {
+              "group": "g27",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 12,
+          "frame": 457,
+          "title": "Remove canopy B covering",
+          "description": "Remove the covering of the second canopy.",
+          "changes": [
+            {
+              "group": "g38",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 13,
+          "frame": 505,
+          "title": "Remove canopy B steelwork and ties",
+          "description": "Remove the remaining steelwork and five designated tie members.",
+          "changes": [
+            {
+              "group": "g9",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 14,
+          "frame": 538,
+          "title": "Remove roof and walls — bay 1",
+          "description": "Remove the roof covering and external envelope of this bay.",
+          "changes": [
+            {
+              "group": "g6",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 15,
+          "frame": 568,
+          "title": "Remove roof and walls — bay 2",
+          "description": "Remove the roof covering and external envelope of this bay.",
+          "changes": [
+            {
+              "group": "g5",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 16,
+          "frame": 598,
+          "title": "Remove roof and walls — bay 3",
+          "description": "Remove the roof covering and external envelope of this bay.",
+          "changes": [
+            {
+              "group": "g4",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 17,
+          "frame": 628,
+          "title": "Remove roof and walls — bay 4",
+          "description": "Remove the roof covering and external envelope of this bay.",
+          "changes": [
+            {
+              "group": "g3",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 18,
+          "frame": 652,
+          "title": "Remove secondary members — bay 1",
+          "description": "Remove this bay’s secondary members in the revised V69 order.",
+          "changes": [
+            {
+              "group": "g24",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 19,
+          "frame": 683,
+          "title": "Remove main beams and trusses — bay 1",
+          "description": "Remove this bay’s main beams and trusses in the revised V69 order.",
+          "changes": [
+            {
+              "group": "g20",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 20,
+          "frame": 703,
+          "title": "Remove columns — bay 1",
+          "description": "Remove this bay’s columns in the revised V69 order.",
+          "changes": [
+            {
+              "group": "g17",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 21,
+          "frame": 759,
+          "title": "Remove main beams and trusses — bay 2",
+          "description": "Remove this bay’s main beams and trusses in the revised V69 order.",
+          "changes": [
+            {
+              "group": "g23",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 22,
+          "frame": 778,
+          "title": "Remove columns — bay 2",
+          "description": "Remove this bay’s columns in the revised V69 order.",
+          "changes": [
+            {
+              "group": "g16",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 23,
+          "frame": 802,
+          "title": "Remove secondary members — bay 3",
+          "description": "Remove this bay’s secondary members in the revised V69 order.",
+          "changes": [
+            {
+              "group": "g30",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 24,
+          "frame": 833,
+          "title": "Remove main beams and trusses — bay 3",
+          "description": "Remove this bay’s main beams and trusses in the revised V69 order.",
+          "changes": [
+            {
+              "group": "g22",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 25,
+          "frame": 853,
+          "title": "Remove columns — bay 3",
+          "description": "Remove this bay’s columns in the revised V69 order.",
+          "changes": [
+            {
+              "group": "g15",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 26,
+          "frame": 877,
+          "title": "Remove secondary members — bay 4",
+          "description": "Remove this bay’s secondary members in the revised V69 order.",
+          "changes": [
+            {
+              "group": "g31",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 27,
+          "frame": 909,
+          "title": "Remove main beams and trusses — bay 4",
+          "description": "Remove this bay’s main beams and trusses in the revised V69 order.",
+          "changes": [
+            {
+              "group": "g21",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 28,
+          "frame": 928,
+          "title": "Remove columns — bay 4",
+          "description": "Remove this bay’s columns in the revised V69 order.",
+          "changes": [
+            {
+              "group": "g14",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 29,
+          "frame": 989,
+          "title": "Install temporary protection platform",
+          "description": "Add the temporary steel frame, solid deck, footings and counterweights.",
+          "changes": [
+            {
+              "group": "g44",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 30,
+          "frame": 1168,
+          "title": "Remove T1 roof and frame — half 1",
+          "description": "Follow the revised T1 canopy dismantling sequence while retaining the lift equipment.",
+          "changes": [
+            {
+              "group": "g39",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 31,
+          "frame": 1169,
+          "title": "Remove T1 columns — half 1",
+          "description": "Follow the revised T1 canopy dismantling sequence while retaining the lift equipment.",
+          "changes": [
+            {
+              "group": "g41",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 32,
+          "frame": 1258,
+          "title": "Remove T1 roof and frame — half 2",
+          "description": "Follow the revised T1 canopy dismantling sequence while retaining the lift equipment.",
+          "changes": [
+            {
+              "group": "g40",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 33,
+          "frame": 1259,
+          "title": "Remove T1 columns — half 2",
+          "description": "Follow the revised T1 canopy dismantling sequence while retaining the lift equipment.",
+          "changes": [
+            {
+              "group": "g42",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 34,
+          "frame": 1288,
+          "title": "Remove roof and walls — bay 5",
+          "description": "Remove the roof covering and external envelope of this bay.",
+          "changes": [
+            {
+              "group": "g2",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 35,
+          "frame": 1318,
+          "title": "Remove roof and walls — bay 6",
+          "description": "Remove the roof covering and external envelope of this bay.",
+          "changes": [
+            {
+              "group": "g1",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 36,
+          "frame": 1348,
+          "title": "Remove roof and walls — bay 7",
+          "description": "Remove the roof covering and external envelope of this bay.",
+          "changes": [
+            {
+              "group": "g8",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 37,
+          "frame": 1378,
+          "title": "Remove roof and walls — bay 8",
+          "description": "Remove the roof covering and external envelope of this bay.",
+          "changes": [
+            {
+              "group": "g7",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 38,
+          "frame": 1391,
+          "title": "Remove secondary members — bay 5",
+          "description": "Remove this bay’s secondary members in the revised V69 order.",
+          "changes": [
+            {
+              "group": "g47",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 39,
+          "frame": 1431,
+          "title": "Remove main beams and trusses — bay 5",
+          "description": "Remove this bay’s main beams and trusses in the revised V69 order.",
+          "changes": [
+            {
+              "group": "g19",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 40,
+          "frame": 1439,
+          "title": "Remove columns — bay 5",
+          "description": "Remove this bay’s columns in the revised V69 order.",
+          "changes": [
+            {
+              "group": "g13",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 41,
+          "frame": 1451,
+          "title": "Remove secondary members — bay 6",
+          "description": "Remove this bay’s secondary members in the revised V69 order.",
+          "changes": [
+            {
+              "group": "g46",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 42,
+          "frame": 1491,
+          "title": "Remove main beams and trusses — bay 6",
+          "description": "Remove this bay’s main beams and trusses in the revised V69 order.",
+          "changes": [
+            {
+              "group": "g29",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 43,
+          "frame": 1500,
+          "title": "Remove columns — bay 6",
+          "description": "Remove this bay’s columns in the revised V69 order.",
+          "changes": [
+            {
+              "group": "g12",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 44,
+          "frame": 1551,
+          "title": "Remove main beams and trusses — bay 7",
+          "description": "Remove this bay’s main beams and trusses in the revised V69 order.",
+          "changes": [
+            {
+              "group": "g28",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 45,
+          "frame": 1559,
+          "title": "Remove columns — bay 7",
+          "description": "Remove this bay’s columns in the revised V69 order.",
+          "changes": [
+            {
+              "group": "g11",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 46,
+          "frame": 1571,
+          "title": "Remove secondary members — bay 8",
+          "description": "Remove this bay’s secondary members in the revised V69 order.",
+          "changes": [
+            {
+              "group": "g25",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 47,
+          "frame": 1611,
+          "title": "Remove main beams and trusses — bay 8",
+          "description": "Remove this bay’s main beams and trusses in the revised V69 order.",
+          "changes": [
+            {
+              "group": "g18",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 48,
+          "frame": 1619,
+          "title": "Remove columns — bay 8",
+          "description": "Remove this bay’s columns in the revised V69 order.",
+          "changes": [
+            {
+              "group": "g10",
+              "visible": false
+            }
+          ]
+        }
+      ],
+      "sourceFrames": [
+        1,
+        1680
+      ]
+    },
+    {
+      "id": "removal",
+      "title": "Existing foundations",
+      "version": "V69",
+      "source": "WBP_Foundation_Revised_v69.blend",
+      "asset": "models/sequence_removal.glb",
+      "initial": {
+        "title": "Existing foundations",
+        "description": "Remove the existing foundations and install the excavation support. Drag the slider to explore; drag left to restore earlier stages."
+      },
+      "groups": {
+        "g0": {
+          "initial": true
+        },
+        "g1": {
+          "initial": true
+        },
+        "g2": {
+          "initial": true
+        },
+        "g3": {
+          "initial": true
+        },
+        "g4": {
+          "initial": true
+        },
+        "g5": {
+          "initial": true
+        },
+        "g6": {
+          "initial": true
+        },
+        "g7": {
+          "initial": true
+        },
+        "g8": {
+          "initial": true
+        },
+        "g9": {
+          "initial": true
+        },
+        "g10": {
+          "initial": false
+        },
+        "g11": {
+          "initial": false
+        },
+        "g12": {
+          "initial": false
+        },
+        "g13": {
+          "initial": false
+        },
+        "g14": {
+          "initial": false
+        },
+        "g15": {
+          "initial": false
+        },
+        "g16": {
+          "initial": false
+        },
+        "g17": {
+          "initial": false
+        },
+        "g18": {
+          "initial": false
+        },
+        "g19": {
+          "initial": false
+        },
+        "g20": {
+          "initial": false
+        },
+        "g21": {
+          "initial": false
+        },
+        "g22": {
+          "initial": false
+        },
+        "g23": {
+          "initial": false
+        },
+        "g24": {
+          "initial": false
+        },
+        "g25": {
+          "initial": false
+        },
+        "g26": {
+          "initial": false
+        },
+        "g27": {
+          "initial": false
+        },
+        "g28": {
+          "initial": false
+        },
+        "g29": {
+          "initial": false
+        },
+        "g30": {
+          "initial": false
+        },
+        "g31": {
+          "initial": false
+        },
+        "g32": {
+          "initial": false
+        },
+        "g33": {
+          "initial": false
+        },
+        "g34": {
+          "initial": false
+        },
+        "g35": {
+          "initial": false
+        },
+        "g36": {
+          "initial": false
+        },
+        "g37": {
+          "initial": false
+        },
+        "g38": {
+          "initial": false
+        },
+        "g39": {
+          "initial": false
+        },
+        "g40": {
+          "initial": false
+        },
+        "g41": {
+          "initial": false
+        },
+        "g42": {
+          "initial": false
+        },
+        "g43": {
+          "initial": false
+        },
+        "g44": {
+          "initial": false
+        },
+        "g45": {
+          "initial": false
+        },
+        "g46": {
+          "initial": false
+        },
+        "g47": {
+          "initial": false
+        },
+        "g48": {
+          "initial": false
+        },
+        "g49": {
+          "initial": false
+        },
+        "g50": {
+          "initial": false
+        },
+        "g51": {
+          "initial": false
+        },
+        "g52": {
+          "initial": false
+        },
+        "g53": {
+          "initial": false
+        },
+        "g54": {
+          "initial": false
+        },
+        "g55": {
+          "initial": false
+        },
+        "g56": {
+          "initial": false
+        },
+        "g57": {
+          "initial": false
+        },
+        "g58": {
+          "initial": false
+        },
+        "g59": {
+          "initial": false
+        },
+        "g60": {
+          "initial": false
+        },
+        "g61": {
+          "initial": false
+        },
+        "g62": {
+          "initial": false
+        },
+        "g63": {
+          "initial": false
+        },
+        "g64": {
+          "initial": false
+        },
+        "g65": {
+          "initial": false
+        },
+        "g66": {
+          "initial": false
+        },
+        "g67": {
+          "initial": false
+        },
+        "g68": {
+          "initial": false
+        },
+        "g69": {
+          "initial": false
+        },
+        "g70": {
+          "initial": false
+        },
+        "g71": {
+          "initial": false
+        },
+        "g72": {
+          "initial": false
+        },
+        "g73": {
+          "initial": false
+        },
+        "g74": {
+          "initial": false
+        },
+        "g75": {
+          "initial": false
+        },
+        "g76": {
+          "initial": false
+        },
+        "g77": {
+          "initial": false
+        },
+        "g78": {
+          "initial": false
+        },
+        "g79": {
+          "initial": false
+        },
+        "g80": {
+          "initial": false
+        },
+        "g81": {
+          "initial": false
+        },
+        "g82": {
+          "initial": false
+        },
+        "g83": {
+          "initial": false
+        },
+        "g84": {
+          "initial": false
+        },
+        "g85": {
+          "initial": false
+        },
+        "g86": {
+          "initial": false
+        },
+        "g87": {
+          "initial": false
+        },
+        "g88": {
+          "initial": false
+        },
+        "g89": {
+          "initial": false
+        },
+        "g90": {
+          "initial": false
+        },
+        "g91": {
+          "initial": false
+        },
+        "g92": {
+          "initial": false
+        },
+        "g93": {
+          "initial": false
+        },
+        "g94": {
+          "initial": false
+        },
+        "g95": {
+          "initial": false
+        },
+        "g96": {
+          "initial": false
+        },
+        "g97": {
+          "initial": false
+        },
+        "g98": {
+          "initial": false
+        },
+        "g99": {
+          "initial": false
+        },
+        "g100": {
+          "initial": false
+        },
+        "g101": {
+          "initial": false
+        },
+        "g102": {
+          "initial": false
+        },
+        "g103": {
+          "initial": false
+        },
+        "g104": {
+          "initial": false
+        },
+        "g105": {
+          "initial": false
+        },
+        "g106": {
+          "initial": false
+        },
+        "g107": {
+          "initial": true
+        }
+      },
+      "stages": [
+        {
+          "step": 1,
+          "frame": 1705,
+          "title": "Remove existing concrete covers",
+          "description": "Remove the existing covers to prepare for foundation works.",
+          "changes": [
+            {
+              "group": "g107",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "frame": 1708,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g72",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "frame": 1709,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g73",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "frame": 1710,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g74",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "frame": 1711,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g75",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "frame": 1712,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g76",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 7,
+          "frame": 1713,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g77",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 8,
+          "frame": 1714,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g78",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 9,
+          "frame": 1715,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g79",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 10,
+          "frame": 1716,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g81",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 11,
+          "frame": 1717,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g82",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 12,
+          "frame": 1718,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g84",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 13,
+          "frame": 1719,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g85",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 14,
+          "frame": 1720,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g86",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 15,
+          "frame": 1721,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g87",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 16,
+          "frame": 1722,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g88",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 17,
+          "frame": 1723,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g89",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 18,
+          "frame": 1724,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g90",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 19,
+          "frame": 1725,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g54",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 20,
+          "frame": 1726,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g55",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 21,
+          "frame": 1727,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g56",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 22,
+          "frame": 1728,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g57",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 23,
+          "frame": 1729,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g58",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 24,
+          "frame": 1730,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g59",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 25,
+          "frame": 1731,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g60",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 26,
+          "frame": 1732,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g61",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 27,
+          "frame": 1733,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g62",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 28,
+          "frame": 1734,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g63",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 29,
+          "frame": 1735,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g10",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 30,
+          "frame": 1736,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g52",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 31,
+          "frame": 1737,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g53",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 32,
+          "frame": 1738,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g20",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 33,
+          "frame": 1739,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g21",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 34,
+          "frame": 1740,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g22",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 35,
+          "frame": 1741,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g23",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 36,
+          "frame": 1742,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g24",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 37,
+          "frame": 1743,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g25",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 38,
+          "frame": 1744,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g26",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 39,
+          "frame": 1745,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g27",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 40,
+          "frame": 1746,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g28",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 41,
+          "frame": 1747,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g29",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 42,
+          "frame": 1748,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g30",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 43,
+          "frame": 1749,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g31",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 44,
+          "frame": 1750,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g32",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 45,
+          "frame": 1751,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g33",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 46,
+          "frame": 1752,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g34",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 47,
+          "frame": 1753,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g35",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 48,
+          "frame": 1754,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g36",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 49,
+          "frame": 1755,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g37",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 50,
+          "frame": 1756,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g38",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 51,
+          "frame": 1757,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g39",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 52,
+          "frame": 1758,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g40",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 53,
+          "frame": 1759,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g41",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 54,
+          "frame": 1760,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g42",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 55,
+          "frame": 1761,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g43",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 56,
+          "frame": 1762,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g44",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 57,
+          "frame": 1763,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g45",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 58,
+          "frame": 1764,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g46",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 59,
+          "frame": 1765,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g47",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 60,
+          "frame": 1766,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g48",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 61,
+          "frame": 1767,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g49",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 62,
+          "frame": 1768,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g50",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 63,
+          "frame": 1769,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g51",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 64,
+          "frame": 1770,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g11",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 65,
+          "frame": 1771,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g12",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 66,
+          "frame": 1772,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g13",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 67,
+          "frame": 1773,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g14",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 68,
+          "frame": 1774,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g15",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 69,
+          "frame": 1775,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g16",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 70,
+          "frame": 1776,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g17",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 71,
+          "frame": 1777,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g18",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 72,
+          "frame": 1778,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g19",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 73,
+          "frame": 1779,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g102",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 74,
+          "frame": 1780,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g101",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 75,
+          "frame": 1781,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g100",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 76,
+          "frame": 1782,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g99",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 77,
+          "frame": 1783,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g98",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 78,
+          "frame": 1784,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g97",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 79,
+          "frame": 1785,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g96",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 80,
+          "frame": 1786,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g95",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 81,
+          "frame": 1787,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g93",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 82,
+          "frame": 1788,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g92",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 83,
+          "frame": 1789,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g91",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 84,
+          "frame": 1790,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g94",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 85,
+          "frame": 1791,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g80",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 86,
+          "frame": 1792,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g83",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 87,
+          "frame": 1793,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g103",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 88,
+          "frame": 1794,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g104",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 89,
+          "frame": 1795,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g105",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 90,
+          "frame": 1796,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g106",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 91,
+          "frame": 1797,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g64",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 92,
+          "frame": 1798,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g65",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 93,
+          "frame": 1799,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g66",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 94,
+          "frame": 1800,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g67",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 95,
+          "frame": 1801,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g68",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 96,
+          "frame": 1802,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g69",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 97,
+          "frame": 1803,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g70",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 98,
+          "frame": 1804,
+          "title": "Install sheet-pile support",
+          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "changes": [
+            {
+              "group": "g71",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 99,
+          "frame": 1915,
+          "title": "Remove existing foundation slabs",
+          "description": "Remove the existing slabs to expose the foundation beams.",
+          "changes": [
+            {
+              "group": "g9",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 100,
+          "frame": 1947,
+          "title": "Remove foundation beams — zone 1",
+          "description": "Remove the next group of existing foundation beams.",
+          "changes": [
+            {
+              "group": "g1",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 101,
+          "frame": 1968,
+          "title": "Remove foundation beams — zone 2",
+          "description": "Remove the next group of existing foundation beams.",
+          "changes": [
+            {
+              "group": "g2",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 102,
+          "frame": 1989,
+          "title": "Remove foundation beams — zone 3",
+          "description": "Remove the next group of existing foundation beams.",
+          "changes": [
+            {
+              "group": "g8",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 103,
+          "frame": 2009,
+          "title": "Remove foundation beams — zone 4",
+          "description": "Remove the next group of existing foundation beams.",
+          "changes": [
+            {
+              "group": "g7",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 104,
+          "frame": 2031,
+          "title": "Remove foundation beams — zone 5",
+          "description": "Remove the next group of existing foundation beams.",
+          "changes": [
+            {
+              "group": "g3",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 105,
+          "frame": 2051,
+          "title": "Remove foundation beams — zone 6",
+          "description": "Remove the next group of existing foundation beams.",
+          "changes": [
+            {
+              "group": "g6",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 106,
+          "frame": 2073,
+          "title": "Remove foundation beams — zone 7",
+          "description": "Remove the next group of existing foundation beams.",
+          "changes": [
+            {
+              "group": "g5",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 107,
+          "frame": 2093,
+          "title": "Remove foundation beams — zone 8",
+          "description": "Remove the next group of existing foundation beams.",
+          "changes": [
+            {
+              "group": "g4",
+              "visible": false
+            }
+          ]
+        }
+      ],
+      "sourceFrames": [
+        1681,
+        2160
+      ]
+    },
+    {
+      "id": "foundation",
+      "title": "New foundations",
+      "version": "V04",
+      "source": "New_Foundation_Animation_15s_v04.blend",
+      "asset": "models/sequence_foundation.glb",
+      "initial": {
+        "title": "New foundations",
+        "description": "Construct the new foundations, retaining the stationary perimeter piles. Drag the slider to explore; drag left to restore earlier stages."
+      },
+      "groups": {
+        "g0": {
+          "initial": true
+        },
+        "g1": {
+          "initial": true
+        },
+        "g2": {
+          "initial": true
+        },
+        "g3": {
+          "initial": true
+        },
+        "g4": {
+          "initial": true
+        },
+        "g5": {
+          "initial": true
+        },
+        "g6": {
+          "initial": true
+        },
+        "g7": {
+          "initial": true
+        },
+        "g8": {
+          "initial": true
+        },
+        "g9": {
+          "initial": true
+        },
+        "g10": {
+          "initial": true
+        },
+        "g11": {
+          "initial": true
+        },
+        "g12": {
+          "initial": true
+        },
+        "g13": {
+          "initial": true
+        },
+        "g14": {
+          "initial": true
+        },
+        "g15": {
+          "initial": true
+        },
+        "g16": {
+          "initial": true
+        },
+        "g17": {
+          "initial": true
+        },
+        "g18": {
+          "initial": true
+        },
+        "g19": {
+          "initial": true
+        },
+        "g20": {
+          "initial": true
+        },
+        "g21": {
+          "initial": true
+        },
+        "g22": {
+          "initial": true
+        },
+        "g23": {
+          "initial": true
+        },
+        "g24": {
+          "initial": true
+        },
+        "g25": {
+          "initial": true
+        },
+        "g26": {
+          "initial": true
+        },
+        "g27": {
+          "initial": true
+        },
+        "g28": {
+          "initial": true
+        },
+        "g29": {
+          "initial": true
+        },
+        "g30": {
+          "initial": true
+        },
+        "g31": {
+          "initial": true
+        },
+        "g32": {
+          "initial": true
+        },
+        "g33": {
+          "initial": true
+        },
+        "g34": {
+          "initial": true
+        },
+        "g35": {
+          "initial": true
+        },
+        "g36": {
+          "initial": true
+        },
+        "g37": {
+          "initial": true
+        },
+        "g38": {
+          "initial": true
+        },
+        "g39": {
+          "initial": true
+        },
+        "g40": {
+          "initial": true
+        },
+        "g41": {
+          "initial": true
+        },
+        "g42": {
+          "initial": true
+        },
+        "g43": {
+          "initial": true
+        },
+        "g44": {
+          "initial": true
+        },
+        "g45": {
+          "initial": true
+        },
+        "g46": {
+          "initial": true
+        },
+        "g47": {
+          "initial": true
+        },
+        "g48": {
+          "initial": true
+        },
+        "g49": {
+          "initial": true
+        },
+        "g50": {
+          "initial": true
+        },
+        "g51": {
+          "initial": true
+        },
+        "g52": {
+          "initial": true
+        },
+        "g53": {
+          "initial": true
+        },
+        "g54": {
+          "initial": true
+        },
+        "g55": {
+          "initial": true
+        },
+        "g56": {
+          "initial": true
+        },
+        "g57": {
+          "initial": true
+        },
+        "g58": {
+          "initial": true
+        },
+        "g59": {
+          "initial": true
+        },
+        "g60": {
+          "initial": true
+        },
+        "g61": {
+          "initial": true
+        },
+        "g62": {
+          "initial": true
+        },
+        "g63": {
+          "initial": true
+        },
+        "g64": {
+          "initial": true
+        },
+        "g65": {
+          "initial": true
+        },
+        "g66": {
+          "initial": true
+        },
+        "g67": {
+          "initial": true
+        },
+        "g68": {
+          "initial": true
+        },
+        "g69": {
+          "initial": true
+        },
+        "g70": {
+          "initial": true
+        },
+        "g71": {
+          "initial": true
+        },
+        "g72": {
+          "initial": true
+        },
+        "g73": {
+          "initial": true
+        },
+        "g74": {
+          "initial": false
+        },
+        "g75": {
+          "initial": false
+        },
+        "g76": {
+          "initial": false
+        },
+        "g77": {
+          "initial": false
+        },
+        "g78": {
+          "initial": false
+        },
+        "g79": {
+          "initial": false
+        },
+        "g80": {
+          "initial": false
+        },
+        "g81": {
+          "initial": false
+        },
+        "g82": {
+          "initial": false
+        },
+        "g83": {
+          "initial": false
+        },
+        "g84": {
+          "initial": false
+        },
+        "g85": {
+          "initial": false
+        },
+        "g86": {
+          "initial": false
+        },
+        "g87": {
+          "initial": false
+        },
+        "g88": {
+          "initial": false
+        },
+        "g89": {
+          "initial": false
+        },
+        "g90": {
+          "initial": false
+        },
+        "g91": {
+          "initial": false
+        },
+        "g92": {
+          "initial": false
+        },
+        "g93": {
+          "initial": false
+        },
+        "g94": {
+          "initial": false
+        },
+        "g95": {
+          "initial": false
+        },
+        "g96": {
+          "initial": false
+        },
+        "g97": {
+          "initial": false
+        },
+        "g98": {
+          "initial": false
+        },
+        "g99": {
+          "initial": false
+        },
+        "g100": {
+          "initial": false
+        },
+        "g101": {
+          "initial": false
+        },
+        "g102": {
+          "initial": false
+        },
+        "g103": {
+          "initial": false
+        },
+        "g104": {
+          "initial": false
+        },
+        "g105": {
+          "initial": false
+        },
+        "g106": {
+          "initial": false
+        },
+        "g107": {
+          "initial": false
+        },
+        "g108": {
+          "initial": false
+        },
+        "g109": {
+          "initial": false
+        },
+        "g110": {
+          "initial": false
+        },
+        "g111": {
+          "initial": false
+        },
+        "g112": {
+          "initial": false
+        },
+        "g113": {
+          "initial": false
+        },
+        "g114": {
+          "initial": false
+        },
+        "g115": {
+          "initial": false
+        },
+        "g116": {
+          "initial": false
+        },
+        "g117": {
+          "initial": false
+        },
+        "g118": {
+          "initial": false
+        },
+        "g119": {
+          "initial": false
+        },
+        "g120": {
+          "initial": false
+        },
+        "g121": {
+          "initial": false
+        },
+        "g122": {
+          "initial": false
+        },
+        "g123": {
+          "initial": false
+        },
+        "g124": {
+          "initial": false
+        },
+        "g125": {
+          "initial": false
+        },
+        "g126": {
+          "initial": false
+        },
+        "g127": {
+          "initial": false
+        },
+        "g128": {
+          "initial": false
+        },
+        "g129": {
+          "initial": false
+        },
+        "g130": {
+          "initial": false
+        },
+        "g131": {
+          "initial": false
+        },
+        "g132": {
+          "initial": false
+        },
+        "g133": {
+          "initial": false
+        },
+        "g134": {
+          "initial": false
+        }
+      },
+      "stages": [
+        {
+          "step": 1,
+          "frame": 43,
+          "title": "Install interior piles",
+          "description": "Install the next interior pile group in its final position. Perimeter piles remain in place.",
+          "changes": [
+            {
+              "group": "g133",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "frame": 44,
+          "title": "Install interior piles",
+          "description": "Install the next interior pile group in its final position. Perimeter piles remain in place.",
+          "changes": [
+            {
+              "group": "g132",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "frame": 50,
+          "title": "Install interior piles",
+          "description": "Install the next interior pile group in its final position. Perimeter piles remain in place.",
+          "changes": [
+            {
+              "group": "g127",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "frame": 56,
+          "title": "Install interior piles",
+          "description": "Install the next interior pile group in its final position. Perimeter piles remain in place.",
+          "changes": [
+            {
+              "group": "g128",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "frame": 60,
+          "title": "Install interior piles",
+          "description": "Install the next interior pile group in its final position. Perimeter piles remain in place.",
+          "changes": [
+            {
+              "group": "g124",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "frame": 63,
+          "title": "Install interior piles",
+          "description": "Install the next interior pile group in its final position. Perimeter piles remain in place.",
+          "changes": [
+            {
+              "group": "g129",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 7,
+          "frame": 68,
+          "title": "Install interior piles",
+          "description": "Install the next interior pile group in its final position. Perimeter piles remain in place.",
+          "changes": [
+            {
+              "group": "g131",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 8,
+          "frame": 69,
+          "title": "Install interior piles",
+          "description": "Install the next interior pile group in its final position. Perimeter piles remain in place.",
+          "changes": [
+            {
+              "group": "g130",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 9,
+          "frame": 75,
+          "title": "Install interior piles",
+          "description": "Install the next interior pile group in its final position. Perimeter piles remain in place.",
+          "changes": [
+            {
+              "group": "g123",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 10,
+          "frame": 81,
+          "title": "Install interior piles",
+          "description": "Install the next interior pile group in its final position. Perimeter piles remain in place.",
+          "changes": [
+            {
+              "group": "g134",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 11,
+          "frame": 82,
+          "title": "Install interior piles",
+          "description": "Install the next interior pile group in its final position. Perimeter piles remain in place.",
+          "changes": [
+            {
+              "group": "g122",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 12,
+          "frame": 143,
+          "title": "Construct pile caps",
+          "description": "Add the pile caps over the installed piles.",
+          "changes": [
+            {
+              "group": "g121",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 13,
+          "frame": 171,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g110",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 14,
+          "frame": 173,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g109",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 15,
+          "frame": 174,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g107",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 16,
+          "frame": 175,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g98",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 17,
+          "frame": 177,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g96",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 18,
+          "frame": 179,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g102",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 19,
+          "frame": 182,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g76",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 20,
+          "frame": 185,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g114",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 21,
+          "frame": 187,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g95",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 22,
+          "frame": 189,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g116",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 23,
+          "frame": 190,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g117",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 24,
+          "frame": 193,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g97",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 25,
+          "frame": 195,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g78",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 26,
+          "frame": 198,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g77",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 27,
+          "frame": 200,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g79",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 28,
+          "frame": 203,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g75",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 29,
+          "frame": 206,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g92",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 30,
+          "frame": 208,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g91",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 31,
+          "frame": 211,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g111",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 32,
+          "frame": 213,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g86",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 33,
+          "frame": 215,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g113",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 34,
+          "frame": 217,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g90",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 35,
+          "frame": 219,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g104",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 36,
+          "frame": 249,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g105",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 37,
+          "frame": 250,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g108",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 38,
+          "frame": 254,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g74",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 39,
+          "frame": 256,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g81",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 40,
+          "frame": 258,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g87",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 41,
+          "frame": 262,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g94",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 42,
+          "frame": 263,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g119",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 43,
+          "frame": 264,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g99",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 44,
+          "frame": 266,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g101",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 45,
+          "frame": 267,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g120",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 46,
+          "frame": 268,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g83",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 47,
+          "frame": 270,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g100",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 48,
+          "frame": 271,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g85",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 49,
+          "frame": 273,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g118",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 50,
+          "frame": 274,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g115",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 51,
+          "frame": 275,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g89",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 52,
+          "frame": 276,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g112",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 53,
+          "frame": 277,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g93",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 54,
+          "frame": 278,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g106",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 55,
+          "frame": 279,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g82",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 56,
+          "frame": 280,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g88",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 57,
+          "frame": 281,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g80",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 58,
+          "frame": 285,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g103",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 59,
+          "frame": 288,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g84",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 60,
+          "frame": 325,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g70",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 61,
+          "frame": 326,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g71",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 62,
+          "frame": 327,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g72",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 63,
+          "frame": 328,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g37",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 64,
+          "frame": 329,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g38",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 65,
+          "frame": 330,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g39",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 66,
+          "frame": 331,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g40",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 67,
+          "frame": 332,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g41",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 68,
+          "frame": 333,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g42",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 69,
+          "frame": 334,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g43",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 70,
+          "frame": 335,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g44",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 71,
+          "frame": 336,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g45",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 72,
+          "frame": 337,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g46",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 73,
+          "frame": 338,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g47",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 74,
+          "frame": 339,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g48",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 75,
+          "frame": 340,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g49",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 76,
+          "frame": 341,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g50",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 77,
+          "frame": 342,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g51",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 78,
+          "frame": 343,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g52",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 79,
+          "frame": 344,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g53",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 80,
+          "frame": 345,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g54",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 81,
+          "frame": 346,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g55",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 82,
+          "frame": 347,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g56",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 83,
+          "frame": 348,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g57",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 84,
+          "frame": 349,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g60",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 85,
+          "frame": 350,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g32",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 86,
+          "frame": 351,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g33",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 87,
+          "frame": 352,
+          "title": "Remove sheet piles clockwise / Construct ground-floor slab",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order. Add the ground-floor slab over the completed foundation beams.",
+          "changes": [
+            {
+              "group": "g34",
+              "visible": false
+            },
+            {
+              "group": "g125",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 88,
+          "frame": 353,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g35",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 89,
+          "frame": 354,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g36",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 90,
+          "frame": 355,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g1",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 91,
+          "frame": 356,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g4",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 92,
+          "frame": 357,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g5",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 93,
+          "frame": 358,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g6",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 94,
+          "frame": 359,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g7",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 95,
+          "frame": 360,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g8",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 96,
+          "frame": 361,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g9",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 97,
+          "frame": 362,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g10",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 98,
+          "frame": 363,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g11",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 99,
+          "frame": 364,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g12",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 100,
+          "frame": 365,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g13",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 101,
+          "frame": 366,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g14",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 102,
+          "frame": 367,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g15",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 103,
+          "frame": 368,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g16",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 104,
+          "frame": 369,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g17",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 105,
+          "frame": 370,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g18",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 106,
+          "frame": 371,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g19",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 107,
+          "frame": 372,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g20",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 108,
+          "frame": 373,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g21",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 109,
+          "frame": 374,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g22",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 110,
+          "frame": 375,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g23",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 111,
+          "frame": 376,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g24",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 112,
+          "frame": 377,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g25",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 113,
+          "frame": 378,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g26",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 114,
+          "frame": 379,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g27",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 115,
+          "frame": 380,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g28",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 116,
+          "frame": 381,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g29",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 117,
+          "frame": 382,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g30",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 118,
+          "frame": 383,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g31",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 119,
+          "frame": 384,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g2",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 120,
+          "frame": 385,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g3",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 121,
+          "frame": 386,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g66",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 122,
+          "frame": 387,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g65",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 123,
+          "frame": 388,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g64",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 124,
+          "frame": 389,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g61",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 125,
+          "frame": 391,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g63",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 126,
+          "frame": 392,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g62",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 127,
+          "frame": 393,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g58",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 128,
+          "frame": 394,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g59",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 129,
+          "frame": 395,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g67",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 130,
+          "frame": 396,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g68",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 131,
+          "frame": 397,
+          "title": "Remove sheet piles clockwise",
+          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "changes": [
+            {
+              "group": "g69",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 132,
+          "frame": 432,
+          "title": "Complete concrete cover / Complete concrete paving",
+          "description": "Hide the soil display after the finished concrete cover is in place. Add the finished concrete paving around the new slab.",
+          "changes": [
+            {
+              "group": "g73",
+              "visible": false
+            },
+            {
+              "group": "g126",
+              "visible": true
+            }
+          ]
+        }
+      ],
+      "sourceFrames": [
+        1,
+        450
+      ]
+    },
+    {
+      "id": "building",
+      "title": "Building & footbridge",
+      "version": "V04",
+      "source": "New_Building_Construction_28s_v04.blend",
+      "asset": "models/sequence_building.glb",
+      "initial": {
+        "title": "Building & footbridge",
+        "description": "Build the new steel structure, envelope and footbridge. Drag the slider to explore; drag left to restore earlier stages."
+      },
+      "groups": {
+        "g0": {
+          "initial": true
+        },
+        "g1": {
+          "initial": false
+        },
+        "g2": {
+          "initial": false
+        },
+        "g3": {
+          "initial": false
+        },
+        "g4": {
+          "initial": false
+        },
+        "g5": {
+          "initial": false
+        },
+        "g6": {
+          "initial": false
+        },
+        "g7": {
+          "initial": false
+        },
+        "g8": {
+          "initial": false
+        },
+        "g9": {
+          "initial": false
+        },
+        "g10": {
+          "initial": false
+        },
+        "g11": {
+          "initial": false
+        },
+        "g12": {
+          "initial": false
+        },
+        "g13": {
+          "initial": false
+        },
+        "g14": {
+          "initial": false
+        },
+        "g15": {
+          "initial": false
+        },
+        "g16": {
+          "initial": false
+        },
+        "g17": {
+          "initial": false
+        },
+        "g18": {
+          "initial": false
+        },
+        "g19": {
+          "initial": false
+        },
+        "g20": {
+          "initial": false
+        },
+        "g21": {
+          "initial": false
+        },
+        "g22": {
+          "initial": false
+        },
+        "g23": {
+          "initial": false
+        },
+        "g24": {
+          "initial": false
+        },
+        "g25": {
+          "initial": false
+        },
+        "g26": {
+          "initial": false
+        },
+        "g27": {
+          "initial": false
+        },
+        "g28": {
+          "initial": false
+        },
+        "g29": {
+          "initial": false
+        },
+        "g30": {
+          "initial": false
+        },
+        "g31": {
+          "initial": false
+        },
+        "g32": {
+          "initial": false
+        },
+        "g33": {
+          "initial": false
+        },
+        "g34": {
+          "initial": false
+        },
+        "g35": {
+          "initial": false
+        },
+        "g36": {
+          "initial": false
+        },
+        "g37": {
+          "initial": false
+        },
+        "g38": {
+          "initial": false
+        },
+        "g39": {
+          "initial": false
+        },
+        "g40": {
+          "initial": false
+        },
+        "g41": {
+          "initial": false
+        },
+        "g42": {
+          "initial": false
+        },
+        "g43": {
+          "initial": false
+        },
+        "g44": {
+          "initial": false
+        },
+        "g45": {
+          "initial": false
+        },
+        "g46": {
+          "initial": false
+        },
+        "g47": {
+          "initial": false
+        },
+        "g48": {
+          "initial": false
+        },
+        "g49": {
+          "initial": false
+        },
+        "g50": {
+          "initial": true
+        }
+      },
+      "stages": [
+        {
+          "step": 1,
+          "frame": 30,
+          "title": "Erect steel frame — bay 1",
+          "description": "Add the next bay of the main steel frame, progressing from left to right.",
+          "changes": [
+            {
+              "group": "g23",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "frame": 60,
+          "title": "Erect steel frame — bay 2",
+          "description": "Add the next bay of the main steel frame, progressing from left to right.",
+          "changes": [
+            {
+              "group": "g22",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "frame": 90,
+          "title": "Erect steel frame — bay 3",
+          "description": "Add the next bay of the main steel frame, progressing from left to right.",
+          "changes": [
+            {
+              "group": "g29",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "frame": 120,
+          "title": "Erect steel frame — bay 4",
+          "description": "Add the next bay of the main steel frame, progressing from left to right.",
+          "changes": [
+            {
+              "group": "g27",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "frame": 150,
+          "title": "Erect steel frame — bay 5",
+          "description": "Add the next bay of the main steel frame, progressing from left to right.",
+          "changes": [
+            {
+              "group": "g26",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "frame": 180,
+          "title": "Erect steel frame — bay 6",
+          "description": "Add the next bay of the main steel frame, progressing from left to right.",
+          "changes": [
+            {
+              "group": "g28",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 7,
+          "frame": 210,
+          "title": "Erect steel frame — bay 7",
+          "description": "Add the next bay of the main steel frame, progressing from left to right.",
+          "changes": [
+            {
+              "group": "g20",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 8,
+          "frame": 240,
+          "title": "Erect steel frame — bay 8",
+          "description": "Add the next bay of the main steel frame, progressing from left to right.",
+          "changes": [
+            {
+              "group": "g21",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 9,
+          "frame": 270,
+          "title": "Erect left canopy frame",
+          "description": "Add the canopy steelwork in its final position.",
+          "changes": [
+            {
+              "group": "g25",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 10,
+          "frame": 300,
+          "title": "Erect right canopy frame",
+          "description": "Add the canopy steelwork in its final position.",
+          "changes": [
+            {
+              "group": "g37",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 11,
+          "frame": 330,
+          "title": "Erect footbridge frame",
+          "description": "Add the footbridge steel frame and support columns.",
+          "changes": [
+            {
+              "group": "g46",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 12,
+          "frame": 358,
+          "title": "Install internal plates — level 8.8",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g39",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 13,
+          "frame": 366,
+          "title": "Install internal plates — level 11.6",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g24",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 14,
+          "frame": 370,
+          "title": "Install internal plates — level 13.4",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g45",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 15,
+          "frame": 375,
+          "title": "Install internal plates — level 15.2",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g32",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 16,
+          "frame": 379,
+          "title": "Install internal plates — level 16.7",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g42",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 17,
+          "frame": 383,
+          "title": "Install internal plates — level 18.2",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g31",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 18,
+          "frame": 386,
+          "title": "Install internal plates — level 19.2",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g38",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 19,
+          "frame": 389,
+          "title": "Install internal plates — level 20.1",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g35",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 20,
+          "frame": 391,
+          "title": "Install internal plates — level 21.1",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g41",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 21,
+          "frame": 394,
+          "title": "Install internal plates — level 22.0",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g33",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 22,
+          "frame": 396,
+          "title": "Install internal plates — level 23.0",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g43",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 23,
+          "frame": 399,
+          "title": "Install internal plates — level 24.0",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g34",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 24,
+          "frame": 402,
+          "title": "Install internal plates — level 24.9",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g40",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 25,
+          "frame": 404,
+          "title": "Install internal plates — level 25.9",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g36",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 26,
+          "frame": 412,
+          "title": "Install internal plates — level 28.8",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g44",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 27,
+          "frame": 420,
+          "title": "Install internal plates — level 31.7",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g30",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 28,
+          "frame": 450,
+          "title": "Install barrel-roof supports",
+          "description": "Add the roof supports above the completed steel frame.",
+          "changes": [
+            {
+              "group": "g49",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 29,
+          "frame": 480,
+          "title": "Install roof and canopy coverings",
+          "description": "Add the barrel-roof finish and the canopy covering plates.",
+          "changes": [
+            {
+              "group": "g3",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 30,
+          "frame": 510,
+          "title": "Install facade — group 1",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g5",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 31,
+          "frame": 518,
+          "title": "Install facade — group 2",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g6",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 32,
+          "frame": 526,
+          "title": "Install facade — group 3",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g7",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 33,
+          "frame": 534,
+          "title": "Install facade — group 4",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g8",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 34,
+          "frame": 542,
+          "title": "Install facade — group 5",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g9",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 35,
+          "frame": 550,
+          "title": "Install facade — group 6",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g10",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 36,
+          "frame": 558,
+          "title": "Install facade — group 7",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g11",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 37,
+          "frame": 566,
+          "title": "Install facade — group 8",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g4",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 38,
+          "frame": 574,
+          "title": "Install facade — group 9",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g12",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 39,
+          "frame": 582,
+          "title": "Install facade — group 10",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g13",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 40,
+          "frame": 590,
+          "title": "Install facade — group 11",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g14",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 41,
+          "frame": 598,
+          "title": "Install facade — group 12",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g15",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 42,
+          "frame": 606,
+          "title": "Install facade — group 13",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g16",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 43,
+          "frame": 614,
+          "title": "Install facade — group 14",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g17",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 44,
+          "frame": 622,
+          "title": "Install facade — group 15",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g18",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 45,
+          "frame": 630,
+          "title": "Install facade — group 16",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g19",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 46,
+          "frame": 660,
+          "title": "Install building signage",
+          "description": "Add the AAT building signage.",
+          "changes": [
+            {
+              "group": "g2",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 47,
+          "frame": 700,
+          "title": "Install footbridge deck",
+          "description": "Add the footbridge deck in its final position.",
+          "changes": [
+            {
+              "group": "g48",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 48,
+          "frame": 720,
+          "title": "Complete footbridge enclosure",
+          "description": "Add the footbridge cladding and complete the enclosed connection.",
+          "changes": [
+            {
+              "group": "g47",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 49,
+          "frame": 765,
+          "title": "Complete permanent site boundary",
+          "description": "Remove temporary works and restore the permanent fence.",
+          "changes": [
+            {
+              "group": "g1",
+              "visible": true
+            },
+            {
+              "group": "g50",
+              "visible": false
+            }
+          ]
+        }
+      ],
+      "sourceFrames": [
+        1,
+        840
+      ]
+    }
+  ]
+}

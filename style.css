@@ -4,3 +4,5 @@
 
 /* Accommodate English labels. */
 .check-row span:not(.part-index){line-height:1.4}.view-caption{max-width:550px}#stage-description{max-width:500px}.bottom-bar{max-width:calc(100% - 330px)}.explode-control label{white-space:nowrap}.bottom-bar{gap:14px}.view-caption h2{line-height:1.2}@media(max-width:1000px){.bottom-bar{max-width:calc(100% - 280px);flex-wrap:wrap;justify-content:center}.explode-control{flex-wrap:wrap}.view-caption{max-width:65%}}@media(max-width:720px){.bottom-bar{max-width:calc(100% - 220px)}.header-note{display:none}}
+
+.phase-picker{margin-bottom:16px}.phase-picker label{display:block;font-size:10px;letter-spacing:1.6px;color:#586b5e;margin-bottom:9px}.phase-picker select{width:100%;padding:11px 6px;background:#f0f4ee;border:1px solid #c8d4c8;color:#214e41;font:12px "Segoe UI",sans-serif;cursor:pointer}select:focus-visible{outline:2px solid #a48c48}label[hidden]{display:none}.intro{margin-bottom:16px}aside h2{font-size:36px;margin:14px 0}.view-caption{max-width:510px}#stage-description{font-size:12px}button:disabled{pointer-events:none}
