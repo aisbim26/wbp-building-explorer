@@ -1,3 +1,4 @@
+import {createPlayback} from './playback.js?v=20260928c';
 import * as THREE from 'three';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
@@ -44,29 +45,33 @@ function applyDemolition(){
 function goStep(value){step=Math.max(0,Math.min(demolition?.stages.length||47,Number(value)));$('explode').value=step;applyDemolition();updateCaption();}
 function choosePreset(p){preset=p;targetExplode=0;for(const input of Object.values(checks))input.checked=true;if(p==='roof'||p==='inside')checks.roof.checked=false;if(p==='inside'){checks.facade.checked=false;checks.canopy.checked=false;checks.ground.checked=false}if(p==='substructure'){for(const id of ['roof','facade','structure','ground','interior','canopy','loading','temporary'])checks[id].checked=false;}applyState();updateCaption()}
 document.querySelectorAll('[data-preset]').forEach(b=>b.onclick=()=>choosePreset(b.dataset.preset));document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>setView(b.dataset.view));
-$('explode').oninput=e=>goStep(e.target.value);
-$('previous-step').onclick=()=>goStep(step-1);$('next-step').onclick=()=>goStep(step+1);
-$('restore').onclick=()=>{choosePreset('assembled');goStep(0)};
-$('reset').onclick=()=>{mode='building';$('t1').checked=true;controls.autoRotate=false;$('rotate').classList.remove('active');$('rotate').setAttribute('aria-pressed','false');choosePreset('assembled');goStep(0);setView('iso')};$('fit').onclick=()=>setView(activeView);
+const playback=createPlayback({getTotal:()=>demolition?.stages.length||0,getStep:()=>step,onStep:goStep,onState:playing=>{$('play').textContent=playing?'Ⅱ Pause':'▶ Play';$('play').setAttribute('aria-label',playing?'Pause sequence':'Play sequence');$('play').setAttribute('aria-pressed',String(playing))}});
+$('play').onclick=()=>{if(ready)playback.toggle()};
+document.addEventListener('visibilitychange',()=>{if(document.hidden)playback.pause()});
+$('explode').oninput=e=>{playback.pause();goStep(e.target.value)};
+$('previous-step').onclick=()=>{playback.pause();goStep(step-1)};$('next-step').onclick=()=>{playback.pause();goStep(step+1)};
+$('restore').onclick=()=>{playback.pause();choosePreset('assembled');goStep(0)};
+$('reset').onclick=()=>{playback.pause();mode='building';$('t1').checked=true;controls.autoRotate=false;$('rotate').classList.remove('active');$('rotate').setAttribute('aria-pressed','false');choosePreset('assembled');goStep(0);setView('iso')};$('fit').onclick=()=>setView(activeView);
 $('rotate').onclick=()=>{controls.autoRotate=!controls.autoRotate;$('rotate').classList.toggle('active',controls.autoRotate);$('rotate').setAttribute('aria-pressed',String(controls.autoRotate))};
 $('building').onclick=()=>{mode='building';applyState();updateCaption();setView('iso')};$('site').onclick=()=>{mode='site';applyState();updateCaption();setView('iso');loadContext()};$('t1').onchange=applyState;$('surroundings').onchange=applyState;
 function prepare(o){o.traverse(m=>{if(m.isMesh){for(const mat of Array.isArray(m.material)?m.material:[m.material])for(const key of ['map','normalMap'])if(mat[key])mat[key].anisotropy=Math.min(8,renderer.capabilities.getMaxAnisotropy())}})}
 let contextFootprint;
 async function prepareContextCutout(object,layer){
  if(layer.id==='airport_entrance')return;
- if(!contextFootprint){const response=await fetch('./models/context-footprint.bin?v=20260928b');if(!response.ok)throw Error('Context footprint unavailable');contextFootprint=new THREE.DataTexture(new Uint8Array(await response.arrayBuffer()),512,512,THREE.RedFormat);contextFootprint.needsUpdate=true;}
+ if(!contextFootprint){const response=await fetch('./models/context-footprint.bin?v=20260928c');if(!response.ok)throw Error('Context footprint unavailable');contextFootprint=new THREE.DataTexture(new Uint8Array(await response.arrayBuffer()),512,512,THREE.RedFormat);contextFootprint.needsUpdate=true;}
  object.traverse(mesh=>{if(!mesh.isMesh)return;const adapt=original=>{const mat=original.clone();mat.onBeforeCompile=shader=>{shader.uniforms.siteFootprint={value:contextFootprint};shader.vertexShader='varying vec3 siteWorld;\n'+shader.vertexShader.replace('#include <project_vertex>','#include <project_vertex>\nsiteWorld = (modelMatrix * vec4(transformed, 1.0)).xyz;');shader.fragmentShader='uniform sampler2D siteFootprint;\nvarying vec3 siteWorld;\n'+shader.fragmentShader.replace('#include <clipping_planes_fragment>',`#include <clipping_planes_fragment>
  vec2 siteLocal=vec2(.3241441548*siteWorld.x+.946007669*siteWorld.z-45.40784073,.946007669*siteWorld.x-.3241441548*siteWorld.z+34.13520813);
  vec2 footprintUV=(siteLocal-vec2(-58.,-14.))/vec2(103.,40.);
  if(siteWorld.y<8.0 && all(greaterThanEqual(footprintUV,vec2(0.))) && all(lessThanEqual(footprintUV,vec2(1.))) && texture2D(siteFootprint,footprintUV).r>.5)discard;
  `);};mat.customProgramCacheKey=()=> 'source-soil-footprint';return mat;};mesh.material=Array.isArray(mesh.material)?mesh.material.map(adapt):adapt(mesh.material);});
 }
+const downloadProgress=new Map();
 async function loadBuilding(id=activePhase){
  if(phaseCache.has(id))return;
  if(phaseLoads.has(id))return phaseLoads.get(id);
  const phase=catalog.phases.find(p=>p.id===id),url=phase.asset;
  const promise=(async()=>{try{
-  const gltf=await loader.loadAsync(url+'?v=20260928b');prepare(gltf.scene);gltf.scene.updateMatrixWorld(true);
+  const gltf=await loader.loadAsync(url+'?v=20260928c',event=>{const percent=event.total?Math.round(event.loaded/event.total*100):null;downloadProgress.set(id,{label:percent===100?'Preparing '+phase.title+'…':'Downloading '+phase.title+(percent===null?'…':' · '+percent+'%')});if(activePhase===id)showStatus()});prepare(gltf.scene);gltf.scene.updateMatrixWorld(true);
   const bounds=new THREE.Box3();gltf.scene.traverse(o=>{if(o.isMesh){const box=new THREE.Box3().setFromObject(o);if(Math.max(...box.min.toArray().map(Math.abs),...box.max.toArray().map(Math.abs))<250)bounds.union(box);}});if(bounds.isEmpty())throw Error("No local model bounds");const size=bounds.getSize(new THREE.Vector3()),center=bounds.getCenter(new THREE.Vector3());
   const nodes=[];gltf.scene.traverse(o=>{if(o.userData.sequenceGroup&&o.parent?.userData.sequenceGroup!==o.userData.sequenceGroup)nodes.push(o)});
   if(!nodes.length)throw Error('No sequence groups in model');
@@ -76,6 +81,7 @@ async function loadBuilding(id=activePhase){
  })();phaseLoads.set(id,promise);return promise;
 }
 async function selectPhase(id){
+ playback.pause();
  document.querySelector('[data-preset=substructure]').hidden=!['foundation','removal'].includes(id);activePhase=id;demolition=catalog.phases.find(p=>p.id===id);step=0;preset='assembled';ready=false;
  document.querySelectorAll('[data-phase]').forEach(b=>{b.classList.toggle('active',b.dataset.phase===id);b.setAttribute('aria-pressed',String(b.dataset.phase===id))});$('explode').max=demolition.stages.length;$('explode').value=0;
  for(const input of Object.values(checks))input.checked=true;
@@ -86,18 +92,19 @@ async function selectPhase(id){
  for(const [category,input]of Object.entries(checks)){input.closest('label').hidden=!stageNodes.some(n=>n.userData.phase===id&&n.userData.wbpPart===category);}
  applyState();updateCaption();setView(activeView);showStatus();
 }
-function showStatus(){const bad=assetErrors.some(e=>!e.phase||e.phase===activePhase);$('retry').hidden=!bad;$('status').textContent=bad?'Some components could not load. Please retry.':!ready?'Loading '+(demolition?.title||'project')+'…':mode==='site'&&contextStates.some(s=>!s.object)?'Model ready · Loading airport context':'Model ready';}
+function showStatus(){
+ $('play').disabled=!ready;const bad=assetErrors.some(e=>!e.phase||e.phase===activePhase);$('retry').hidden=!bad;$('status').textContent=bad?'Some components could not load. Please retry.':!ready?(downloadProgress.get(activePhase)?.label||'Loading '+(demolition?.title||'project')+'…'):mode==='site'&&contextStates.some(s=>!s.object)?'Model ready · Loading airport context':'Model ready';}
 async function loadContext(){if(loading||!manifest)return;loading=true;try{for(const s of contextStates){if(s.object||mode!=='site')continue;try{const gltf=await loader.loadAsync(s.url);prepare(gltf.scene);await prepareContextCutout(gltf.scene,s);s.object=gltf.scene;scene.add(s.object);applyState()}catch(e){assetErrors.push({url:s.url,error:String(e)});console.error(e)}showStatus()}}finally{loading=false;showStatus()}}
 $('retry').onclick=async()=>{assetErrors=[];await selectPhase(activePhase);if(mode==='site')loadContext()};
 document.querySelectorAll('[data-phase]').forEach(b=>b.onclick=()=>selectPhase(b.dataset.phase));
 $('panel-toggle').onclick=()=>{const open=document.body.classList.toggle('controls-open');$('panel-toggle').setAttribute('aria-expanded',String(open))};
-try{const results=await Promise.all([fetch('./manifest.json?v=20260928b'),fetch('./sequences.json?v=20260928b')]);if(results.some(r=>!r.ok))throw Error('Could not load the project manifest');[manifest,catalog]=await Promise.all(results.map(r=>r.json()));contextStates.push(...manifest.layers.filter(l=>!['target_building','building_details','source_reference'].includes(l.group)).map(l=>({...l,object:null})));await selectPhase('demolition');}catch(e){assetErrors.push({error:String(e)});showStatus();console.error(e)}
+try{const results=await Promise.all([fetch('./manifest.json?v=20260928c'),fetch('./sequences.json?v=20260928c')]);if(results.some(r=>!r.ok))throw Error('Could not load the project manifest');[manifest,catalog]=await Promise.all(results.map(r=>r.json()));contextStates.push(...manifest.layers.filter(l=>!['target_building','building_details','source_reference'].includes(l.group)).map(l=>({...l,object:null})));await selectPhase('demolition');}catch(e){assetErrors.push({error:String(e)});showStatus();console.error(e)}
 const ray=new THREE.Raycaster(),pointer=new THREE.Vector2();let down,hoverPart=null,lastHover=0;
 function intersect(e){const r=renderer.domElement.getBoundingClientRect();pointer.set((e.clientX-r.left)/r.width*2-1,1-(e.clientY-r.top)/r.height*2);ray.setFromCamera(pointer,camera);const roots=[...Object.values(parts),...contextStates.filter(s=>s.object).map(s=>s.object)].filter(o=>o.visible);return ray.intersectObjects(roots,true).find(h=>visibleInTree(h.object))}
 renderer.domElement.addEventListener('pointerdown',e=>{down=[e.clientX,e.clientY]});renderer.domElement.addEventListener('pointerup',e=>{if(!down||!ready||Math.hypot(e.clientX-down[0],e.clientY-down[1])>5)return;const hit=intersect(e);if(!hit)return;const id=hit.object.userData.part;const p=hit.point.clone();if(id){let n=hit.object;while(n&&!n.userData.explodeVector)n=n.parent;if(n)p.add(n.userData.restPosition).sub(n.position);}const o=manifest.origin;$('position').textContent=`${config[id]?.label||'Site'} · Original HK1980 E ${(p.x+o.easting).toFixed(2)} / N ${(o.northing-p.z).toFixed(2)} / H ${p.y.toFixed(2)} m`;});
 renderer.domElement.addEventListener('pointermove',e=>{if(e.buttons||performance.now()-lastHover<120)return;lastHover=performance.now();const h=intersect(e),id=h?.object.userData.part;hoverPart=id||null;$('hover-label').hidden=!id;if(id){const r=viewport.getBoundingClientRect();$('hover-label').textContent=config[id].label;$('hover-label').style.left=Math.min(e.clientX-r.left+14,r.width-180)+'px';$('hover-label').style.top=(e.clientY-r.top+14)+'px'}});renderer.domElement.addEventListener('pointerleave',()=>{$('hover-label').hidden=true});
-renderer.setAnimationLoop(t=>{const dt=Math.min((t-lastTime)/1000,.05);lastTime=t;if(Math.abs(explode-targetExplode)>.0001){explode=THREE.MathUtils.damp(explode,targetExplode,8,dt);if(Math.abs(explode-targetExplode)<.0001)explode=targetExplode;applyState()}controls.update();const north=new THREE.Vector3(0,0,-1).applyQuaternion(camera.quaternion.clone().invert());$('north-arrow').style.transform=`rotate(${Math.atan2(north.x,north.y)}rad)`;renderer.render(scene,camera)});
-const diagnostics=document.createElement('script');diagnostics.type='application/json';diagnostics.id='viewer-diagnostics';document.body.appendChild(diagnostics);setInterval(()=>{diagnostics.textContent=JSON.stringify({ready,mode,preset,activePhase,loadedPhases:[...phaseCache.keys()],step,totalSteps:demolition?.stages.length,stageTitle:$('view-title').textContent,visibleGroups:stageNodes.filter(n=>n.userData.phase===activePhase&&n.visible).length,hiddenControllers:[...new Set(stageNodes.filter(n=>n.userData.phase===activePhase&&!n.visible).map(n=>n.userData.sequenceGroup))],addedProtection:stageNodes.filter(n=>n.visible&&n.userData.wbpPart==='temporary').length,explode,targetExplode,wbpLoaded,errors:assetErrors,parts:Object.fromEntries(Object.entries(parts).map(([k,v])=>[k,{visible:v.visible,offset:v.position.toArray(),children:v.children.length}])),directions:movingNodes.map(n=>({part:n.userData.wbpPart,direction:n.userData.explodeDirection,offset:n.position.clone().sub(n.userData.restPosition).toArray()})),contextLoaded:contextStates.filter(s=>s.object).length,contextTotal:contextStates.length,camera:camera.position.toArray(),drawCalls:renderer.info.render.calls})},500);
+renderer.setAnimationLoop(t=>{playback.tick(t);const dt=Math.min((t-lastTime)/1000,.05);lastTime=t;if(Math.abs(explode-targetExplode)>.0001){explode=THREE.MathUtils.damp(explode,targetExplode,8,dt);if(Math.abs(explode-targetExplode)<.0001)explode=targetExplode;applyState()}controls.update();const north=new THREE.Vector3(0,0,-1).applyQuaternion(camera.quaternion.clone().invert());$('north-arrow').style.transform=`rotate(${Math.atan2(north.x,north.y)}rad)`;renderer.render(scene,camera)});
+const diagnostics=document.createElement('script');diagnostics.type='application/json';diagnostics.id='viewer-diagnostics';document.body.appendChild(diagnostics);setInterval(()=>{diagnostics.textContent=JSON.stringify({ready,playing:playback.isPlaying(),mode,preset,activePhase,loadedPhases:[...phaseCache.keys()],step,totalSteps:demolition?.stages.length,stageTitle:$('view-title').textContent,visibleGroups:stageNodes.filter(n=>n.userData.phase===activePhase&&n.visible).length,hiddenControllers:[...new Set(stageNodes.filter(n=>n.userData.phase===activePhase&&!n.visible).map(n=>n.userData.sequenceGroup))],addedProtection:stageNodes.filter(n=>n.visible&&n.userData.wbpPart==='temporary').length,explode,targetExplode,wbpLoaded,errors:assetErrors,parts:Object.fromEntries(Object.entries(parts).map(([k,v])=>[k,{visible:v.visible,offset:v.position.toArray(),children:v.children.length}])),directions:movingNodes.map(n=>({part:n.userData.wbpPart,direction:n.userData.explodeDirection,offset:n.position.clone().sub(n.userData.restPosition).toArray()})),contextLoaded:contextStates.filter(s=>s.object).length,contextTotal:contextStates.length,camera:camera.position.toArray(),drawCalls:renderer.info.render.calls})},500);
 
 
 

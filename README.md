@@ -22,3 +22,9 @@ Components appear or disappear in their original positions. The slider represent
 Run `Start-Viewer.ps1` or `node server.mjs`, then open http://127.0.0.1:4173/. Do not open index.html directly.
 
 Original Blender models are unchanged. Browser lighting and procedural material appearance can differ from rendered animation. Geometry is displayed in local coordinates; original GIS origin metadata remains in manifest.json.
+
+## Playback and loading
+
+Tap **Play** to advance through the selected phase in 10 seconds from start to finish. **Pause** holds the current step; resuming keeps the same pace. Playback from an intermediate step takes the remaining fraction of 10 seconds. Dragging the slider, using the step arrows, switching phase, or hiding the browser tab pauses playback.
+
+The three-line button to the left of the project title opens the viewing controls. Models load only when their phase is selected and remain available for switching back during the same visit. Meshopt compression reduces model download size while retaining vertex values and construction groups. The loading message shows download progress, followed by model preparation.
