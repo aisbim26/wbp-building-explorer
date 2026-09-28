@@ -1096,1169 +1096,500 @@
         {
           "step": 2,
           "frame": 1708,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
+          "title": "Install all sheet-pile support",
+          "description": "Install all sheet-pile support around the excavation together.",
           "changes": [
             {
               "group": "g72",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 3,
-          "frame": 1709,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g73",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 4,
-          "frame": 1710,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g74",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 5,
-          "frame": 1711,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g75",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 6,
-          "frame": 1712,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g76",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 7,
-          "frame": 1713,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g77",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 8,
-          "frame": 1714,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g78",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 9,
-          "frame": 1715,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g79",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 10,
-          "frame": 1716,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g81",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 11,
-          "frame": 1717,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g82",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 12,
-          "frame": 1718,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g84",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 13,
-          "frame": 1719,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g85",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 14,
-          "frame": 1720,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g86",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 15,
-          "frame": 1721,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g87",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 16,
-          "frame": 1722,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g88",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 17,
-          "frame": 1723,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g89",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 18,
-          "frame": 1724,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g90",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 19,
-          "frame": 1725,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g54",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 20,
-          "frame": 1726,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g55",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 21,
-          "frame": 1727,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g56",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 22,
-          "frame": 1728,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g57",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 23,
-          "frame": 1729,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g58",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 24,
-          "frame": 1730,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g59",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 25,
-          "frame": 1731,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g60",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 26,
-          "frame": 1732,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g61",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 27,
-          "frame": 1733,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g62",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 28,
-          "frame": 1734,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g63",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 29,
-          "frame": 1735,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g10",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 30,
-          "frame": 1736,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g52",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 31,
-          "frame": 1737,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g53",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 32,
-          "frame": 1738,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g20",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 33,
-          "frame": 1739,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g21",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 34,
-          "frame": 1740,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g22",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 35,
-          "frame": 1741,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g23",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 36,
-          "frame": 1742,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g24",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 37,
-          "frame": 1743,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g25",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 38,
-          "frame": 1744,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g26",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 39,
-          "frame": 1745,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g27",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 40,
-          "frame": 1746,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g28",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 41,
-          "frame": 1747,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g29",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 42,
-          "frame": 1748,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g30",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 43,
-          "frame": 1749,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g31",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 44,
-          "frame": 1750,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g32",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 45,
-          "frame": 1751,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g33",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 46,
-          "frame": 1752,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g34",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 47,
-          "frame": 1753,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g35",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 48,
-          "frame": 1754,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g36",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 49,
-          "frame": 1755,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g37",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 50,
-          "frame": 1756,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g38",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 51,
-          "frame": 1757,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g39",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 52,
-          "frame": 1758,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g40",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 53,
-          "frame": 1759,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g41",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 54,
-          "frame": 1760,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g42",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 55,
-          "frame": 1761,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g43",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 56,
-          "frame": 1762,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g44",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 57,
-          "frame": 1763,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g45",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 58,
-          "frame": 1764,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g46",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 59,
-          "frame": 1765,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g47",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 60,
-          "frame": 1766,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g48",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 61,
-          "frame": 1767,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g49",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 62,
-          "frame": 1768,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g50",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 63,
-          "frame": 1769,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g51",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 64,
-          "frame": 1770,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g11",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 65,
-          "frame": 1771,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g12",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 66,
-          "frame": 1772,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g13",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 67,
-          "frame": 1773,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g14",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 68,
-          "frame": 1774,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g15",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 69,
-          "frame": 1775,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g16",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 70,
-          "frame": 1776,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g17",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 71,
-          "frame": 1777,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g18",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 72,
-          "frame": 1778,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g19",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 73,
-          "frame": 1779,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g102",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 74,
-          "frame": 1780,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g101",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 75,
-          "frame": 1781,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g100",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 76,
-          "frame": 1782,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g99",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 77,
-          "frame": 1783,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g98",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 78,
-          "frame": 1784,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g97",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 79,
-          "frame": 1785,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g96",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 80,
-          "frame": 1786,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g95",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 81,
-          "frame": 1787,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g93",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 82,
-          "frame": 1788,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g92",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 83,
-          "frame": 1789,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g91",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 84,
-          "frame": 1790,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g94",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 85,
-          "frame": 1791,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g80",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 86,
-          "frame": 1792,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g83",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 87,
-          "frame": 1793,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g103",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 88,
-          "frame": 1794,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g104",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 89,
-          "frame": 1795,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g105",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 90,
-          "frame": 1796,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g106",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 91,
-          "frame": 1797,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g64",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 92,
-          "frame": 1798,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g65",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 93,
-          "frame": 1799,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g66",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 94,
-          "frame": 1800,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g67",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 95,
-          "frame": 1801,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g68",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 96,
-          "frame": 1802,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g69",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 97,
-          "frame": 1803,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g70",
               "visible": true
-            }
-          ]
-        },
-        {
-          "step": 98,
-          "frame": 1804,
-          "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
-          "changes": [
+            },
             {
               "group": "g71",
               "visible": true
             }
+          ],
+          "sourceFrames": [
+            1708,
+            1709,
+            1710,
+            1711,
+            1712,
+            1713,
+            1714,
+            1715,
+            1716,
+            1717,
+            1718,
+            1719,
+            1720,
+            1721,
+            1722,
+            1723,
+            1724,
+            1725,
+            1726,
+            1727,
+            1728,
+            1729,
+            1730,
+            1731,
+            1732,
+            1733,
+            1734,
+            1735,
+            1736,
+            1737,
+            1738,
+            1739,
+            1740,
+            1741,
+            1742,
+            1743,
+            1744,
+            1745,
+            1746,
+            1747,
+            1748,
+            1749,
+            1750,
+            1751,
+            1752,
+            1753,
+            1754,
+            1755,
+            1756,
+            1757,
+            1758,
+            1759,
+            1760,
+            1761,
+            1762,
+            1763,
+            1764,
+            1765,
+            1766,
+            1767,
+            1768,
+            1769,
+            1770,
+            1771,
+            1772,
+            1773,
+            1774,
+            1775,
+            1776,
+            1777,
+            1778,
+            1779,
+            1780,
+            1781,
+            1782,
+            1783,
+            1784,
+            1785,
+            1786,
+            1787,
+            1788,
+            1789,
+            1790,
+            1791,
+            1792,
+            1793,
+            1794,
+            1795,
+            1796,
+            1797,
+            1798,
+            1799,
+            1800,
+            1801,
+            1802,
+            1803,
+            1804
           ]
         },
         {
-          "step": 99,
+          "step": 3,
           "frame": 1915,
           "title": "Remove existing foundation slabs",
           "description": "Remove the existing slabs to expose the foundation beams.",
@@ -2270,7 +1601,7 @@
           ]
         },
         {
-          "step": 100,
+          "step": 4,
           "frame": 1947,
           "title": "Remove foundation beams — zone 1",
           "description": "Remove the next group of existing foundation beams.",
@@ -2282,7 +1613,7 @@
           ]
         },
         {
-          "step": 101,
+          "step": 5,
           "frame": 1968,
           "title": "Remove foundation beams — zone 2",
           "description": "Remove the next group of existing foundation beams.",
@@ -2294,7 +1625,7 @@
           ]
         },
         {
-          "step": 102,
+          "step": 6,
           "frame": 1989,
           "title": "Remove foundation beams — zone 3",
           "description": "Remove the next group of existing foundation beams.",
@@ -2306,7 +1637,7 @@
           ]
         },
         {
-          "step": 103,
+          "step": 7,
           "frame": 2009,
           "title": "Remove foundation beams — zone 4",
           "description": "Remove the next group of existing foundation beams.",
@@ -2318,7 +1649,7 @@
           ]
         },
         {
-          "step": 104,
+          "step": 8,
           "frame": 2031,
           "title": "Remove foundation beams — zone 5",
           "description": "Remove the next group of existing foundation beams.",
@@ -2330,7 +1661,7 @@
           ]
         },
         {
-          "step": 105,
+          "step": 9,
           "frame": 2051,
           "title": "Remove foundation beams — zone 6",
           "description": "Remove the next group of existing foundation beams.",
@@ -2342,7 +1673,7 @@
           ]
         },
         {
-          "step": 106,
+          "step": 10,
           "frame": 2073,
           "title": "Remove foundation beams — zone 7",
           "description": "Remove the next group of existing foundation beams.",
@@ -2354,7 +1685,7 @@
           ]
         },
         {
-          "step": 107,
+          "step": 11,
           "frame": 2093,
           "title": "Remove foundation beams — zone 8",
           "description": "Remove the next group of existing foundation beams.",
@@ -3500,337 +2831,379 @@
         {
           "step": 60,
           "frame": 325,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
+          "title": "Remove all sheet piles",
+          "description": "Remove all temporary sheet piles together.",
           "changes": [
             {
               "group": "g70",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 61,
-          "frame": 326,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g71",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 62,
-          "frame": 327,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g72",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 63,
-          "frame": 328,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g37",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 64,
-          "frame": 329,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g38",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 65,
-          "frame": 330,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g39",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 66,
-          "frame": 331,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g40",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 67,
-          "frame": 332,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g41",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 68,
-          "frame": 333,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g42",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 69,
-          "frame": 334,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g43",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 70,
-          "frame": 335,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g44",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 71,
-          "frame": 336,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g45",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 72,
-          "frame": 337,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g46",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 73,
-          "frame": 338,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g47",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 74,
-          "frame": 339,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g48",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 75,
-          "frame": 340,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g49",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 76,
-          "frame": 341,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g50",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 77,
-          "frame": 342,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g51",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 78,
-          "frame": 343,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g52",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 79,
-          "frame": 344,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g53",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 80,
-          "frame": 345,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g54",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 81,
-          "frame": 346,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g55",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 82,
-          "frame": 347,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g56",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 83,
-          "frame": 348,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g57",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 84,
-          "frame": 349,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g60",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 85,
-          "frame": 350,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g32",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 86,
-          "frame": 351,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
+            },
             {
               "group": "g33",
               "visible": false
-            }
-          ]
-        },
-        {
-          "step": 87,
-          "frame": 352,
-          "title": "Remove sheet piles clockwise / Construct ground-floor slab",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order. Add the ground-floor slab over the completed foundation beams.",
-          "changes": [
+            },
             {
               "group": "g34",
               "visible": false
             },
+            {
+              "group": "g35",
+              "visible": false
+            },
+            {
+              "group": "g36",
+              "visible": false
+            },
+            {
+              "group": "g1",
+              "visible": false
+            },
+            {
+              "group": "g4",
+              "visible": false
+            },
+            {
+              "group": "g5",
+              "visible": false
+            },
+            {
+              "group": "g6",
+              "visible": false
+            },
+            {
+              "group": "g7",
+              "visible": false
+            },
+            {
+              "group": "g8",
+              "visible": false
+            },
+            {
+              "group": "g9",
+              "visible": false
+            },
+            {
+              "group": "g10",
+              "visible": false
+            },
+            {
+              "group": "g11",
+              "visible": false
+            },
+            {
+              "group": "g12",
+              "visible": false
+            },
+            {
+              "group": "g13",
+              "visible": false
+            },
+            {
+              "group": "g14",
+              "visible": false
+            },
+            {
+              "group": "g15",
+              "visible": false
+            },
+            {
+              "group": "g16",
+              "visible": false
+            },
+            {
+              "group": "g17",
+              "visible": false
+            },
+            {
+              "group": "g18",
+              "visible": false
+            },
+            {
+              "group": "g19",
+              "visible": false
+            },
+            {
+              "group": "g20",
+              "visible": false
+            },
+            {
+              "group": "g21",
+              "visible": false
+            },
+            {
+              "group": "g22",
+              "visible": false
+            },
+            {
+              "group": "g23",
+              "visible": false
+            },
+            {
+              "group": "g24",
+              "visible": false
+            },
+            {
+              "group": "g25",
+              "visible": false
+            },
+            {
+              "group": "g26",
+              "visible": false
+            },
+            {
+              "group": "g27",
+              "visible": false
+            },
+            {
+              "group": "g28",
+              "visible": false
+            },
+            {
+              "group": "g29",
+              "visible": false
+            },
+            {
+              "group": "g30",
+              "visible": false
+            },
+            {
+              "group": "g31",
+              "visible": false
+            },
+            {
+              "group": "g2",
+              "visible": false
+            },
+            {
+              "group": "g3",
+              "visible": false
+            },
+            {
+              "group": "g66",
+              "visible": false
+            },
+            {
+              "group": "g65",
+              "visible": false
+            },
+            {
+              "group": "g64",
+              "visible": false
+            },
+            {
+              "group": "g61",
+              "visible": false
+            },
+            {
+              "group": "g63",
+              "visible": false
+            },
+            {
+              "group": "g62",
+              "visible": false
+            },
+            {
+              "group": "g58",
+              "visible": false
+            },
+            {
+              "group": "g59",
+              "visible": false
+            },
+            {
+              "group": "g67",
+              "visible": false
+            },
+            {
+              "group": "g68",
+              "visible": false
+            },
+            {
+              "group": "g69",
+              "visible": false
+            }
+          ],
+          "sourceFrames": [
+            325,
+            326,
+            327,
+            328,
+            329,
+            330,
+            331,
+            332,
+            333,
+            334,
+            335,
+            336,
+            337,
+            338,
+            339,
+            340,
+            341,
+            342,
+            343,
+            344,
+            345,
+            346,
+            347,
+            348,
+            349,
+            350,
+            351,
+            352,
+            353,
+            354,
+            355,
+            356,
+            357,
+            358,
+            359,
+            360,
+            361,
+            362,
+            363,
+            364,
+            365,
+            366,
+            367,
+            368,
+            369,
+            370,
+            371,
+            372,
+            373,
+            374,
+            375,
+            376,
+            377,
+            378,
+            379,
+            380,
+            381,
+            382,
+            383,
+            384,
+            385,
+            386,
+            387,
+            388,
+            389,
+            391,
+            392,
+            393,
+            394,
+            395,
+            396,
+            397
+          ]
+        },
+        {
+          "step": 61,
+          "frame": 352,
+          "title": "Construct ground-floor slab",
+          "description": "Construct the ground-floor slab over the completed foundation beams.",
+          "changes": [
             {
               "group": "g125",
               "visible": true
@@ -3838,543 +3211,11 @@
           ]
         },
         {
-          "step": 88,
-          "frame": 353,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g35",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 89,
-          "frame": 354,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g36",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 90,
-          "frame": 355,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g1",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 91,
-          "frame": 356,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g4",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 92,
-          "frame": 357,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g5",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 93,
-          "frame": 358,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g6",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 94,
-          "frame": 359,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g7",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 95,
-          "frame": 360,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g8",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 96,
-          "frame": 361,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g9",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 97,
-          "frame": 362,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g10",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 98,
-          "frame": 363,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g11",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 99,
-          "frame": 364,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g12",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 100,
-          "frame": 365,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g13",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 101,
-          "frame": 366,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g14",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 102,
-          "frame": 367,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g15",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 103,
-          "frame": 368,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g16",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 104,
-          "frame": 369,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g17",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 105,
-          "frame": 370,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g18",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 106,
-          "frame": 371,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g19",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 107,
-          "frame": 372,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g20",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 108,
-          "frame": 373,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g21",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 109,
-          "frame": 374,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g22",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 110,
-          "frame": 375,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g23",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 111,
-          "frame": 376,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g24",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 112,
-          "frame": 377,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g25",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 113,
-          "frame": 378,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g26",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 114,
-          "frame": 379,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g27",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 115,
-          "frame": 380,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g28",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 116,
-          "frame": 381,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g29",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 117,
-          "frame": 382,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g30",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 118,
-          "frame": 383,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g31",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 119,
-          "frame": 384,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g2",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 120,
-          "frame": 385,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g3",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 121,
-          "frame": 386,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g66",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 122,
-          "frame": 387,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g65",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 123,
-          "frame": 388,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g64",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 124,
-          "frame": 389,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g61",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 125,
-          "frame": 391,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g63",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 126,
-          "frame": 392,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g62",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 127,
-          "frame": 393,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g58",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 128,
-          "frame": 394,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g59",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 129,
-          "frame": 395,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g67",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 130,
-          "frame": 396,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g68",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 131,
-          "frame": 397,
-          "title": "Remove sheet piles clockwise",
-          "description": "Remove the next group of temporary sheet piles in the source animation’s clockwise order.",
-          "changes": [
-            {
-              "group": "g69",
-              "visible": false
-            }
-          ]
-        },
-        {
-          "step": 132,
+          "step": 62,
           "frame": 432,
-          "title": "Complete concrete cover / Complete concrete paving",
-          "description": "Hide the soil display after the finished concrete cover is in place. Add the finished concrete paving around the new slab.",
+          "title": "Complete concrete paving",
+          "description": "Complete the concrete paving around the new slab while retaining the site topography.",
           "changes": [
-            {
-              "group": "g73",
-              "visible": false
-            },
             {
               "group": "g126",
               "visible": true
