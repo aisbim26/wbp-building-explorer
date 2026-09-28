@@ -1,7 +1,6 @@
 # Project Sequence
 
-## WBP demolition / V69
-
+## WBP demolition
 | Step | Title | Explanation | Source frame |
 |---|---|---|---|
 | 1 | Clear cargo and transport equipment | Remove the indoor cargo and transport equipment before dismantling the building. | 145 |
@@ -21,17 +20,17 @@
 | 15 | Remove roof and walls — bay 2 | Remove the roof covering and external envelope of this bay. | 568 |
 | 16 | Remove roof and walls — bay 3 | Remove the roof covering and external envelope of this bay. | 598 |
 | 17 | Remove roof and walls — bay 4 | Remove the roof covering and external envelope of this bay. | 628 |
-| 18 | Remove secondary members — bay 1 | Remove this bay’s secondary members in the revised V69 order. | 652 |
-| 19 | Remove main beams and trusses — bay 1 | Remove this bay’s main beams and trusses in the revised V69 order. | 683 |
-| 20 | Remove columns — bay 1 | Remove this bay’s columns in the revised V69 order. | 703 |
-| 21 | Remove main beams and trusses — bay 2 | Remove this bay’s main beams and trusses in the revised V69 order. | 759 |
-| 22 | Remove columns — bay 2 | Remove this bay’s columns in the revised V69 order. | 778 |
-| 23 | Remove secondary members — bay 3 | Remove this bay’s secondary members in the revised V69 order. | 802 |
-| 24 | Remove main beams and trusses — bay 3 | Remove this bay’s main beams and trusses in the revised V69 order. | 833 |
-| 25 | Remove columns — bay 3 | Remove this bay’s columns in the revised V69 order. | 853 |
-| 26 | Remove secondary members — bay 4 | Remove this bay’s secondary members in the revised V69 order. | 877 |
-| 27 | Remove main beams and trusses — bay 4 | Remove this bay’s main beams and trusses in the revised V69 order. | 909 |
-| 28 | Remove columns — bay 4 | Remove this bay’s columns in the revised V69 order. | 928 |
+| 18 | Remove secondary members — bay 1 | Remove this bay’s secondary members in the revised  order. | 652 |
+| 19 | Remove main beams and trusses — bay 1 | Remove this bay’s main beams and trusses in the revised  order. | 683 |
+| 20 | Remove columns — bay 1 | Remove this bay’s columns in the revised  order. | 703 |
+| 21 | Remove main beams and trusses — bay 2 | Remove this bay’s main beams and trusses in the revised  order. | 759 |
+| 22 | Remove columns — bay 2 | Remove this bay’s columns in the revised  order. | 778 |
+| 23 | Remove secondary members — bay 3 | Remove this bay’s secondary members in the revised  order. | 802 |
+| 24 | Remove main beams and trusses — bay 3 | Remove this bay’s main beams and trusses in the revised  order. | 833 |
+| 25 | Remove columns — bay 3 | Remove this bay’s columns in the revised  order. | 853 |
+| 26 | Remove secondary members — bay 4 | Remove this bay’s secondary members in the revised  order. | 877 |
+| 27 | Remove main beams and trusses — bay 4 | Remove this bay’s main beams and trusses in the revised  order. | 909 |
+| 28 | Remove columns — bay 4 | Remove this bay’s columns in the revised  order. | 928 |
 | 29 | Install temporary protection platform | Add the temporary steel frame, solid deck, footings and counterweights. | 989 |
 | 30 | Remove T1 roof and frame — half 1 | Follow the revised T1 canopy dismantling sequence while retaining the lift equipment. | 1168 |
 | 31 | Remove T1 columns — half 1 | Follow the revised T1 canopy dismantling sequence while retaining the lift equipment. | 1169 |
@@ -41,120 +40,119 @@
 | 35 | Remove roof and walls — bay 6 | Remove the roof covering and external envelope of this bay. | 1318 |
 | 36 | Remove roof and walls — bay 7 | Remove the roof covering and external envelope of this bay. | 1348 |
 | 37 | Remove roof and walls — bay 8 | Remove the roof covering and external envelope of this bay. | 1378 |
-| 38 | Remove secondary members — bay 5 | Remove this bay’s secondary members in the revised V69 order. | 1391 |
-| 39 | Remove main beams and trusses — bay 5 | Remove this bay’s main beams and trusses in the revised V69 order. | 1431 |
-| 40 | Remove columns — bay 5 | Remove this bay’s columns in the revised V69 order. | 1439 |
-| 41 | Remove secondary members — bay 6 | Remove this bay’s secondary members in the revised V69 order. | 1451 |
-| 42 | Remove main beams and trusses — bay 6 | Remove this bay’s main beams and trusses in the revised V69 order. | 1491 |
-| 43 | Remove columns — bay 6 | Remove this bay’s columns in the revised V69 order. | 1500 |
-| 44 | Remove main beams and trusses — bay 7 | Remove this bay’s main beams and trusses in the revised V69 order. | 1551 |
-| 45 | Remove columns — bay 7 | Remove this bay’s columns in the revised V69 order. | 1559 |
-| 46 | Remove secondary members — bay 8 | Remove this bay’s secondary members in the revised V69 order. | 1571 |
-| 47 | Remove main beams and trusses — bay 8 | Remove this bay’s main beams and trusses in the revised V69 order. | 1611 |
-| 48 | Remove columns — bay 8 | Remove this bay’s columns in the revised V69 order. | 1619 |
+| 38 | Remove secondary members — bay 5 | Remove this bay’s secondary members in the revised  order. | 1391 |
+| 39 | Remove main beams and trusses — bay 5 | Remove this bay’s main beams and trusses in the revised  order. | 1431 |
+| 40 | Remove columns — bay 5 | Remove this bay’s columns in the revised  order. | 1439 |
+| 41 | Remove secondary members — bay 6 | Remove this bay’s secondary members in the revised  order. | 1451 |
+| 42 | Remove main beams and trusses — bay 6 | Remove this bay’s main beams and trusses in the revised  order. | 1491 |
+| 43 | Remove columns — bay 6 | Remove this bay’s columns in the revised  order. | 1500 |
+| 44 | Remove main beams and trusses — bay 7 | Remove this bay’s main beams and trusses in the revised  order. | 1551 |
+| 45 | Remove columns — bay 7 | Remove this bay’s columns in the revised  order. | 1559 |
+| 46 | Remove secondary members — bay 8 | Remove this bay’s secondary members in the revised  order. | 1571 |
+| 47 | Remove main beams and trusses — bay 8 | Remove this bay’s main beams and trusses in the revised  order. | 1611 |
+| 48 | Remove columns — bay 8 | Remove this bay’s columns in the revised  order. | 1619 |
 
-## Existing foundations / V69
-
+## Existing foundations
 | Step | Title | Explanation | Source frame |
 |---|---|---|---|
 | 1 | Remove existing concrete covers | Remove the existing covers to prepare for foundation works. | 1705 |
-| 2 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1708 |
-| 3 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1709 |
-| 4 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1710 |
-| 5 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1711 |
-| 6 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1712 |
-| 7 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1713 |
-| 8 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1714 |
-| 9 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1715 |
-| 10 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1716 |
-| 11 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1717 |
-| 12 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1718 |
-| 13 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1719 |
-| 14 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1720 |
-| 15 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1721 |
-| 16 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1722 |
-| 17 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1723 |
-| 18 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1724 |
-| 19 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1725 |
-| 20 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1726 |
-| 21 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1727 |
-| 22 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1728 |
-| 23 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1729 |
-| 24 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1730 |
-| 25 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1731 |
-| 26 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1732 |
-| 27 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1733 |
-| 28 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1734 |
-| 29 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1735 |
-| 30 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1736 |
-| 31 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1737 |
-| 32 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1738 |
-| 33 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1739 |
-| 34 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1740 |
-| 35 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1741 |
-| 36 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1742 |
-| 37 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1743 |
-| 38 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1744 |
-| 39 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1745 |
-| 40 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1746 |
-| 41 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1747 |
-| 42 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1748 |
-| 43 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1749 |
-| 44 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1750 |
-| 45 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1751 |
-| 46 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1752 |
-| 47 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1753 |
-| 48 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1754 |
-| 49 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1755 |
-| 50 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1756 |
-| 51 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1757 |
-| 52 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1758 |
-| 53 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1759 |
-| 54 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1760 |
-| 55 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1761 |
-| 56 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1762 |
-| 57 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1763 |
-| 58 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1764 |
-| 59 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1765 |
-| 60 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1766 |
-| 61 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1767 |
-| 62 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1768 |
-| 63 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1769 |
-| 64 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1770 |
-| 65 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1771 |
-| 66 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1772 |
-| 67 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1773 |
-| 68 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1774 |
-| 69 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1775 |
-| 70 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1776 |
-| 71 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1777 |
-| 72 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1778 |
-| 73 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1779 |
-| 74 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1780 |
-| 75 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1781 |
-| 76 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1782 |
-| 77 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1783 |
-| 78 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1784 |
-| 79 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1785 |
-| 80 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1786 |
-| 81 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1787 |
-| 82 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1788 |
-| 83 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1789 |
-| 84 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1790 |
-| 85 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1791 |
-| 86 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1792 |
-| 87 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1793 |
-| 88 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1794 |
-| 89 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1795 |
-| 90 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1796 |
-| 91 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1797 |
-| 92 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1798 |
-| 93 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1799 |
-| 94 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1800 |
-| 95 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1801 |
-| 96 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1802 |
-| 97 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1803 |
-| 98 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the V69 sequence. | 1804 |
+| 2 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1708 |
+| 3 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1709 |
+| 4 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1710 |
+| 5 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1711 |
+| 6 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1712 |
+| 7 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1713 |
+| 8 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1714 |
+| 9 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1715 |
+| 10 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1716 |
+| 11 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1717 |
+| 12 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1718 |
+| 13 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1719 |
+| 14 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1720 |
+| 15 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1721 |
+| 16 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1722 |
+| 17 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1723 |
+| 18 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1724 |
+| 19 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1725 |
+| 20 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1726 |
+| 21 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1727 |
+| 22 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1728 |
+| 23 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1729 |
+| 24 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1730 |
+| 25 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1731 |
+| 26 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1732 |
+| 27 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1733 |
+| 28 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1734 |
+| 29 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1735 |
+| 30 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1736 |
+| 31 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1737 |
+| 32 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1738 |
+| 33 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1739 |
+| 34 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1740 |
+| 35 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1741 |
+| 36 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1742 |
+| 37 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1743 |
+| 38 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1744 |
+| 39 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1745 |
+| 40 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1746 |
+| 41 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1747 |
+| 42 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1748 |
+| 43 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1749 |
+| 44 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1750 |
+| 45 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1751 |
+| 46 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1752 |
+| 47 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1753 |
+| 48 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1754 |
+| 49 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1755 |
+| 50 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1756 |
+| 51 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1757 |
+| 52 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1758 |
+| 53 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1759 |
+| 54 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1760 |
+| 55 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1761 |
+| 56 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1762 |
+| 57 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1763 |
+| 58 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1764 |
+| 59 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1765 |
+| 60 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1766 |
+| 61 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1767 |
+| 62 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1768 |
+| 63 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1769 |
+| 64 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1770 |
+| 65 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1771 |
+| 66 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1772 |
+| 67 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1773 |
+| 68 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1774 |
+| 69 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1775 |
+| 70 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1776 |
+| 71 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1777 |
+| 72 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1778 |
+| 73 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1779 |
+| 74 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1780 |
+| 75 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1781 |
+| 76 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1782 |
+| 77 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1783 |
+| 78 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1784 |
+| 79 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1785 |
+| 80 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1786 |
+| 81 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1787 |
+| 82 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1788 |
+| 83 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1789 |
+| 84 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1790 |
+| 85 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1791 |
+| 86 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1792 |
+| 87 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1793 |
+| 88 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1794 |
+| 89 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1795 |
+| 90 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1796 |
+| 91 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1797 |
+| 92 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1798 |
+| 93 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1799 |
+| 94 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1800 |
+| 95 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1801 |
+| 96 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1802 |
+| 97 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1803 |
+| 98 | Install sheet-pile support | Install the next sheet-pile group around the excavation in the  sequence. | 1804 |
 | 99 | Remove existing foundation slabs | Remove the existing slabs to expose the foundation beams. | 1915 |
 | 100 | Remove foundation beams — zone 1 | Remove the next group of existing foundation beams. | 1947 |
 | 101 | Remove foundation beams — zone 2 | Remove the next group of existing foundation beams. | 1968 |
@@ -165,8 +163,7 @@
 | 106 | Remove foundation beams — zone 7 | Remove the next group of existing foundation beams. | 2073 |
 | 107 | Remove foundation beams — zone 8 | Remove the next group of existing foundation beams. | 2093 |
 
-## New foundations / V04
-
+## New foundations
 | Step | Title | Explanation | Source frame |
 |---|---|---|---|
 | 1 | Install interior piles | Install the next interior pile group in its final position. Perimeter piles remain in place. | 43 |
@@ -302,8 +299,7 @@
 | 131 | Remove sheet piles clockwise | Remove the next group of temporary sheet piles in the source animation’s clockwise order. | 397 |
 | 132 | Complete concrete cover / Complete concrete paving | Hide the soil display after the finished concrete cover is in place. Add the finished concrete paving around the new slab. | 432 |
 
-## Building & footbridge / V04
-
+## Building & footbridge
 | Step | Title | Explanation | Source frame |
 |---|---|---|---|
 | 1 | Erect steel frame — bay 1 | Add the next bay of the main steel frame, progressing from left to right. | 30 |

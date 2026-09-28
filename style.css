@@ -5,4 +5,34 @@
 /* Accommodate English labels. */
 .check-row span:not(.part-index){line-height:1.4}.view-caption{max-width:550px}#stage-description{max-width:500px}.bottom-bar{max-width:calc(100% - 330px)}.explode-control label{white-space:nowrap}.bottom-bar{gap:14px}.view-caption h2{line-height:1.2}@media(max-width:1000px){.bottom-bar{max-width:calc(100% - 280px);flex-wrap:wrap;justify-content:center}.explode-control{flex-wrap:wrap}.view-caption{max-width:65%}}@media(max-width:720px){.bottom-bar{max-width:calc(100% - 220px)}.header-note{display:none}}
 
-.phase-picker{margin-bottom:16px}.phase-picker label{display:block;font-size:10px;letter-spacing:1.6px;color:#586b5e;margin-bottom:9px}.phase-picker select{width:100%;padding:11px 6px;background:#f0f4ee;border:1px solid #c8d4c8;color:#214e41;font:12px "Segoe UI",sans-serif;cursor:pointer}select:focus-visible{outline:2px solid #a48c48}label[hidden]{display:none}.intro{margin-bottom:16px}aside h2{font-size:36px;margin:14px 0}.view-caption{max-width:510px}#stage-description{font-size:12px}button:disabled{pointer-events:none}
+label[hidden]{display:none}.intro{margin-bottom:16px}aside h2{font-size:36px;margin:14px 0}.view-caption{max-width:510px}#stage-description{font-size:12px}button:disabled{pointer-events:none}
+
+/* Project navigation stays visible independently of the component drawer. */
+:root{--head:96px;--phases:54px;--sidebar:280px}
+.masthead{height:var(--head);padding:12px 24px;gap:20px}
+.brand{flex:1;min-width:0}.brand h1{font:500 17px/1.35 "Segoe UI",sans-serif;max-width:1000px;letter-spacing:.3px}.monogram{flex-shrink:0}.brand p{font-size:9px}
+.masthead>button{flex-shrink:0;margin-left:0}#panel-toggle{display:none}
+.phase-nav{position:fixed;top:var(--head);left:0;right:0;height:var(--phases);display:grid;grid-template-columns:repeat(4,1fr);padding:7px 20px;gap:8px;background:#f8f9f3;border-bottom:1px solid var(--line);z-index:3}
+.phase-nav button{font-size:13px;text-align:left;border-radius:4px;padding:8px 12px}.phase-nav button span{font-size:10px;opacity:.65;margin-right:8px}.phase-nav button[aria-pressed=true]{background:var(--green);color:white}
+aside{top:calc(var(--head) + var(--phases));width:var(--sidebar);padding:22px}
+#viewport{top:calc(var(--head) + var(--phases));left:var(--sidebar)}
+.view-caption{top:20px;left:22px;max-width:min(510px,65%);padding:12px 15px;border-radius:5px;transition:background .2s}
+.airport-context .view-caption{background:#f8fbf0e8;box-shadow:0 3px 18px #162c2920;backdrop-filter:blur(10px)}
+.view-caption h2{font-size:24px;margin:8px 0}#stage-description{background:transparent;padding:0;margin:8px 0;line-height:1.5}
+.bottom-bar{left:calc(var(--sidebar) + (100% - var(--sidebar))/2);max-width:calc(100% - var(--sidebar) - 24px);gap:12px;flex-wrap:wrap;justify-content:center}.explode-control input{width:170px}
+.viewport-actions{top:20px;right:20px}
+@media(max-width:1100px){:root{--sidebar:240px}.brand h1{font-size:14px}.view-caption{max-width:60%}.view-caption h2{font-size:21px}.explode-control input{width:130px}.bottom-bar{padding:10px 16px}.phase-nav button{font-size:12px;padding:8px}.phase-nav button span{margin-right:3px}}
+@media(max-width:760px), (max-width:1000px) and (max-height:600px){
+ :root{--head:106px;--phases:88px;--sidebar:0px}
+ body{height:100dvh}.masthead{padding:10px 12px;gap:8px;align-items:flex-start}.brand{gap:9px}.brand h1{font-size:11px;line-height:1.35;letter-spacing:0}.brand p{font-size:7px;letter-spacing:.7px;margin-top:5px}.monogram{width:28px;height:34px;font-size:21px;border-width:2px}
+ #panel-toggle{display:block;position:absolute;right:12px;bottom:9px;padding:5px 10px;border:1px solid #becbbc;background:#eff3e9;border-radius:4px;font-size:11px}.masthead #reset{display:none}
+ .phase-nav{grid-template-columns:repeat(2,1fr);padding:6px 10px;gap:5px}.phase-nav button{font-size:11px;min-height:35px;padding:6px 8px}
+ aside{display:none;top:calc(var(--head) + var(--phases));bottom:124px;width:min(310px,88vw);padding:18px;z-index:5;box-shadow:8px 0 25px #233c3328}.controls-open aside{display:block}aside>h2,aside>.intro,aside>.eyebrow{display:none}aside section{margin-top:15px;padding-top:14px}
+ #viewport{inset:calc(var(--head) + var(--phases)) 0 20px 0}
+ .view-caption{top:8px;left:10px;max-width:calc(100% - 20px);padding:8px 10px;background:#f8fbf0dc}.view-caption .eyebrow{font-size:8px;letter-spacing:1px}.view-caption h2{font-size:18px;margin:5px 0}#stage-description{font-size:11px;line-height:1.35;margin:5px 0}#stage-count{font-size:9px}
+ .viewport-actions{top:auto;bottom:132px;right:10px;gap:5px}.viewport-actions button{font-size:10px;padding:7px 9px;min-height:32px}
+ .bottom-bar{left:10px;right:10px;bottom:calc(27px + env(safe-area-inset-bottom));transform:none;width:auto;max-width:none;border-radius:12px;padding:10px 12px;gap:7px;background:#fffef5f5}
+ .explode-control{width:100%;display:grid;grid-template-columns:1fr 36px 36px;gap:6px;letter-spacing:.5px}.explode-control label{grid-column:1/-1;font-size:11px;justify-content:space-between}.explode-control input{width:100%;height:26px;margin:0}.explode-control button{min-height:32px}.view-controls{border:0;padding:0}.view-controls button{min-height:30px;padding:6px 12px}#restore{font-size:11px;padding:7px 12px;min-height:30px}
+ #status{bottom:134px;left:10px;font-size:9px;max-width:48%;padding:6px}.north{display:none}footer{height:20px;font-size:8px;padding:0 10px}footer span:last-child{display:none}#retry{bottom:165px;left:10px}
+}
+@media(max-width:1000px) and (max-height:600px){:root{--head:65px;--phases:48px}.brand h1{font-size:10px;max-width:80%}.brand p{display:none}.phase-nav{grid-template-columns:repeat(4,1fr)}.phase-nav button{font-size:10px}.phase-nav button span{display:none}.view-caption{max-width:55%;padding:5px 8px}.view-caption h2{font-size:14px}#stage-description{display:none}.bottom-bar{left:10px;right:10px;flex-wrap:nowrap;padding:5px 10px;bottom:24px}.explode-control{width:auto;flex:1;grid-template-columns:auto 1fr 28px 28px}.explode-control label{grid-column:auto;font-size:9px}.view-controls button,#restore{font-size:10px;padding:5px}.viewport-actions,#status{bottom:64px}aside{bottom:74px}}

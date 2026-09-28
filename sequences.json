@@ -370,7 +370,7 @@
           "step": 18,
           "frame": 652,
           "title": "Remove secondary members — bay 1",
-          "description": "Remove this bay’s secondary members in the revised V69 order.",
+          "description": "Remove this bay’s secondary members in the revised order.",
           "changes": [
             {
               "group": "g24",
@@ -382,7 +382,7 @@
           "step": 19,
           "frame": 683,
           "title": "Remove main beams and trusses — bay 1",
-          "description": "Remove this bay’s main beams and trusses in the revised V69 order.",
+          "description": "Remove this bay’s main beams and trusses in the revised order.",
           "changes": [
             {
               "group": "g20",
@@ -394,7 +394,7 @@
           "step": 20,
           "frame": 703,
           "title": "Remove columns — bay 1",
-          "description": "Remove this bay’s columns in the revised V69 order.",
+          "description": "Remove this bay’s columns in the revised order.",
           "changes": [
             {
               "group": "g17",
@@ -406,7 +406,7 @@
           "step": 21,
           "frame": 759,
           "title": "Remove main beams and trusses — bay 2",
-          "description": "Remove this bay’s main beams and trusses in the revised V69 order.",
+          "description": "Remove this bay’s main beams and trusses in the revised order.",
           "changes": [
             {
               "group": "g23",
@@ -418,7 +418,7 @@
           "step": 22,
           "frame": 778,
           "title": "Remove columns — bay 2",
-          "description": "Remove this bay’s columns in the revised V69 order.",
+          "description": "Remove this bay’s columns in the revised order.",
           "changes": [
             {
               "group": "g16",
@@ -430,7 +430,7 @@
           "step": 23,
           "frame": 802,
           "title": "Remove secondary members — bay 3",
-          "description": "Remove this bay’s secondary members in the revised V69 order.",
+          "description": "Remove this bay’s secondary members in the revised order.",
           "changes": [
             {
               "group": "g30",
@@ -442,7 +442,7 @@
           "step": 24,
           "frame": 833,
           "title": "Remove main beams and trusses — bay 3",
-          "description": "Remove this bay’s main beams and trusses in the revised V69 order.",
+          "description": "Remove this bay’s main beams and trusses in the revised order.",
           "changes": [
             {
               "group": "g22",
@@ -454,7 +454,7 @@
           "step": 25,
           "frame": 853,
           "title": "Remove columns — bay 3",
-          "description": "Remove this bay’s columns in the revised V69 order.",
+          "description": "Remove this bay’s columns in the revised order.",
           "changes": [
             {
               "group": "g15",
@@ -466,7 +466,7 @@
           "step": 26,
           "frame": 877,
           "title": "Remove secondary members — bay 4",
-          "description": "Remove this bay’s secondary members in the revised V69 order.",
+          "description": "Remove this bay’s secondary members in the revised order.",
           "changes": [
             {
               "group": "g31",
@@ -478,7 +478,7 @@
           "step": 27,
           "frame": 909,
           "title": "Remove main beams and trusses — bay 4",
-          "description": "Remove this bay’s main beams and trusses in the revised V69 order.",
+          "description": "Remove this bay’s main beams and trusses in the revised order.",
           "changes": [
             {
               "group": "g21",
@@ -490,7 +490,7 @@
           "step": 28,
           "frame": 928,
           "title": "Remove columns — bay 4",
-          "description": "Remove this bay’s columns in the revised V69 order.",
+          "description": "Remove this bay’s columns in the revised order.",
           "changes": [
             {
               "group": "g14",
@@ -610,7 +610,7 @@
           "step": 38,
           "frame": 1391,
           "title": "Remove secondary members — bay 5",
-          "description": "Remove this bay’s secondary members in the revised V69 order.",
+          "description": "Remove this bay’s secondary members in the revised order.",
           "changes": [
             {
               "group": "g47",
@@ -622,7 +622,7 @@
           "step": 39,
           "frame": 1431,
           "title": "Remove main beams and trusses — bay 5",
-          "description": "Remove this bay’s main beams and trusses in the revised V69 order.",
+          "description": "Remove this bay’s main beams and trusses in the revised order.",
           "changes": [
             {
               "group": "g19",
@@ -634,7 +634,7 @@
           "step": 40,
           "frame": 1439,
           "title": "Remove columns — bay 5",
-          "description": "Remove this bay’s columns in the revised V69 order.",
+          "description": "Remove this bay’s columns in the revised order.",
           "changes": [
             {
               "group": "g13",
@@ -646,7 +646,7 @@
           "step": 41,
           "frame": 1451,
           "title": "Remove secondary members — bay 6",
-          "description": "Remove this bay’s secondary members in the revised V69 order.",
+          "description": "Remove this bay’s secondary members in the revised order.",
           "changes": [
             {
               "group": "g46",
@@ -658,7 +658,7 @@
           "step": 42,
           "frame": 1491,
           "title": "Remove main beams and trusses — bay 6",
-          "description": "Remove this bay’s main beams and trusses in the revised V69 order.",
+          "description": "Remove this bay’s main beams and trusses in the revised order.",
           "changes": [
             {
               "group": "g29",
@@ -670,7 +670,7 @@
           "step": 43,
           "frame": 1500,
           "title": "Remove columns — bay 6",
-          "description": "Remove this bay’s columns in the revised V69 order.",
+          "description": "Remove this bay’s columns in the revised order.",
           "changes": [
             {
               "group": "g12",
@@ -682,7 +682,7 @@
           "step": 44,
           "frame": 1551,
           "title": "Remove main beams and trusses — bay 7",
-          "description": "Remove this bay’s main beams and trusses in the revised V69 order.",
+          "description": "Remove this bay’s main beams and trusses in the revised order.",
           "changes": [
             {
               "group": "g28",
@@ -694,7 +694,7 @@
           "step": 45,
           "frame": 1559,
           "title": "Remove columns — bay 7",
-          "description": "Remove this bay’s columns in the revised V69 order.",
+          "description": "Remove this bay’s columns in the revised order.",
           "changes": [
             {
               "group": "g11",
@@ -706,7 +706,7 @@
           "step": 46,
           "frame": 1571,
           "title": "Remove secondary members — bay 8",
-          "description": "Remove this bay’s secondary members in the revised V69 order.",
+          "description": "Remove this bay’s secondary members in the revised order.",
           "changes": [
             {
               "group": "g25",
@@ -718,7 +718,7 @@
           "step": 47,
           "frame": 1611,
           "title": "Remove main beams and trusses — bay 8",
-          "description": "Remove this bay’s main beams and trusses in the revised V69 order.",
+          "description": "Remove this bay’s main beams and trusses in the revised order.",
           "changes": [
             {
               "group": "g18",
@@ -730,7 +730,7 @@
           "step": 48,
           "frame": 1619,
           "title": "Remove columns — bay 8",
-          "description": "Remove this bay’s columns in the revised V69 order.",
+          "description": "Remove this bay’s columns in the revised order.",
           "changes": [
             {
               "group": "g10",
@@ -1097,7 +1097,7 @@
           "step": 2,
           "frame": 1708,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g72",
@@ -1109,7 +1109,7 @@
           "step": 3,
           "frame": 1709,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g73",
@@ -1121,7 +1121,7 @@
           "step": 4,
           "frame": 1710,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g74",
@@ -1133,7 +1133,7 @@
           "step": 5,
           "frame": 1711,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g75",
@@ -1145,7 +1145,7 @@
           "step": 6,
           "frame": 1712,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g76",
@@ -1157,7 +1157,7 @@
           "step": 7,
           "frame": 1713,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g77",
@@ -1169,7 +1169,7 @@
           "step": 8,
           "frame": 1714,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g78",
@@ -1181,7 +1181,7 @@
           "step": 9,
           "frame": 1715,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g79",
@@ -1193,7 +1193,7 @@
           "step": 10,
           "frame": 1716,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g81",
@@ -1205,7 +1205,7 @@
           "step": 11,
           "frame": 1717,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g82",
@@ -1217,7 +1217,7 @@
           "step": 12,
           "frame": 1718,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g84",
@@ -1229,7 +1229,7 @@
           "step": 13,
           "frame": 1719,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g85",
@@ -1241,7 +1241,7 @@
           "step": 14,
           "frame": 1720,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g86",
@@ -1253,7 +1253,7 @@
           "step": 15,
           "frame": 1721,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g87",
@@ -1265,7 +1265,7 @@
           "step": 16,
           "frame": 1722,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g88",
@@ -1277,7 +1277,7 @@
           "step": 17,
           "frame": 1723,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g89",
@@ -1289,7 +1289,7 @@
           "step": 18,
           "frame": 1724,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g90",
@@ -1301,7 +1301,7 @@
           "step": 19,
           "frame": 1725,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g54",
@@ -1313,7 +1313,7 @@
           "step": 20,
           "frame": 1726,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g55",
@@ -1325,7 +1325,7 @@
           "step": 21,
           "frame": 1727,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g56",
@@ -1337,7 +1337,7 @@
           "step": 22,
           "frame": 1728,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g57",
@@ -1349,7 +1349,7 @@
           "step": 23,
           "frame": 1729,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g58",
@@ -1361,7 +1361,7 @@
           "step": 24,
           "frame": 1730,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g59",
@@ -1373,7 +1373,7 @@
           "step": 25,
           "frame": 1731,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g60",
@@ -1385,7 +1385,7 @@
           "step": 26,
           "frame": 1732,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g61",
@@ -1397,7 +1397,7 @@
           "step": 27,
           "frame": 1733,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g62",
@@ -1409,7 +1409,7 @@
           "step": 28,
           "frame": 1734,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g63",
@@ -1421,7 +1421,7 @@
           "step": 29,
           "frame": 1735,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g10",
@@ -1433,7 +1433,7 @@
           "step": 30,
           "frame": 1736,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g52",
@@ -1445,7 +1445,7 @@
           "step": 31,
           "frame": 1737,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g53",
@@ -1457,7 +1457,7 @@
           "step": 32,
           "frame": 1738,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g20",
@@ -1469,7 +1469,7 @@
           "step": 33,
           "frame": 1739,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g21",
@@ -1481,7 +1481,7 @@
           "step": 34,
           "frame": 1740,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g22",
@@ -1493,7 +1493,7 @@
           "step": 35,
           "frame": 1741,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g23",
@@ -1505,7 +1505,7 @@
           "step": 36,
           "frame": 1742,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g24",
@@ -1517,7 +1517,7 @@
           "step": 37,
           "frame": 1743,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g25",
@@ -1529,7 +1529,7 @@
           "step": 38,
           "frame": 1744,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g26",
@@ -1541,7 +1541,7 @@
           "step": 39,
           "frame": 1745,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g27",
@@ -1553,7 +1553,7 @@
           "step": 40,
           "frame": 1746,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g28",
@@ -1565,7 +1565,7 @@
           "step": 41,
           "frame": 1747,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g29",
@@ -1577,7 +1577,7 @@
           "step": 42,
           "frame": 1748,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g30",
@@ -1589,7 +1589,7 @@
           "step": 43,
           "frame": 1749,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g31",
@@ -1601,7 +1601,7 @@
           "step": 44,
           "frame": 1750,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g32",
@@ -1613,7 +1613,7 @@
           "step": 45,
           "frame": 1751,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g33",
@@ -1625,7 +1625,7 @@
           "step": 46,
           "frame": 1752,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g34",
@@ -1637,7 +1637,7 @@
           "step": 47,
           "frame": 1753,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g35",
@@ -1649,7 +1649,7 @@
           "step": 48,
           "frame": 1754,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g36",
@@ -1661,7 +1661,7 @@
           "step": 49,
           "frame": 1755,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g37",
@@ -1673,7 +1673,7 @@
           "step": 50,
           "frame": 1756,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g38",
@@ -1685,7 +1685,7 @@
           "step": 51,
           "frame": 1757,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g39",
@@ -1697,7 +1697,7 @@
           "step": 52,
           "frame": 1758,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g40",
@@ -1709,7 +1709,7 @@
           "step": 53,
           "frame": 1759,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g41",
@@ -1721,7 +1721,7 @@
           "step": 54,
           "frame": 1760,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g42",
@@ -1733,7 +1733,7 @@
           "step": 55,
           "frame": 1761,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g43",
@@ -1745,7 +1745,7 @@
           "step": 56,
           "frame": 1762,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g44",
@@ -1757,7 +1757,7 @@
           "step": 57,
           "frame": 1763,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g45",
@@ -1769,7 +1769,7 @@
           "step": 58,
           "frame": 1764,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g46",
@@ -1781,7 +1781,7 @@
           "step": 59,
           "frame": 1765,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g47",
@@ -1793,7 +1793,7 @@
           "step": 60,
           "frame": 1766,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g48",
@@ -1805,7 +1805,7 @@
           "step": 61,
           "frame": 1767,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g49",
@@ -1817,7 +1817,7 @@
           "step": 62,
           "frame": 1768,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g50",
@@ -1829,7 +1829,7 @@
           "step": 63,
           "frame": 1769,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g51",
@@ -1841,7 +1841,7 @@
           "step": 64,
           "frame": 1770,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g11",
@@ -1853,7 +1853,7 @@
           "step": 65,
           "frame": 1771,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g12",
@@ -1865,7 +1865,7 @@
           "step": 66,
           "frame": 1772,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g13",
@@ -1877,7 +1877,7 @@
           "step": 67,
           "frame": 1773,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g14",
@@ -1889,7 +1889,7 @@
           "step": 68,
           "frame": 1774,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g15",
@@ -1901,7 +1901,7 @@
           "step": 69,
           "frame": 1775,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g16",
@@ -1913,7 +1913,7 @@
           "step": 70,
           "frame": 1776,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g17",
@@ -1925,7 +1925,7 @@
           "step": 71,
           "frame": 1777,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g18",
@@ -1937,7 +1937,7 @@
           "step": 72,
           "frame": 1778,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g19",
@@ -1949,7 +1949,7 @@
           "step": 73,
           "frame": 1779,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g102",
@@ -1961,7 +1961,7 @@
           "step": 74,
           "frame": 1780,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g101",
@@ -1973,7 +1973,7 @@
           "step": 75,
           "frame": 1781,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g100",
@@ -1985,7 +1985,7 @@
           "step": 76,
           "frame": 1782,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g99",
@@ -1997,7 +1997,7 @@
           "step": 77,
           "frame": 1783,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g98",
@@ -2009,7 +2009,7 @@
           "step": 78,
           "frame": 1784,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g97",
@@ -2021,7 +2021,7 @@
           "step": 79,
           "frame": 1785,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g96",
@@ -2033,7 +2033,7 @@
           "step": 80,
           "frame": 1786,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g95",
@@ -2045,7 +2045,7 @@
           "step": 81,
           "frame": 1787,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g93",
@@ -2057,7 +2057,7 @@
           "step": 82,
           "frame": 1788,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g92",
@@ -2069,7 +2069,7 @@
           "step": 83,
           "frame": 1789,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g91",
@@ -2081,7 +2081,7 @@
           "step": 84,
           "frame": 1790,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g94",
@@ -2093,7 +2093,7 @@
           "step": 85,
           "frame": 1791,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g80",
@@ -2105,7 +2105,7 @@
           "step": 86,
           "frame": 1792,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g83",
@@ -2117,7 +2117,7 @@
           "step": 87,
           "frame": 1793,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g103",
@@ -2129,7 +2129,7 @@
           "step": 88,
           "frame": 1794,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g104",
@@ -2141,7 +2141,7 @@
           "step": 89,
           "frame": 1795,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g105",
@@ -2153,7 +2153,7 @@
           "step": 90,
           "frame": 1796,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g106",
@@ -2165,7 +2165,7 @@
           "step": 91,
           "frame": 1797,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g64",
@@ -2177,7 +2177,7 @@
           "step": 92,
           "frame": 1798,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g65",
@@ -2189,7 +2189,7 @@
           "step": 93,
           "frame": 1799,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g66",
@@ -2201,7 +2201,7 @@
           "step": 94,
           "frame": 1800,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g67",
@@ -2213,7 +2213,7 @@
           "step": 95,
           "frame": 1801,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g68",
@@ -2225,7 +2225,7 @@
           "step": 96,
           "frame": 1802,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g69",
@@ -2237,7 +2237,7 @@
           "step": 97,
           "frame": 1803,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g70",
@@ -2249,7 +2249,7 @@
           "step": 98,
           "frame": 1804,
           "title": "Install sheet-pile support",
-          "description": "Install the next sheet-pile group around the excavation in the V69 sequence.",
+          "description": "Install the next sheet-pile group around the excavation in the demolition sequence.",
           "changes": [
             {
               "group": "g71",

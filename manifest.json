@@ -494,6 +494,11 @@
       "enabled": true,
       "deferred": false,
       "batches": 6
+    },
+    {
+      "id": "airport_entrance",
+      "group": "ground_equipment",
+      "url": "models/airport_entrance.glb"
     }
   ]
 }
