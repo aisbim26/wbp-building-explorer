@@ -4,7 +4,7 @@ REBUILDING WESTERN BYPASS AND ASSOCIATED A&A WORKS FOR ASIA AIRFREIGHT TERMINAL 
 
 [Open the website](https://aisbim26.github.io/wbp-building-explorer/)
 
-Choose one of the four phase buttons at the top: WBP demolition, foundation removal, new foundations, or building and footbridge construction. Drag **Sequence progress** to reveal each step and its explanation. The arrows move one step; **Start over** restores the selected phase.
+Choose one of the five phase buttons at the top: WBP demolition, foundation removal, new foundations, alternative foundations (Option 2), or new building and footbridge construction. Drag **Sequence progress** to reveal each step and its explanation. The arrows move one step; **Start over** restores the selected phase.
 
 Components appear or disappear in their original positions. The slider represents construction steps, rather than video running time.
 
@@ -15,7 +15,7 @@ Components appear or disappear in their original positions. The slider represent
 - **Roof off**, **Interior**, and the component checkboxes reveal individual parts.
 - **Below ground**, available in the foundation phases, reveals piles, caps and excavation support.
 - **Airport context** shows the surrounding buildings, adjoining tower panels and blue canopy, guardhouse and barriers. The context surface has a cutout matching the source soil footprint so it does not cover the foundation works.
-- **Reset view** returns the camera to the project; zoom out to explore the wider airport.
+- **Reset view** returns the camera to the project; the zoom and pan range stays near the work area, including when airport context is enabled.
 
 ## Local copy
 
@@ -28,3 +28,7 @@ Original Blender models are unchanged. Browser lighting and procedural material 
 Tap **Play** to advance through the selected phase in 10 seconds from start to finish. **Pause** holds the current step; resuming keeps the same pace. Playback from an intermediate step takes the remaining fraction of 10 seconds. Dragging the slider, using the step arrows, switching phase, or hiding the browser tab pauses playback.
 
 The three-line button to the left of the project title opens the viewing controls. Models load only when their phase is selected and remain available for switching back during the same visit. Meshopt compression reduces model download size while retaining vertex values and construction groups. The loading message shows download progress, followed by model preparation.
+
+## Alternative foundations
+
+Phase 04 presents the alternative foundation in six grouped steps based on the supplied animation. All sheet piles disappear together in the last step. Terrain is retained. Phase 05 presents the new building and footbridge. The AIS logo and blue interface identify the company; source model materials retain their original colours.

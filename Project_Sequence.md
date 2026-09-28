@@ -1,6 +1,8 @@
 # Project sequence
 
-## WBP demolition
+## 01 WBP demolition
+
+Remove the existing WBP building in the revised sequence. Drag the slider to explore; drag left to restore earlier stages.
 
 1. **Clear cargo and transport equipment** — Remove the indoor cargo and transport equipment before dismantling the building.
 2. **Remove external equipment** — Remove the designated external equipment; retain the protected T1 lift platforms.
@@ -51,7 +53,9 @@
 47. **Remove main beams and trusses — bay 8** — Remove this bay’s main beams and trusses in the revised order.
 48. **Remove columns — bay 8** — Remove this bay’s columns in the revised order.
 
-## Existing foundations
+## 02 Existing foundations
+
+Remove the existing foundations and install the excavation support. Drag the slider to explore; drag left to restore earlier stages.
 
 1. **Remove existing concrete covers** — Remove the existing covers to prepare for foundation works.
 2. **Install all sheet-pile support** — Install all sheet-pile support around the excavation together.
@@ -65,7 +69,9 @@
 10. **Remove foundation beams — zone 7** — Remove the next group of existing foundation beams.
 11. **Remove foundation beams — zone 8** — Remove the next group of existing foundation beams.
 
-## New foundations
+## 03 New foundations
+
+Construct the new foundations, retaining the stationary perimeter piles. Drag the slider to explore; drag left to restore earlier stages.
 
 1. **Install interior piles** — Install the next interior pile group in its final position. Perimeter piles remain in place.
 2. **Install interior piles** — Install the next interior pile group in its final position. Perimeter piles remain in place.
@@ -130,7 +136,20 @@
 61. **Construct ground-floor slab** — Construct the ground-floor slab over the completed foundation beams.
 62. **Complete concrete paving** — Complete the concrete paving around the new slab while retaining the site topography.
 
-## Building & footbridge
+## 04 New foundations · Option 2
+
+Explore the alternative foundation construction. Drag the slider or press Play to follow the six main steps.
+
+1. **Remove existing pile caps and piles** — Remove the existing pile caps and piles to prepare for the alternative foundation.
+2. **Place 75 mm blinding** — Place the concrete blinding layer beneath the new foundation.
+3. **Construct 700 mm foundation slab** — Construct the main foundation slab over the blinding.
+4. **Construct foundation walls** — Construct the reinforced concrete walls above the foundation slab.
+5. **Construct 200 mm surface slab** — Add the surface slab over the completed foundation walls.
+6. **Remove sheet piles and complete paving** — Remove all temporary sheet piles together and complete the surrounding paving. Retain the terrain.
+
+## 05 New building
+
+Build the new steel structure, envelope and footbridge. Drag the slider to explore; drag left to restore earlier stages.
 
 1. **Erect steel frame — bay 1** — Add the next bay of the main steel frame, progressing from left to right.
 2. **Erect steel frame — bay 2** — Add the next bay of the main steel frame, progressing from left to right.

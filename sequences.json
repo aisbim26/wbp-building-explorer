@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updated": "2026-09-25",
+  "updated": "2026-09-28",
   "phases": [
     {
       "id": "demolition",
@@ -3229,8 +3229,122 @@
       ]
     },
     {
+      "id": "foundation_option2",
+      "title": "New foundations · Option 2",
+      "source": "Foundation_Option2_14s_v01.blend",
+      "asset": "models/sequence_foundation_option2.glb",
+      "initial": {
+        "title": "New foundations · Option 2",
+        "description": "Explore the alternative foundation construction. Drag the slider or press Play to follow the six main steps."
+      },
+      "groups": {
+        "g0": {
+          "initial": true
+        },
+        "g1": {
+          "initial": true
+        },
+        "g2": {
+          "initial": true
+        },
+        "g3": {
+          "initial": false
+        },
+        "g4": {
+          "initial": false
+        },
+        "g5": {
+          "initial": false
+        },
+        "g6": {
+          "initial": false
+        },
+        "g7": {
+          "initial": false
+        }
+      },
+      "stages": [
+        {
+          "step": 1,
+          "frame": 60,
+          "title": "Remove existing pile caps and piles",
+          "description": "Remove the existing pile caps and piles to prepare for the alternative foundation.",
+          "changes": [
+            {
+              "group": "g1",
+              "visible": false
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "frame": 120,
+          "title": "Place 75 mm blinding",
+          "description": "Place the concrete blinding layer beneath the new foundation.",
+          "changes": [
+            {
+              "group": "g5",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "frame": 180,
+          "title": "Construct 700 mm foundation slab",
+          "description": "Construct the main foundation slab over the blinding.",
+          "changes": [
+            {
+              "group": "g3",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "frame": 300,
+          "title": "Construct foundation walls",
+          "description": "Construct the reinforced concrete walls above the foundation slab.",
+          "changes": [
+            {
+              "group": "g6",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "frame": 360,
+          "title": "Construct 200 mm surface slab",
+          "description": "Add the surface slab over the completed foundation walls.",
+          "changes": [
+            {
+              "group": "g4",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "frame": 420,
+          "title": "Remove sheet piles and complete paving",
+          "description": "Remove all temporary sheet piles together and complete the surrounding paving. Retain the terrain.",
+          "changes": [
+            {
+              "group": "g2",
+              "visible": false
+            },
+            {
+              "group": "g7",
+              "visible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "building",
-      "title": "Building & footbridge",
+      "title": "New building",
       "version": "V04",
       "source": "New_Building_Construction_28s_v04.blend",
       "asset": "models/sequence_building.glb",
