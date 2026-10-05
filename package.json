@@ -1,1 +1,11 @@
-{"name":"aat-v34-threejs-viewer","version":"1.0.0","private":true,"type":"module","scripts":{"start":"node server.mjs","check":"node --check main.js && node --check server.mjs"},"description":"Self-contained Three.js r180 viewer with vendored dependencies. No installation needed."}
+{
+  "name": "aat-western-bypass-project-journey",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check main.js && node --check app/viewer.js && node --check app/project.js && node --check server.mjs"
+  },
+  "description": "Self-contained Three.js r180 viewer with vendored dependencies. No installation needed."
+}

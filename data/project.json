@@ -1,0 +1,6389 @@
+{
+  "schemaVersion": 1,
+  "id": "aat-western-bypass",
+  "title": "REBUILDING WESTERN BYPASS AND ASSOCIATED A&A WORKS FOR ASIA AIRFREIGHT TERMINAL CO LTD (AAT)",
+  "updated": "2026-10-05",
+  "origin": {
+    "crs": "EPSG:2326",
+    "easting": 809874,
+    "northing": 817662,
+    "height": 0,
+    "verticalDatum": "Source height retained; vertical datum unconfirmed"
+  },
+  "coordinates": {
+    "units": "metres",
+    "blender": "X east, Y north, Z up; already local",
+    "three": "X east, Y up, Z south",
+    "toHK1980": "E = x + origin.easting; N = origin.northing - z; H = y + origin.height"
+  },
+  "elementIndex": "data/model-index.json",
+  "totalSteps": 173,
+  "chapters": [
+    {
+      "id": "demolition",
+      "title": "WBP demolition",
+      "shortTitle": "Demolition",
+      "subtitle": "Make way for what’s next.",
+      "phaseIds": [
+        "demolition"
+      ],
+      "start": 0,
+      "length": 48,
+      "end": 48
+    },
+    {
+      "id": "removal",
+      "title": "Foundation removal",
+      "shortTitle": "Foundation removal",
+      "subtitle": "Prepare the ground.",
+      "phaseIds": [
+        "removal"
+      ],
+      "start": 49,
+      "length": 11,
+      "end": 60
+    },
+    {
+      "id": "foundations",
+      "title": "New foundations",
+      "shortTitle": "New foundations",
+      "subtitle": "Two approaches. One clear comparison.",
+      "phaseIds": [
+        "foundation",
+        "foundation_option2"
+      ],
+      "comparison": {
+        "mode": "normalized-progress",
+        "note": "Linked views · Progress shows each option’s sequence, not elapsed construction time.",
+        "options": [
+          {
+            "phaseId": "foundation",
+            "label": "Option 1",
+            "title": "Re-use existing piles",
+            "description": "Demolition and Construction sequences with Re-use existing piles and additional piles"
+          },
+          {
+            "phaseId": "foundation_option2",
+            "label": "Option 2",
+            "title": "Cellular Raft Foundation",
+            "description": "Demolition and construction sequences with Cellular Raft Foundation"
+          }
+        ]
+      },
+      "start": 61,
+      "length": 62,
+      "end": 123
+    },
+    {
+      "id": "building",
+      "title": "New building",
+      "shortTitle": "New building",
+      "subtitle": "Bring the new structure to life.",
+      "phaseIds": [
+        "building"
+      ],
+      "start": 124,
+      "length": 49,
+      "end": 173
+    }
+  ],
+  "phases": [
+    {
+      "id": "demolition",
+      "title": "WBP demolition",
+      "version": "V69",
+      "source": "WBP_Upper_Revised_v69.blend",
+      "asset": "models/sequence_demolition.glb",
+      "initial": {
+        "title": "WBP demolition",
+        "description": "Remove the existing WBP building in the revised sequence. Drag the slider to explore; drag left to restore earlier stages."
+      },
+      "groups": {
+        "g0": {
+          "initial": true,
+          "id": "demolition:g0",
+          "categories": [
+            "canopy"
+          ],
+          "elementCount": 175
+        },
+        "g1": {
+          "initial": true,
+          "id": "demolition:g1",
+          "categories": [
+            "facade",
+            "interior",
+            "roof",
+            "canopy"
+          ],
+          "elementCount": 237
+        },
+        "g2": {
+          "initial": true,
+          "id": "demolition:g2",
+          "categories": [
+            "facade",
+            "interior",
+            "roof",
+            "canopy"
+          ],
+          "elementCount": 539
+        },
+        "g3": {
+          "initial": true,
+          "id": "demolition:g3",
+          "categories": [
+            "facade",
+            "interior",
+            "roof"
+          ],
+          "elementCount": 326
+        },
+        "g4": {
+          "initial": true,
+          "id": "demolition:g4",
+          "categories": [
+            "facade",
+            "interior",
+            "roof"
+          ],
+          "elementCount": 428
+        },
+        "g5": {
+          "initial": true,
+          "id": "demolition:g5",
+          "categories": [
+            "facade",
+            "interior",
+            "roof"
+          ],
+          "elementCount": 345
+        },
+        "g6": {
+          "initial": true,
+          "id": "demolition:g6",
+          "categories": [
+            "facade",
+            "interior",
+            "roof",
+            "t1_context"
+          ],
+          "elementCount": 489
+        },
+        "g7": {
+          "initial": true,
+          "id": "demolition:g7",
+          "categories": [
+            "facade",
+            "interior",
+            "roof",
+            "canopy"
+          ],
+          "elementCount": 152
+        },
+        "g8": {
+          "initial": true,
+          "id": "demolition:g8",
+          "categories": [
+            "facade",
+            "interior",
+            "roof"
+          ],
+          "elementCount": 136
+        },
+        "g9": {
+          "initial": true,
+          "id": "demolition:g9",
+          "categories": [
+            "canopy",
+            "interior"
+          ],
+          "elementCount": 33
+        },
+        "g10": {
+          "initial": true,
+          "id": "demolition:g10",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 8
+        },
+        "g11": {
+          "initial": true,
+          "id": "demolition:g11",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 4
+        },
+        "g12": {
+          "initial": true,
+          "id": "demolition:g12",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 2
+        },
+        "g13": {
+          "initial": true,
+          "id": "demolition:g13",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 4
+        },
+        "g14": {
+          "initial": true,
+          "id": "demolition:g14",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 4
+        },
+        "g15": {
+          "initial": true,
+          "id": "demolition:g15",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 4
+        },
+        "g16": {
+          "initial": true,
+          "id": "demolition:g16",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 4
+        },
+        "g17": {
+          "initial": true,
+          "id": "demolition:g17",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 4
+        },
+        "g18": {
+          "initial": true,
+          "id": "demolition:g18",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 52
+        },
+        "g19": {
+          "initial": true,
+          "id": "demolition:g19",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 29
+        },
+        "g20": {
+          "initial": true,
+          "id": "demolition:g20",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 46
+        },
+        "g21": {
+          "initial": true,
+          "id": "demolition:g21",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 41
+        },
+        "g22": {
+          "initial": true,
+          "id": "demolition:g22",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 38
+        },
+        "g23": {
+          "initial": true,
+          "id": "demolition:g23",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 46
+        },
+        "g24": {
+          "initial": true,
+          "id": "demolition:g24",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 8
+        },
+        "g25": {
+          "initial": true,
+          "id": "demolition:g25",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 7
+        },
+        "g26": {
+          "initial": true,
+          "id": "demolition:g26",
+          "categories": [
+            "interior",
+            "structure"
+          ],
+          "elementCount": 55
+        },
+        "g27": {
+          "initial": true,
+          "id": "demolition:g27",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 1
+        },
+        "g28": {
+          "initial": true,
+          "id": "demolition:g28",
+          "categories": [
+            "interior",
+            "structure"
+          ],
+          "elementCount": 42
+        },
+        "g29": {
+          "initial": true,
+          "id": "demolition:g29",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 23
+        },
+        "g30": {
+          "initial": true,
+          "id": "demolition:g30",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 8
+        },
+        "g31": {
+          "initial": true,
+          "id": "demolition:g31",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 6
+        },
+        "g32": {
+          "initial": true,
+          "id": "demolition:g32",
+          "categories": [
+            "loading",
+            "foundation",
+            "structure",
+            "ground",
+            "site_extras",
+            "interior",
+            "canopy"
+          ],
+          "elementCount": 892
+        },
+        "g33": {
+          "initial": true,
+          "id": "demolition:g33",
+          "categories": [
+            "interior",
+            "canopy"
+          ],
+          "elementCount": 203
+        },
+        "g34": {
+          "initial": true,
+          "id": "demolition:g34",
+          "categories": [
+            "interior",
+            "canopy"
+          ],
+          "elementCount": 706
+        },
+        "g35": {
+          "initial": true,
+          "id": "demolition:g35",
+          "categories": [
+            "interior",
+            "structure"
+          ],
+          "elementCount": 105
+        },
+        "g36": {
+          "initial": true,
+          "id": "demolition:g36",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 32
+        },
+        "g37": {
+          "initial": true,
+          "id": "demolition:g37",
+          "categories": [
+            "facade",
+            "interior"
+          ],
+          "elementCount": 25
+        },
+        "g38": {
+          "initial": true,
+          "id": "demolition:g38",
+          "categories": [
+            "canopy"
+          ],
+          "elementCount": 121
+        },
+        "g39": {
+          "initial": true,
+          "id": "demolition:g39",
+          "categories": [
+            "t1_context"
+          ],
+          "elementCount": 252
+        },
+        "g40": {
+          "initial": true,
+          "id": "demolition:g40",
+          "categories": [
+            "t1_context"
+          ],
+          "elementCount": 272
+        },
+        "g41": {
+          "initial": true,
+          "id": "demolition:g41",
+          "categories": [
+            "t1_context"
+          ],
+          "elementCount": 2
+        },
+        "g42": {
+          "initial": true,
+          "id": "demolition:g42",
+          "categories": [
+            "t1_context"
+          ],
+          "elementCount": 2
+        },
+        "g43": {
+          "initial": true,
+          "id": "demolition:g43",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 8
+        },
+        "g44": {
+          "initial": false,
+          "id": "demolition:g44",
+          "categories": [
+            "temporary"
+          ],
+          "elementCount": 70
+        },
+        "g45": {
+          "initial": true,
+          "id": "demolition:g45",
+          "categories": [
+            "temporary"
+          ],
+          "elementCount": 506
+        },
+        "g46": {
+          "initial": true,
+          "id": "demolition:g46",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 1
+        },
+        "g47": {
+          "initial": true,
+          "id": "demolition:g47",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 1
+        },
+        "g48": {
+          "initial": false,
+          "id": "demolition:g48",
+          "categories": [
+            "temporary"
+          ],
+          "elementCount": 21
+        }
+      },
+      "stages": [
+        {
+          "step": 1,
+          "frame": 145,
+          "title": "Clear cargo and transport equipment",
+          "description": "Remove the indoor cargo and transport equipment before dismantling the building.",
+          "changes": [
+            {
+              "group": "g34",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-1",
+          "sourceFrame": 145
+        },
+        {
+          "step": 2,
+          "frame": 172,
+          "title": "Remove external equipment",
+          "description": "Remove the designated external equipment; retain the protected T1 lift platforms.",
+          "changes": [
+            {
+              "group": "g33",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-2",
+          "sourceFrame": 172
+        },
+        {
+          "step": 3,
+          "frame": 175,
+          "title": "Remove grating, stairs and ladders",
+          "description": "Remove the access grating, stairs and ladders.",
+          "changes": [
+            {
+              "group": "g36",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-3",
+          "sourceFrame": 175
+        },
+        {
+          "step": 4,
+          "frame": 199,
+          "title": "Remove perimeter beams",
+          "description": "Remove the early perimeter beam group in the revised sequence.",
+          "changes": [
+            {
+              "group": "g43",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-4",
+          "sourceFrame": 199
+        },
+        {
+          "step": 5,
+          "frame": 208,
+          "title": "Remove suspended-room rails and ladders",
+          "description": "Clear the rails and access ladders around the suspended room.",
+          "changes": [
+            {
+              "group": "g35",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-5",
+          "sourceFrame": 208
+        },
+        {
+          "step": 6,
+          "frame": 238,
+          "title": "Remove suspended-room enclosure",
+          "description": "Remove the enclosure panels around the suspended room.",
+          "changes": [
+            {
+              "group": "g37",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-6",
+          "sourceFrame": 238
+        },
+        {
+          "step": 7,
+          "frame": 268,
+          "title": "Remove suspended slab and supports",
+          "description": "Remove the suspended-room slab and its local supports.",
+          "changes": [
+            {
+              "group": "g26",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-7",
+          "sourceFrame": 268
+        },
+        {
+          "step": 8,
+          "frame": 271,
+          "title": "Remove original entrance fencing",
+          "description": "Remove the original entrance fence before the temporary hoarding is installed.",
+          "changes": [
+            {
+              "group": "g45",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-8",
+          "sourceFrame": 271
+        },
+        {
+          "step": 9,
+          "frame": 355,
+          "title": "Install site hoarding",
+          "description": "Add the revised plywood site hoarding in its source-model position.",
+          "changes": [
+            {
+              "group": "g48",
+              "visible": true
+            }
+          ],
+          "id": "demolition:step-9",
+          "sourceFrame": 355
+        },
+        {
+          "step": 10,
+          "frame": 391,
+          "title": "Remove canopy A deck and ties",
+          "description": "Remove the canopy deck and the five designated tie members.",
+          "changes": [
+            {
+              "group": "g0",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-10",
+          "sourceFrame": 391
+        },
+        {
+          "step": 11,
+          "frame": 417,
+          "title": "Remove canopy A steelwork",
+          "description": "Remove the remaining steelwork of canopy A.",
+          "changes": [
+            {
+              "group": "g27",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-11",
+          "sourceFrame": 417
+        },
+        {
+          "step": 12,
+          "frame": 457,
+          "title": "Remove canopy B covering",
+          "description": "Remove the covering of the second canopy.",
+          "changes": [
+            {
+              "group": "g38",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-12",
+          "sourceFrame": 457
+        },
+        {
+          "step": 13,
+          "frame": 505,
+          "title": "Remove canopy B steelwork and ties",
+          "description": "Remove the remaining steelwork and five designated tie members.",
+          "changes": [
+            {
+              "group": "g9",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-13",
+          "sourceFrame": 505
+        },
+        {
+          "step": 14,
+          "frame": 538,
+          "title": "Remove roof and walls — bay 1",
+          "description": "Remove the roof covering and external envelope of this bay.",
+          "changes": [
+            {
+              "group": "g6",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-14",
+          "sourceFrame": 538
+        },
+        {
+          "step": 15,
+          "frame": 568,
+          "title": "Remove roof and walls — bay 2",
+          "description": "Remove the roof covering and external envelope of this bay.",
+          "changes": [
+            {
+              "group": "g5",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-15",
+          "sourceFrame": 568
+        },
+        {
+          "step": 16,
+          "frame": 598,
+          "title": "Remove roof and walls — bay 3",
+          "description": "Remove the roof covering and external envelope of this bay.",
+          "changes": [
+            {
+              "group": "g4",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-16",
+          "sourceFrame": 598
+        },
+        {
+          "step": 17,
+          "frame": 628,
+          "title": "Remove roof and walls — bay 4",
+          "description": "Remove the roof covering and external envelope of this bay.",
+          "changes": [
+            {
+              "group": "g3",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-17",
+          "sourceFrame": 628
+        },
+        {
+          "step": 18,
+          "frame": 652,
+          "title": "Remove secondary members — bay 1",
+          "description": "Remove this bay’s secondary members in the revised order.",
+          "changes": [
+            {
+              "group": "g24",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-18",
+          "sourceFrame": 652
+        },
+        {
+          "step": 19,
+          "frame": 683,
+          "title": "Remove main beams and trusses — bay 1",
+          "description": "Remove this bay’s main beams and trusses in the revised order.",
+          "changes": [
+            {
+              "group": "g20",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-19",
+          "sourceFrame": 683
+        },
+        {
+          "step": 20,
+          "frame": 703,
+          "title": "Remove columns — bay 1",
+          "description": "Remove this bay’s columns in the revised order.",
+          "changes": [
+            {
+              "group": "g17",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-20",
+          "sourceFrame": 703
+        },
+        {
+          "step": 21,
+          "frame": 759,
+          "title": "Remove main beams and trusses — bay 2",
+          "description": "Remove this bay’s main beams and trusses in the revised order.",
+          "changes": [
+            {
+              "group": "g23",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-21",
+          "sourceFrame": 759
+        },
+        {
+          "step": 22,
+          "frame": 778,
+          "title": "Remove columns — bay 2",
+          "description": "Remove this bay’s columns in the revised order.",
+          "changes": [
+            {
+              "group": "g16",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-22",
+          "sourceFrame": 778
+        },
+        {
+          "step": 23,
+          "frame": 802,
+          "title": "Remove secondary members — bay 3",
+          "description": "Remove this bay’s secondary members in the revised order.",
+          "changes": [
+            {
+              "group": "g30",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-23",
+          "sourceFrame": 802
+        },
+        {
+          "step": 24,
+          "frame": 833,
+          "title": "Remove main beams and trusses — bay 3",
+          "description": "Remove this bay’s main beams and trusses in the revised order.",
+          "changes": [
+            {
+              "group": "g22",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-24",
+          "sourceFrame": 833
+        },
+        {
+          "step": 25,
+          "frame": 853,
+          "title": "Remove columns — bay 3",
+          "description": "Remove this bay’s columns in the revised order.",
+          "changes": [
+            {
+              "group": "g15",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-25",
+          "sourceFrame": 853
+        },
+        {
+          "step": 26,
+          "frame": 877,
+          "title": "Remove secondary members — bay 4",
+          "description": "Remove this bay’s secondary members in the revised order.",
+          "changes": [
+            {
+              "group": "g31",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-26",
+          "sourceFrame": 877
+        },
+        {
+          "step": 27,
+          "frame": 909,
+          "title": "Remove main beams and trusses — bay 4",
+          "description": "Remove this bay’s main beams and trusses in the revised order.",
+          "changes": [
+            {
+              "group": "g21",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-27",
+          "sourceFrame": 909
+        },
+        {
+          "step": 28,
+          "frame": 928,
+          "title": "Remove columns — bay 4",
+          "description": "Remove this bay’s columns in the revised order.",
+          "changes": [
+            {
+              "group": "g14",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-28",
+          "sourceFrame": 928
+        },
+        {
+          "step": 29,
+          "frame": 989,
+          "title": "Install temporary protection platform",
+          "description": "Add the temporary steel frame, solid deck, footings and counterweights.",
+          "changes": [
+            {
+              "group": "g44",
+              "visible": true
+            }
+          ],
+          "id": "demolition:step-29",
+          "sourceFrame": 989
+        },
+        {
+          "step": 30,
+          "frame": 1168,
+          "title": "Remove T1 roof and frame — half 1",
+          "description": "Follow the revised T1 canopy dismantling sequence while retaining the lift equipment.",
+          "changes": [
+            {
+              "group": "g39",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-30",
+          "sourceFrame": 1168
+        },
+        {
+          "step": 31,
+          "frame": 1169,
+          "title": "Remove T1 columns — half 1",
+          "description": "Follow the revised T1 canopy dismantling sequence while retaining the lift equipment.",
+          "changes": [
+            {
+              "group": "g41",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-31",
+          "sourceFrame": 1169
+        },
+        {
+          "step": 32,
+          "frame": 1258,
+          "title": "Remove T1 roof and frame — half 2",
+          "description": "Follow the revised T1 canopy dismantling sequence while retaining the lift equipment.",
+          "changes": [
+            {
+              "group": "g40",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-32",
+          "sourceFrame": 1258
+        },
+        {
+          "step": 33,
+          "frame": 1259,
+          "title": "Remove T1 columns — half 2",
+          "description": "Follow the revised T1 canopy dismantling sequence while retaining the lift equipment.",
+          "changes": [
+            {
+              "group": "g42",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-33",
+          "sourceFrame": 1259
+        },
+        {
+          "step": 34,
+          "frame": 1288,
+          "title": "Remove roof and walls — bay 5",
+          "description": "Remove the roof covering and external envelope of this bay.",
+          "changes": [
+            {
+              "group": "g2",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-34",
+          "sourceFrame": 1288
+        },
+        {
+          "step": 35,
+          "frame": 1318,
+          "title": "Remove roof and walls — bay 6",
+          "description": "Remove the roof covering and external envelope of this bay.",
+          "changes": [
+            {
+              "group": "g1",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-35",
+          "sourceFrame": 1318
+        },
+        {
+          "step": 36,
+          "frame": 1348,
+          "title": "Remove roof and walls — bay 7",
+          "description": "Remove the roof covering and external envelope of this bay.",
+          "changes": [
+            {
+              "group": "g8",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-36",
+          "sourceFrame": 1348
+        },
+        {
+          "step": 37,
+          "frame": 1378,
+          "title": "Remove roof and walls — bay 8",
+          "description": "Remove the roof covering and external envelope of this bay.",
+          "changes": [
+            {
+              "group": "g7",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-37",
+          "sourceFrame": 1378
+        },
+        {
+          "step": 38,
+          "frame": 1391,
+          "title": "Remove secondary members — bay 5",
+          "description": "Remove this bay’s secondary members in the revised order.",
+          "changes": [
+            {
+              "group": "g47",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-38",
+          "sourceFrame": 1391
+        },
+        {
+          "step": 39,
+          "frame": 1431,
+          "title": "Remove main beams and trusses — bay 5",
+          "description": "Remove this bay’s main beams and trusses in the revised order.",
+          "changes": [
+            {
+              "group": "g19",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-39",
+          "sourceFrame": 1431
+        },
+        {
+          "step": 40,
+          "frame": 1439,
+          "title": "Remove columns — bay 5",
+          "description": "Remove this bay’s columns in the revised order.",
+          "changes": [
+            {
+              "group": "g13",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-40",
+          "sourceFrame": 1439
+        },
+        {
+          "step": 41,
+          "frame": 1451,
+          "title": "Remove secondary members — bay 6",
+          "description": "Remove this bay’s secondary members in the revised order.",
+          "changes": [
+            {
+              "group": "g46",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-41",
+          "sourceFrame": 1451
+        },
+        {
+          "step": 42,
+          "frame": 1491,
+          "title": "Remove main beams and trusses — bay 6",
+          "description": "Remove this bay’s main beams and trusses in the revised order.",
+          "changes": [
+            {
+              "group": "g29",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-42",
+          "sourceFrame": 1491
+        },
+        {
+          "step": 43,
+          "frame": 1500,
+          "title": "Remove columns — bay 6",
+          "description": "Remove this bay’s columns in the revised order.",
+          "changes": [
+            {
+              "group": "g12",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-43",
+          "sourceFrame": 1500
+        },
+        {
+          "step": 44,
+          "frame": 1551,
+          "title": "Remove main beams and trusses — bay 7",
+          "description": "Remove this bay’s main beams and trusses in the revised order.",
+          "changes": [
+            {
+              "group": "g28",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-44",
+          "sourceFrame": 1551
+        },
+        {
+          "step": 45,
+          "frame": 1559,
+          "title": "Remove columns — bay 7",
+          "description": "Remove this bay’s columns in the revised order.",
+          "changes": [
+            {
+              "group": "g11",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-45",
+          "sourceFrame": 1559
+        },
+        {
+          "step": 46,
+          "frame": 1571,
+          "title": "Remove secondary members — bay 8",
+          "description": "Remove this bay’s secondary members in the revised order.",
+          "changes": [
+            {
+              "group": "g25",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-46",
+          "sourceFrame": 1571
+        },
+        {
+          "step": 47,
+          "frame": 1611,
+          "title": "Remove main beams and trusses — bay 8",
+          "description": "Remove this bay’s main beams and trusses in the revised order.",
+          "changes": [
+            {
+              "group": "g18",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-47",
+          "sourceFrame": 1611
+        },
+        {
+          "step": 48,
+          "frame": 1619,
+          "title": "Remove columns — bay 8",
+          "description": "Remove this bay’s columns in the revised order.",
+          "changes": [
+            {
+              "group": "g10",
+              "visible": false
+            }
+          ],
+          "id": "demolition:step-48",
+          "sourceFrame": 1619
+        }
+      ],
+      "sourceFrames": [
+        1,
+        1680
+      ],
+      "assetVersion": "effca4fa09e2",
+      "bytes": 25793436
+    },
+    {
+      "id": "removal",
+      "title": "Existing foundations",
+      "version": "V69",
+      "source": "WBP_Foundation_Revised_v69.blend",
+      "asset": "models/sequence_removal.glb",
+      "initial": {
+        "title": "Existing foundations",
+        "description": "Remove the existing foundations and install the excavation support. Drag the slider to explore; drag left to restore earlier stages."
+      },
+      "groups": {
+        "g0": {
+          "initial": true,
+          "id": "removal:g0",
+          "categories": [
+            "loading",
+            "foundation",
+            "ground",
+            "site_extras",
+            "interior",
+            "canopy",
+            "temporary"
+          ],
+          "elementCount": 871
+        },
+        "g1": {
+          "initial": true,
+          "id": "removal:g1",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 17
+        },
+        "g2": {
+          "initial": true,
+          "id": "removal:g2",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 17
+        },
+        "g3": {
+          "initial": true,
+          "id": "removal:g3",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 15
+        },
+        "g4": {
+          "initial": true,
+          "id": "removal:g4",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 9
+        },
+        "g5": {
+          "initial": true,
+          "id": "removal:g5",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 15
+        },
+        "g6": {
+          "initial": true,
+          "id": "removal:g6",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 13
+        },
+        "g7": {
+          "initial": true,
+          "id": "removal:g7",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 10
+        },
+        "g8": {
+          "initial": true,
+          "id": "removal:g8",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 9
+        },
+        "g9": {
+          "initial": true,
+          "id": "removal:g9",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 3
+        },
+        "g10": {
+          "initial": false,
+          "id": "removal:g10",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g11": {
+          "initial": false,
+          "id": "removal:g11",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g12": {
+          "initial": false,
+          "id": "removal:g12",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g13": {
+          "initial": false,
+          "id": "removal:g13",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g14": {
+          "initial": false,
+          "id": "removal:g14",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g15": {
+          "initial": false,
+          "id": "removal:g15",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g16": {
+          "initial": false,
+          "id": "removal:g16",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 6
+        },
+        "g17": {
+          "initial": false,
+          "id": "removal:g17",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g18": {
+          "initial": false,
+          "id": "removal:g18",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g19": {
+          "initial": false,
+          "id": "removal:g19",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g20": {
+          "initial": false,
+          "id": "removal:g20",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g21": {
+          "initial": false,
+          "id": "removal:g21",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g22": {
+          "initial": false,
+          "id": "removal:g22",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g23": {
+          "initial": false,
+          "id": "removal:g23",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g24": {
+          "initial": false,
+          "id": "removal:g24",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g25": {
+          "initial": false,
+          "id": "removal:g25",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 6
+        },
+        "g26": {
+          "initial": false,
+          "id": "removal:g26",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g27": {
+          "initial": false,
+          "id": "removal:g27",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g28": {
+          "initial": false,
+          "id": "removal:g28",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g29": {
+          "initial": false,
+          "id": "removal:g29",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g30": {
+          "initial": false,
+          "id": "removal:g30",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g31": {
+          "initial": false,
+          "id": "removal:g31",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g32": {
+          "initial": false,
+          "id": "removal:g32",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 6
+        },
+        "g33": {
+          "initial": false,
+          "id": "removal:g33",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g34": {
+          "initial": false,
+          "id": "removal:g34",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g35": {
+          "initial": false,
+          "id": "removal:g35",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g36": {
+          "initial": false,
+          "id": "removal:g36",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g37": {
+          "initial": false,
+          "id": "removal:g37",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g38": {
+          "initial": false,
+          "id": "removal:g38",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 6
+        },
+        "g39": {
+          "initial": false,
+          "id": "removal:g39",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g40": {
+          "initial": false,
+          "id": "removal:g40",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g41": {
+          "initial": false,
+          "id": "removal:g41",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g42": {
+          "initial": false,
+          "id": "removal:g42",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g43": {
+          "initial": false,
+          "id": "removal:g43",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g44": {
+          "initial": false,
+          "id": "removal:g44",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 6
+        },
+        "g45": {
+          "initial": false,
+          "id": "removal:g45",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g46": {
+          "initial": false,
+          "id": "removal:g46",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g47": {
+          "initial": false,
+          "id": "removal:g47",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g48": {
+          "initial": false,
+          "id": "removal:g48",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g49": {
+          "initial": false,
+          "id": "removal:g49",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g50": {
+          "initial": false,
+          "id": "removal:g50",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g51": {
+          "initial": false,
+          "id": "removal:g51",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 6
+        },
+        "g52": {
+          "initial": false,
+          "id": "removal:g52",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g53": {
+          "initial": false,
+          "id": "removal:g53",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 6
+        },
+        "g54": {
+          "initial": false,
+          "id": "removal:g54",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g55": {
+          "initial": false,
+          "id": "removal:g55",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g56": {
+          "initial": false,
+          "id": "removal:g56",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g57": {
+          "initial": false,
+          "id": "removal:g57",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g58": {
+          "initial": false,
+          "id": "removal:g58",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g59": {
+          "initial": false,
+          "id": "removal:g59",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 6
+        },
+        "g60": {
+          "initial": false,
+          "id": "removal:g60",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g61": {
+          "initial": false,
+          "id": "removal:g61",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g62": {
+          "initial": false,
+          "id": "removal:g62",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g63": {
+          "initial": false,
+          "id": "removal:g63",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g64": {
+          "initial": false,
+          "id": "removal:g64",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g65": {
+          "initial": false,
+          "id": "removal:g65",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g66": {
+          "initial": false,
+          "id": "removal:g66",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g67": {
+          "initial": false,
+          "id": "removal:g67",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g68": {
+          "initial": false,
+          "id": "removal:g68",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 6
+        },
+        "g69": {
+          "initial": false,
+          "id": "removal:g69",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g70": {
+          "initial": false,
+          "id": "removal:g70",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g71": {
+          "initial": false,
+          "id": "removal:g71",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g72": {
+          "initial": false,
+          "id": "removal:g72",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g73": {
+          "initial": false,
+          "id": "removal:g73",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g74": {
+          "initial": false,
+          "id": "removal:g74",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g75": {
+          "initial": false,
+          "id": "removal:g75",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 6
+        },
+        "g76": {
+          "initial": false,
+          "id": "removal:g76",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g77": {
+          "initial": false,
+          "id": "removal:g77",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g78": {
+          "initial": false,
+          "id": "removal:g78",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g79": {
+          "initial": false,
+          "id": "removal:g79",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g80": {
+          "initial": false,
+          "id": "removal:g80",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g81": {
+          "initial": false,
+          "id": "removal:g81",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g82": {
+          "initial": false,
+          "id": "removal:g82",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g83": {
+          "initial": false,
+          "id": "removal:g83",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g84": {
+          "initial": false,
+          "id": "removal:g84",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 6
+        },
+        "g85": {
+          "initial": false,
+          "id": "removal:g85",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g86": {
+          "initial": false,
+          "id": "removal:g86",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g87": {
+          "initial": false,
+          "id": "removal:g87",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g88": {
+          "initial": false,
+          "id": "removal:g88",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g89": {
+          "initial": false,
+          "id": "removal:g89",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g90": {
+          "initial": false,
+          "id": "removal:g90",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 6
+        },
+        "g91": {
+          "initial": false,
+          "id": "removal:g91",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g92": {
+          "initial": false,
+          "id": "removal:g92",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 6
+        },
+        "g93": {
+          "initial": false,
+          "id": "removal:g93",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g94": {
+          "initial": false,
+          "id": "removal:g94",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g95": {
+          "initial": false,
+          "id": "removal:g95",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g96": {
+          "initial": false,
+          "id": "removal:g96",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g97": {
+          "initial": false,
+          "id": "removal:g97",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g98": {
+          "initial": false,
+          "id": "removal:g98",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g99": {
+          "initial": false,
+          "id": "removal:g99",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 6
+        },
+        "g100": {
+          "initial": false,
+          "id": "removal:g100",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g101": {
+          "initial": false,
+          "id": "removal:g101",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g102": {
+          "initial": false,
+          "id": "removal:g102",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g103": {
+          "initial": false,
+          "id": "removal:g103",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g104": {
+          "initial": false,
+          "id": "removal:g104",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 6
+        },
+        "g105": {
+          "initial": false,
+          "id": "removal:g105",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g106": {
+          "initial": false,
+          "id": "removal:g106",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g107": {
+          "initial": true,
+          "id": "removal:g107",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 6
+        }
+      },
+      "stages": [
+        {
+          "step": 1,
+          "frame": 1705,
+          "title": "Remove existing concrete covers",
+          "description": "Remove the existing covers to prepare for foundation works.",
+          "changes": [
+            {
+              "group": "g107",
+              "visible": false
+            }
+          ],
+          "id": "removal:step-1",
+          "sourceFrame": 1705
+        },
+        {
+          "step": 2,
+          "frame": 1708,
+          "title": "Install all sheet-pile support",
+          "description": "Install all sheet-pile support around the excavation together.",
+          "changes": [
+            {
+              "group": "g72",
+              "visible": true
+            },
+            {
+              "group": "g73",
+              "visible": true
+            },
+            {
+              "group": "g74",
+              "visible": true
+            },
+            {
+              "group": "g75",
+              "visible": true
+            },
+            {
+              "group": "g76",
+              "visible": true
+            },
+            {
+              "group": "g77",
+              "visible": true
+            },
+            {
+              "group": "g78",
+              "visible": true
+            },
+            {
+              "group": "g79",
+              "visible": true
+            },
+            {
+              "group": "g81",
+              "visible": true
+            },
+            {
+              "group": "g82",
+              "visible": true
+            },
+            {
+              "group": "g84",
+              "visible": true
+            },
+            {
+              "group": "g85",
+              "visible": true
+            },
+            {
+              "group": "g86",
+              "visible": true
+            },
+            {
+              "group": "g87",
+              "visible": true
+            },
+            {
+              "group": "g88",
+              "visible": true
+            },
+            {
+              "group": "g89",
+              "visible": true
+            },
+            {
+              "group": "g90",
+              "visible": true
+            },
+            {
+              "group": "g54",
+              "visible": true
+            },
+            {
+              "group": "g55",
+              "visible": true
+            },
+            {
+              "group": "g56",
+              "visible": true
+            },
+            {
+              "group": "g57",
+              "visible": true
+            },
+            {
+              "group": "g58",
+              "visible": true
+            },
+            {
+              "group": "g59",
+              "visible": true
+            },
+            {
+              "group": "g60",
+              "visible": true
+            },
+            {
+              "group": "g61",
+              "visible": true
+            },
+            {
+              "group": "g62",
+              "visible": true
+            },
+            {
+              "group": "g63",
+              "visible": true
+            },
+            {
+              "group": "g10",
+              "visible": true
+            },
+            {
+              "group": "g52",
+              "visible": true
+            },
+            {
+              "group": "g53",
+              "visible": true
+            },
+            {
+              "group": "g20",
+              "visible": true
+            },
+            {
+              "group": "g21",
+              "visible": true
+            },
+            {
+              "group": "g22",
+              "visible": true
+            },
+            {
+              "group": "g23",
+              "visible": true
+            },
+            {
+              "group": "g24",
+              "visible": true
+            },
+            {
+              "group": "g25",
+              "visible": true
+            },
+            {
+              "group": "g26",
+              "visible": true
+            },
+            {
+              "group": "g27",
+              "visible": true
+            },
+            {
+              "group": "g28",
+              "visible": true
+            },
+            {
+              "group": "g29",
+              "visible": true
+            },
+            {
+              "group": "g30",
+              "visible": true
+            },
+            {
+              "group": "g31",
+              "visible": true
+            },
+            {
+              "group": "g32",
+              "visible": true
+            },
+            {
+              "group": "g33",
+              "visible": true
+            },
+            {
+              "group": "g34",
+              "visible": true
+            },
+            {
+              "group": "g35",
+              "visible": true
+            },
+            {
+              "group": "g36",
+              "visible": true
+            },
+            {
+              "group": "g37",
+              "visible": true
+            },
+            {
+              "group": "g38",
+              "visible": true
+            },
+            {
+              "group": "g39",
+              "visible": true
+            },
+            {
+              "group": "g40",
+              "visible": true
+            },
+            {
+              "group": "g41",
+              "visible": true
+            },
+            {
+              "group": "g42",
+              "visible": true
+            },
+            {
+              "group": "g43",
+              "visible": true
+            },
+            {
+              "group": "g44",
+              "visible": true
+            },
+            {
+              "group": "g45",
+              "visible": true
+            },
+            {
+              "group": "g46",
+              "visible": true
+            },
+            {
+              "group": "g47",
+              "visible": true
+            },
+            {
+              "group": "g48",
+              "visible": true
+            },
+            {
+              "group": "g49",
+              "visible": true
+            },
+            {
+              "group": "g50",
+              "visible": true
+            },
+            {
+              "group": "g51",
+              "visible": true
+            },
+            {
+              "group": "g11",
+              "visible": true
+            },
+            {
+              "group": "g12",
+              "visible": true
+            },
+            {
+              "group": "g13",
+              "visible": true
+            },
+            {
+              "group": "g14",
+              "visible": true
+            },
+            {
+              "group": "g15",
+              "visible": true
+            },
+            {
+              "group": "g16",
+              "visible": true
+            },
+            {
+              "group": "g17",
+              "visible": true
+            },
+            {
+              "group": "g18",
+              "visible": true
+            },
+            {
+              "group": "g19",
+              "visible": true
+            },
+            {
+              "group": "g102",
+              "visible": true
+            },
+            {
+              "group": "g101",
+              "visible": true
+            },
+            {
+              "group": "g100",
+              "visible": true
+            },
+            {
+              "group": "g99",
+              "visible": true
+            },
+            {
+              "group": "g98",
+              "visible": true
+            },
+            {
+              "group": "g97",
+              "visible": true
+            },
+            {
+              "group": "g96",
+              "visible": true
+            },
+            {
+              "group": "g95",
+              "visible": true
+            },
+            {
+              "group": "g93",
+              "visible": true
+            },
+            {
+              "group": "g92",
+              "visible": true
+            },
+            {
+              "group": "g91",
+              "visible": true
+            },
+            {
+              "group": "g94",
+              "visible": true
+            },
+            {
+              "group": "g80",
+              "visible": true
+            },
+            {
+              "group": "g83",
+              "visible": true
+            },
+            {
+              "group": "g103",
+              "visible": true
+            },
+            {
+              "group": "g104",
+              "visible": true
+            },
+            {
+              "group": "g105",
+              "visible": true
+            },
+            {
+              "group": "g106",
+              "visible": true
+            },
+            {
+              "group": "g64",
+              "visible": true
+            },
+            {
+              "group": "g65",
+              "visible": true
+            },
+            {
+              "group": "g66",
+              "visible": true
+            },
+            {
+              "group": "g67",
+              "visible": true
+            },
+            {
+              "group": "g68",
+              "visible": true
+            },
+            {
+              "group": "g69",
+              "visible": true
+            },
+            {
+              "group": "g70",
+              "visible": true
+            },
+            {
+              "group": "g71",
+              "visible": true
+            }
+          ],
+          "sourceFrames": [
+            1708,
+            1709,
+            1710,
+            1711,
+            1712,
+            1713,
+            1714,
+            1715,
+            1716,
+            1717,
+            1718,
+            1719,
+            1720,
+            1721,
+            1722,
+            1723,
+            1724,
+            1725,
+            1726,
+            1727,
+            1728,
+            1729,
+            1730,
+            1731,
+            1732,
+            1733,
+            1734,
+            1735,
+            1736,
+            1737,
+            1738,
+            1739,
+            1740,
+            1741,
+            1742,
+            1743,
+            1744,
+            1745,
+            1746,
+            1747,
+            1748,
+            1749,
+            1750,
+            1751,
+            1752,
+            1753,
+            1754,
+            1755,
+            1756,
+            1757,
+            1758,
+            1759,
+            1760,
+            1761,
+            1762,
+            1763,
+            1764,
+            1765,
+            1766,
+            1767,
+            1768,
+            1769,
+            1770,
+            1771,
+            1772,
+            1773,
+            1774,
+            1775,
+            1776,
+            1777,
+            1778,
+            1779,
+            1780,
+            1781,
+            1782,
+            1783,
+            1784,
+            1785,
+            1786,
+            1787,
+            1788,
+            1789,
+            1790,
+            1791,
+            1792,
+            1793,
+            1794,
+            1795,
+            1796,
+            1797,
+            1798,
+            1799,
+            1800,
+            1801,
+            1802,
+            1803,
+            1804
+          ],
+          "id": "removal:step-2",
+          "sourceFrame": 1708
+        },
+        {
+          "step": 3,
+          "frame": 1915,
+          "title": "Remove existing foundation slabs",
+          "description": "Remove the existing slabs to expose the foundation beams.",
+          "changes": [
+            {
+              "group": "g9",
+              "visible": false
+            }
+          ],
+          "id": "removal:step-3",
+          "sourceFrame": 1915
+        },
+        {
+          "step": 4,
+          "frame": 1947,
+          "title": "Remove foundation beams — zone 1",
+          "description": "Remove the next group of existing foundation beams.",
+          "changes": [
+            {
+              "group": "g1",
+              "visible": false
+            }
+          ],
+          "id": "removal:step-4",
+          "sourceFrame": 1947
+        },
+        {
+          "step": 5,
+          "frame": 1968,
+          "title": "Remove foundation beams — zone 2",
+          "description": "Remove the next group of existing foundation beams.",
+          "changes": [
+            {
+              "group": "g2",
+              "visible": false
+            }
+          ],
+          "id": "removal:step-5",
+          "sourceFrame": 1968
+        },
+        {
+          "step": 6,
+          "frame": 1989,
+          "title": "Remove foundation beams — zone 3",
+          "description": "Remove the next group of existing foundation beams.",
+          "changes": [
+            {
+              "group": "g8",
+              "visible": false
+            }
+          ],
+          "id": "removal:step-6",
+          "sourceFrame": 1989
+        },
+        {
+          "step": 7,
+          "frame": 2009,
+          "title": "Remove foundation beams — zone 4",
+          "description": "Remove the next group of existing foundation beams.",
+          "changes": [
+            {
+              "group": "g7",
+              "visible": false
+            }
+          ],
+          "id": "removal:step-7",
+          "sourceFrame": 2009
+        },
+        {
+          "step": 8,
+          "frame": 2031,
+          "title": "Remove foundation beams — zone 5",
+          "description": "Remove the next group of existing foundation beams.",
+          "changes": [
+            {
+              "group": "g3",
+              "visible": false
+            }
+          ],
+          "id": "removal:step-8",
+          "sourceFrame": 2031
+        },
+        {
+          "step": 9,
+          "frame": 2051,
+          "title": "Remove foundation beams — zone 6",
+          "description": "Remove the next group of existing foundation beams.",
+          "changes": [
+            {
+              "group": "g6",
+              "visible": false
+            }
+          ],
+          "id": "removal:step-9",
+          "sourceFrame": 2051
+        },
+        {
+          "step": 10,
+          "frame": 2073,
+          "title": "Remove foundation beams — zone 7",
+          "description": "Remove the next group of existing foundation beams.",
+          "changes": [
+            {
+              "group": "g5",
+              "visible": false
+            }
+          ],
+          "id": "removal:step-10",
+          "sourceFrame": 2073
+        },
+        {
+          "step": 11,
+          "frame": 2093,
+          "title": "Remove foundation beams — zone 8",
+          "description": "Remove the next group of existing foundation beams.",
+          "changes": [
+            {
+              "group": "g4",
+              "visible": false
+            }
+          ],
+          "id": "removal:step-11",
+          "sourceFrame": 2093
+        }
+      ],
+      "sourceFrames": [
+        1681,
+        2160
+      ],
+      "assetVersion": "a536f0baf4dc",
+      "bytes": 5930300
+    },
+    {
+      "id": "foundation",
+      "title": "New foundations · Option 1",
+      "version": "V04",
+      "source": "New_Foundation_Animation_15s_v04.blend",
+      "asset": "models/sequence_foundation.glb",
+      "initial": {
+        "title": "New foundations · Option 1",
+        "description": "Construct the new foundations, retaining the stationary perimeter piles. Drag the slider to explore; drag left to restore earlier stages."
+      },
+      "groups": {
+        "g0": {
+          "initial": true,
+          "id": "foundation:g0",
+          "categories": [
+            "loading",
+            "foundation",
+            "site_extras",
+            "interior",
+            "canopy",
+            "temporary"
+          ],
+          "elementCount": 902
+        },
+        "g1": {
+          "initial": true,
+          "id": "foundation:g1",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 19
+        },
+        "g2": {
+          "initial": true,
+          "id": "foundation:g2",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 22
+        },
+        "g3": {
+          "initial": true,
+          "id": "foundation:g3",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 29
+        },
+        "g4": {
+          "initial": true,
+          "id": "foundation:g4",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 22
+        },
+        "g5": {
+          "initial": true,
+          "id": "foundation:g5",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 14
+        },
+        "g6": {
+          "initial": true,
+          "id": "foundation:g6",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 10
+        },
+        "g7": {
+          "initial": true,
+          "id": "foundation:g7",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 8
+        },
+        "g8": {
+          "initial": true,
+          "id": "foundation:g8",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 6
+        },
+        "g9": {
+          "initial": true,
+          "id": "foundation:g9",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 6
+        },
+        "g10": {
+          "initial": true,
+          "id": "foundation:g10",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g11": {
+          "initial": true,
+          "id": "foundation:g11",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g12": {
+          "initial": true,
+          "id": "foundation:g12",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g13": {
+          "initial": true,
+          "id": "foundation:g13",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g14": {
+          "initial": true,
+          "id": "foundation:g14",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g15": {
+          "initial": true,
+          "id": "foundation:g15",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g16": {
+          "initial": true,
+          "id": "foundation:g16",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g17": {
+          "initial": true,
+          "id": "foundation:g17",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g18": {
+          "initial": true,
+          "id": "foundation:g18",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g19": {
+          "initial": true,
+          "id": "foundation:g19",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g20": {
+          "initial": true,
+          "id": "foundation:g20",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g21": {
+          "initial": true,
+          "id": "foundation:g21",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g22": {
+          "initial": true,
+          "id": "foundation:g22",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g23": {
+          "initial": true,
+          "id": "foundation:g23",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g24": {
+          "initial": true,
+          "id": "foundation:g24",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g25": {
+          "initial": true,
+          "id": "foundation:g25",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g26": {
+          "initial": true,
+          "id": "foundation:g26",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g27": {
+          "initial": true,
+          "id": "foundation:g27",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g28": {
+          "initial": true,
+          "id": "foundation:g28",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 7
+        },
+        "g29": {
+          "initial": true,
+          "id": "foundation:g29",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 8
+        },
+        "g30": {
+          "initial": true,
+          "id": "foundation:g30",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 10
+        },
+        "g31": {
+          "initial": true,
+          "id": "foundation:g31",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 14
+        },
+        "g32": {
+          "initial": true,
+          "id": "foundation:g32",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 11
+        },
+        "g33": {
+          "initial": true,
+          "id": "foundation:g33",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 9
+        },
+        "g34": {
+          "initial": true,
+          "id": "foundation:g34",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 9
+        },
+        "g35": {
+          "initial": true,
+          "id": "foundation:g35",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 10
+        },
+        "g36": {
+          "initial": true,
+          "id": "foundation:g36",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 9
+        },
+        "g37": {
+          "initial": true,
+          "id": "foundation:g37",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g38": {
+          "initial": true,
+          "id": "foundation:g38",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g39": {
+          "initial": true,
+          "id": "foundation:g39",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g40": {
+          "initial": true,
+          "id": "foundation:g40",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g41": {
+          "initial": true,
+          "id": "foundation:g41",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g42": {
+          "initial": true,
+          "id": "foundation:g42",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g43": {
+          "initial": true,
+          "id": "foundation:g43",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g44": {
+          "initial": true,
+          "id": "foundation:g44",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g45": {
+          "initial": true,
+          "id": "foundation:g45",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g46": {
+          "initial": true,
+          "id": "foundation:g46",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g47": {
+          "initial": true,
+          "id": "foundation:g47",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g48": {
+          "initial": true,
+          "id": "foundation:g48",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g49": {
+          "initial": true,
+          "id": "foundation:g49",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g50": {
+          "initial": true,
+          "id": "foundation:g50",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g51": {
+          "initial": true,
+          "id": "foundation:g51",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g52": {
+          "initial": true,
+          "id": "foundation:g52",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g53": {
+          "initial": true,
+          "id": "foundation:g53",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g54": {
+          "initial": true,
+          "id": "foundation:g54",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 7
+        },
+        "g55": {
+          "initial": true,
+          "id": "foundation:g55",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 8
+        },
+        "g56": {
+          "initial": true,
+          "id": "foundation:g56",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 11
+        },
+        "g57": {
+          "initial": true,
+          "id": "foundation:g57",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 18
+        },
+        "g58": {
+          "initial": true,
+          "id": "foundation:g58",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g59": {
+          "initial": true,
+          "id": "foundation:g59",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 9
+        },
+        "g60": {
+          "initial": true,
+          "id": "foundation:g60",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 31
+        },
+        "g61": {
+          "initial": true,
+          "id": "foundation:g61",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 22
+        },
+        "g62": {
+          "initial": true,
+          "id": "foundation:g62",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g63": {
+          "initial": true,
+          "id": "foundation:g63",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g64": {
+          "initial": true,
+          "id": "foundation:g64",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 10
+        },
+        "g65": {
+          "initial": true,
+          "id": "foundation:g65",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 10
+        },
+        "g66": {
+          "initial": true,
+          "id": "foundation:g66",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 11
+        },
+        "g67": {
+          "initial": true,
+          "id": "foundation:g67",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 6
+        },
+        "g68": {
+          "initial": true,
+          "id": "foundation:g68",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g69": {
+          "initial": true,
+          "id": "foundation:g69",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g70": {
+          "initial": true,
+          "id": "foundation:g70",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g71": {
+          "initial": true,
+          "id": "foundation:g71",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g72": {
+          "initial": true,
+          "id": "foundation:g72",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g73": {
+          "initial": true,
+          "id": "foundation:g73",
+          "categories": [
+            "ground"
+          ],
+          "elementCount": 9
+        },
+        "g74": {
+          "initial": false,
+          "id": "foundation:g74",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g75": {
+          "initial": false,
+          "id": "foundation:g75",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g76": {
+          "initial": false,
+          "id": "foundation:g76",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g77": {
+          "initial": false,
+          "id": "foundation:g77",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g78": {
+          "initial": false,
+          "id": "foundation:g78",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g79": {
+          "initial": false,
+          "id": "foundation:g79",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g80": {
+          "initial": false,
+          "id": "foundation:g80",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g81": {
+          "initial": false,
+          "id": "foundation:g81",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g82": {
+          "initial": false,
+          "id": "foundation:g82",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 1
+        },
+        "g83": {
+          "initial": false,
+          "id": "foundation:g83",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g84": {
+          "initial": false,
+          "id": "foundation:g84",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 6
+        },
+        "g85": {
+          "initial": false,
+          "id": "foundation:g85",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g86": {
+          "initial": false,
+          "id": "foundation:g86",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g87": {
+          "initial": false,
+          "id": "foundation:g87",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g88": {
+          "initial": false,
+          "id": "foundation:g88",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 6
+        },
+        "g89": {
+          "initial": false,
+          "id": "foundation:g89",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g90": {
+          "initial": false,
+          "id": "foundation:g90",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 1
+        },
+        "g91": {
+          "initial": false,
+          "id": "foundation:g91",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g92": {
+          "initial": false,
+          "id": "foundation:g92",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g93": {
+          "initial": false,
+          "id": "foundation:g93",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g94": {
+          "initial": false,
+          "id": "foundation:g94",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g95": {
+          "initial": false,
+          "id": "foundation:g95",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g96": {
+          "initial": false,
+          "id": "foundation:g96",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g97": {
+          "initial": false,
+          "id": "foundation:g97",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g98": {
+          "initial": false,
+          "id": "foundation:g98",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g99": {
+          "initial": false,
+          "id": "foundation:g99",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g100": {
+          "initial": false,
+          "id": "foundation:g100",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g101": {
+          "initial": false,
+          "id": "foundation:g101",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g102": {
+          "initial": false,
+          "id": "foundation:g102",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g103": {
+          "initial": false,
+          "id": "foundation:g103",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 6
+        },
+        "g104": {
+          "initial": false,
+          "id": "foundation:g104",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 1
+        },
+        "g105": {
+          "initial": false,
+          "id": "foundation:g105",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 1
+        },
+        "g106": {
+          "initial": false,
+          "id": "foundation:g106",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 1
+        },
+        "g107": {
+          "initial": false,
+          "id": "foundation:g107",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g108": {
+          "initial": false,
+          "id": "foundation:g108",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g109": {
+          "initial": false,
+          "id": "foundation:g109",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g110": {
+          "initial": false,
+          "id": "foundation:g110",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 1
+        },
+        "g111": {
+          "initial": false,
+          "id": "foundation:g111",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 1
+        },
+        "g112": {
+          "initial": false,
+          "id": "foundation:g112",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g113": {
+          "initial": false,
+          "id": "foundation:g113",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 1
+        },
+        "g114": {
+          "initial": false,
+          "id": "foundation:g114",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g115": {
+          "initial": false,
+          "id": "foundation:g115",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 1
+        },
+        "g116": {
+          "initial": false,
+          "id": "foundation:g116",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 1
+        },
+        "g117": {
+          "initial": false,
+          "id": "foundation:g117",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g118": {
+          "initial": false,
+          "id": "foundation:g118",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 1
+        },
+        "g119": {
+          "initial": false,
+          "id": "foundation:g119",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 1
+        },
+        "g120": {
+          "initial": false,
+          "id": "foundation:g120",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 1
+        },
+        "g121": {
+          "initial": false,
+          "id": "foundation:g121",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 39
+        },
+        "g122": {
+          "initial": false,
+          "id": "foundation:g122",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 3
+        },
+        "g123": {
+          "initial": false,
+          "id": "foundation:g123",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 5
+        },
+        "g124": {
+          "initial": false,
+          "id": "foundation:g124",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 1
+        },
+        "g125": {
+          "initial": false,
+          "id": "foundation:g125",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 1
+        },
+        "g126": {
+          "initial": false,
+          "id": "foundation:g126",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 4
+        },
+        "g127": {
+          "initial": false,
+          "id": "foundation:g127",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g128": {
+          "initial": false,
+          "id": "foundation:g128",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g129": {
+          "initial": false,
+          "id": "foundation:g129",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 4
+        },
+        "g130": {
+          "initial": false,
+          "id": "foundation:g130",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g131": {
+          "initial": false,
+          "id": "foundation:g131",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g132": {
+          "initial": false,
+          "id": "foundation:g132",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g133": {
+          "initial": false,
+          "id": "foundation:g133",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        },
+        "g134": {
+          "initial": false,
+          "id": "foundation:g134",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 2
+        }
+      },
+      "stages": [
+        {
+          "step": 1,
+          "frame": 43,
+          "title": "Install interior piles",
+          "description": "Install the next interior pile group in its final position. Perimeter piles remain in place.",
+          "changes": [
+            {
+              "group": "g133",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-1",
+          "sourceFrame": 43
+        },
+        {
+          "step": 2,
+          "frame": 44,
+          "title": "Install interior piles",
+          "description": "Install the next interior pile group in its final position. Perimeter piles remain in place.",
+          "changes": [
+            {
+              "group": "g132",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-2",
+          "sourceFrame": 44
+        },
+        {
+          "step": 3,
+          "frame": 50,
+          "title": "Install interior piles",
+          "description": "Install the next interior pile group in its final position. Perimeter piles remain in place.",
+          "changes": [
+            {
+              "group": "g127",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-3",
+          "sourceFrame": 50
+        },
+        {
+          "step": 4,
+          "frame": 56,
+          "title": "Install interior piles",
+          "description": "Install the next interior pile group in its final position. Perimeter piles remain in place.",
+          "changes": [
+            {
+              "group": "g128",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-4",
+          "sourceFrame": 56
+        },
+        {
+          "step": 5,
+          "frame": 60,
+          "title": "Install interior piles",
+          "description": "Install the next interior pile group in its final position. Perimeter piles remain in place.",
+          "changes": [
+            {
+              "group": "g124",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-5",
+          "sourceFrame": 60
+        },
+        {
+          "step": 6,
+          "frame": 63,
+          "title": "Install interior piles",
+          "description": "Install the next interior pile group in its final position. Perimeter piles remain in place.",
+          "changes": [
+            {
+              "group": "g129",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-6",
+          "sourceFrame": 63
+        },
+        {
+          "step": 7,
+          "frame": 68,
+          "title": "Install interior piles",
+          "description": "Install the next interior pile group in its final position. Perimeter piles remain in place.",
+          "changes": [
+            {
+              "group": "g131",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-7",
+          "sourceFrame": 68
+        },
+        {
+          "step": 8,
+          "frame": 69,
+          "title": "Install interior piles",
+          "description": "Install the next interior pile group in its final position. Perimeter piles remain in place.",
+          "changes": [
+            {
+              "group": "g130",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-8",
+          "sourceFrame": 69
+        },
+        {
+          "step": 9,
+          "frame": 75,
+          "title": "Install interior piles",
+          "description": "Install the next interior pile group in its final position. Perimeter piles remain in place.",
+          "changes": [
+            {
+              "group": "g123",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-9",
+          "sourceFrame": 75
+        },
+        {
+          "step": 10,
+          "frame": 81,
+          "title": "Install interior piles",
+          "description": "Install the next interior pile group in its final position. Perimeter piles remain in place.",
+          "changes": [
+            {
+              "group": "g134",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-10",
+          "sourceFrame": 81
+        },
+        {
+          "step": 11,
+          "frame": 82,
+          "title": "Install interior piles",
+          "description": "Install the next interior pile group in its final position. Perimeter piles remain in place.",
+          "changes": [
+            {
+              "group": "g122",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-11",
+          "sourceFrame": 82
+        },
+        {
+          "step": 12,
+          "frame": 143,
+          "title": "Construct pile caps",
+          "description": "Add the pile caps over the installed piles.",
+          "changes": [
+            {
+              "group": "g121",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-12",
+          "sourceFrame": 143
+        },
+        {
+          "step": 13,
+          "frame": 171,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g110",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-13",
+          "sourceFrame": 171
+        },
+        {
+          "step": 14,
+          "frame": 173,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g109",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-14",
+          "sourceFrame": 173
+        },
+        {
+          "step": 15,
+          "frame": 174,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g107",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-15",
+          "sourceFrame": 174
+        },
+        {
+          "step": 16,
+          "frame": 175,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g98",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-16",
+          "sourceFrame": 175
+        },
+        {
+          "step": 17,
+          "frame": 177,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g96",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-17",
+          "sourceFrame": 177
+        },
+        {
+          "step": 18,
+          "frame": 179,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g102",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-18",
+          "sourceFrame": 179
+        },
+        {
+          "step": 19,
+          "frame": 182,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g76",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-19",
+          "sourceFrame": 182
+        },
+        {
+          "step": 20,
+          "frame": 185,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g114",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-20",
+          "sourceFrame": 185
+        },
+        {
+          "step": 21,
+          "frame": 187,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g95",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-21",
+          "sourceFrame": 187
+        },
+        {
+          "step": 22,
+          "frame": 189,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g116",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-22",
+          "sourceFrame": 189
+        },
+        {
+          "step": 23,
+          "frame": 190,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g117",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-23",
+          "sourceFrame": 190
+        },
+        {
+          "step": 24,
+          "frame": 193,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g97",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-24",
+          "sourceFrame": 193
+        },
+        {
+          "step": 25,
+          "frame": 195,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g78",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-25",
+          "sourceFrame": 195
+        },
+        {
+          "step": 26,
+          "frame": 198,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g77",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-26",
+          "sourceFrame": 198
+        },
+        {
+          "step": 27,
+          "frame": 200,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g79",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-27",
+          "sourceFrame": 200
+        },
+        {
+          "step": 28,
+          "frame": 203,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g75",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-28",
+          "sourceFrame": 203
+        },
+        {
+          "step": 29,
+          "frame": 206,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g92",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-29",
+          "sourceFrame": 206
+        },
+        {
+          "step": 30,
+          "frame": 208,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g91",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-30",
+          "sourceFrame": 208
+        },
+        {
+          "step": 31,
+          "frame": 211,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g111",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-31",
+          "sourceFrame": 211
+        },
+        {
+          "step": 32,
+          "frame": 213,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g86",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-32",
+          "sourceFrame": 213
+        },
+        {
+          "step": 33,
+          "frame": 215,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g113",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-33",
+          "sourceFrame": 215
+        },
+        {
+          "step": 34,
+          "frame": 217,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g90",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-34",
+          "sourceFrame": 217
+        },
+        {
+          "step": 35,
+          "frame": 219,
+          "title": "Construct main foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g104",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-35",
+          "sourceFrame": 219
+        },
+        {
+          "step": 36,
+          "frame": 249,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g105",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-36",
+          "sourceFrame": 249
+        },
+        {
+          "step": 37,
+          "frame": 250,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g108",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-37",
+          "sourceFrame": 250
+        },
+        {
+          "step": 38,
+          "frame": 254,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g74",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-38",
+          "sourceFrame": 254
+        },
+        {
+          "step": 39,
+          "frame": 256,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g81",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-39",
+          "sourceFrame": 256
+        },
+        {
+          "step": 40,
+          "frame": 258,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g87",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-40",
+          "sourceFrame": 258
+        },
+        {
+          "step": 41,
+          "frame": 262,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g94",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-41",
+          "sourceFrame": 262
+        },
+        {
+          "step": 42,
+          "frame": 263,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g119",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-42",
+          "sourceFrame": 263
+        },
+        {
+          "step": 43,
+          "frame": 264,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g99",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-43",
+          "sourceFrame": 264
+        },
+        {
+          "step": 44,
+          "frame": 266,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g101",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-44",
+          "sourceFrame": 266
+        },
+        {
+          "step": 45,
+          "frame": 267,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g120",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-45",
+          "sourceFrame": 267
+        },
+        {
+          "step": 46,
+          "frame": 268,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g83",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-46",
+          "sourceFrame": 268
+        },
+        {
+          "step": 47,
+          "frame": 270,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g100",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-47",
+          "sourceFrame": 270
+        },
+        {
+          "step": 48,
+          "frame": 271,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g85",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-48",
+          "sourceFrame": 271
+        },
+        {
+          "step": 49,
+          "frame": 273,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g118",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-49",
+          "sourceFrame": 273
+        },
+        {
+          "step": 50,
+          "frame": 274,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g115",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-50",
+          "sourceFrame": 274
+        },
+        {
+          "step": 51,
+          "frame": 275,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g89",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-51",
+          "sourceFrame": 275
+        },
+        {
+          "step": 52,
+          "frame": 276,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g112",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-52",
+          "sourceFrame": 276
+        },
+        {
+          "step": 53,
+          "frame": 277,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g93",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-53",
+          "sourceFrame": 277
+        },
+        {
+          "step": 54,
+          "frame": 278,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g106",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-54",
+          "sourceFrame": 278
+        },
+        {
+          "step": 55,
+          "frame": 279,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g82",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-55",
+          "sourceFrame": 279
+        },
+        {
+          "step": 56,
+          "frame": 280,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g88",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-56",
+          "sourceFrame": 280
+        },
+        {
+          "step": 57,
+          "frame": 281,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g80",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-57",
+          "sourceFrame": 281
+        },
+        {
+          "step": 58,
+          "frame": 285,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g103",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-58",
+          "sourceFrame": 285
+        },
+        {
+          "step": 59,
+          "frame": 288,
+          "title": "Construct secondary foundation beams",
+          "description": "Add the next beam group in the source model’s left-to-right construction sequence.",
+          "changes": [
+            {
+              "group": "g84",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-59",
+          "sourceFrame": 288
+        },
+        {
+          "step": 60,
+          "frame": 325,
+          "title": "Remove all sheet piles",
+          "description": "Remove all temporary sheet piles together.",
+          "changes": [
+            {
+              "group": "g70",
+              "visible": false
+            },
+            {
+              "group": "g71",
+              "visible": false
+            },
+            {
+              "group": "g72",
+              "visible": false
+            },
+            {
+              "group": "g37",
+              "visible": false
+            },
+            {
+              "group": "g38",
+              "visible": false
+            },
+            {
+              "group": "g39",
+              "visible": false
+            },
+            {
+              "group": "g40",
+              "visible": false
+            },
+            {
+              "group": "g41",
+              "visible": false
+            },
+            {
+              "group": "g42",
+              "visible": false
+            },
+            {
+              "group": "g43",
+              "visible": false
+            },
+            {
+              "group": "g44",
+              "visible": false
+            },
+            {
+              "group": "g45",
+              "visible": false
+            },
+            {
+              "group": "g46",
+              "visible": false
+            },
+            {
+              "group": "g47",
+              "visible": false
+            },
+            {
+              "group": "g48",
+              "visible": false
+            },
+            {
+              "group": "g49",
+              "visible": false
+            },
+            {
+              "group": "g50",
+              "visible": false
+            },
+            {
+              "group": "g51",
+              "visible": false
+            },
+            {
+              "group": "g52",
+              "visible": false
+            },
+            {
+              "group": "g53",
+              "visible": false
+            },
+            {
+              "group": "g54",
+              "visible": false
+            },
+            {
+              "group": "g55",
+              "visible": false
+            },
+            {
+              "group": "g56",
+              "visible": false
+            },
+            {
+              "group": "g57",
+              "visible": false
+            },
+            {
+              "group": "g60",
+              "visible": false
+            },
+            {
+              "group": "g32",
+              "visible": false
+            },
+            {
+              "group": "g33",
+              "visible": false
+            },
+            {
+              "group": "g34",
+              "visible": false
+            },
+            {
+              "group": "g35",
+              "visible": false
+            },
+            {
+              "group": "g36",
+              "visible": false
+            },
+            {
+              "group": "g1",
+              "visible": false
+            },
+            {
+              "group": "g4",
+              "visible": false
+            },
+            {
+              "group": "g5",
+              "visible": false
+            },
+            {
+              "group": "g6",
+              "visible": false
+            },
+            {
+              "group": "g7",
+              "visible": false
+            },
+            {
+              "group": "g8",
+              "visible": false
+            },
+            {
+              "group": "g9",
+              "visible": false
+            },
+            {
+              "group": "g10",
+              "visible": false
+            },
+            {
+              "group": "g11",
+              "visible": false
+            },
+            {
+              "group": "g12",
+              "visible": false
+            },
+            {
+              "group": "g13",
+              "visible": false
+            },
+            {
+              "group": "g14",
+              "visible": false
+            },
+            {
+              "group": "g15",
+              "visible": false
+            },
+            {
+              "group": "g16",
+              "visible": false
+            },
+            {
+              "group": "g17",
+              "visible": false
+            },
+            {
+              "group": "g18",
+              "visible": false
+            },
+            {
+              "group": "g19",
+              "visible": false
+            },
+            {
+              "group": "g20",
+              "visible": false
+            },
+            {
+              "group": "g21",
+              "visible": false
+            },
+            {
+              "group": "g22",
+              "visible": false
+            },
+            {
+              "group": "g23",
+              "visible": false
+            },
+            {
+              "group": "g24",
+              "visible": false
+            },
+            {
+              "group": "g25",
+              "visible": false
+            },
+            {
+              "group": "g26",
+              "visible": false
+            },
+            {
+              "group": "g27",
+              "visible": false
+            },
+            {
+              "group": "g28",
+              "visible": false
+            },
+            {
+              "group": "g29",
+              "visible": false
+            },
+            {
+              "group": "g30",
+              "visible": false
+            },
+            {
+              "group": "g31",
+              "visible": false
+            },
+            {
+              "group": "g2",
+              "visible": false
+            },
+            {
+              "group": "g3",
+              "visible": false
+            },
+            {
+              "group": "g66",
+              "visible": false
+            },
+            {
+              "group": "g65",
+              "visible": false
+            },
+            {
+              "group": "g64",
+              "visible": false
+            },
+            {
+              "group": "g61",
+              "visible": false
+            },
+            {
+              "group": "g63",
+              "visible": false
+            },
+            {
+              "group": "g62",
+              "visible": false
+            },
+            {
+              "group": "g58",
+              "visible": false
+            },
+            {
+              "group": "g59",
+              "visible": false
+            },
+            {
+              "group": "g67",
+              "visible": false
+            },
+            {
+              "group": "g68",
+              "visible": false
+            },
+            {
+              "group": "g69",
+              "visible": false
+            }
+          ],
+          "sourceFrames": [
+            325,
+            326,
+            327,
+            328,
+            329,
+            330,
+            331,
+            332,
+            333,
+            334,
+            335,
+            336,
+            337,
+            338,
+            339,
+            340,
+            341,
+            342,
+            343,
+            344,
+            345,
+            346,
+            347,
+            348,
+            349,
+            350,
+            351,
+            352,
+            353,
+            354,
+            355,
+            356,
+            357,
+            358,
+            359,
+            360,
+            361,
+            362,
+            363,
+            364,
+            365,
+            366,
+            367,
+            368,
+            369,
+            370,
+            371,
+            372,
+            373,
+            374,
+            375,
+            376,
+            377,
+            378,
+            379,
+            380,
+            381,
+            382,
+            383,
+            384,
+            385,
+            386,
+            387,
+            388,
+            389,
+            391,
+            392,
+            393,
+            394,
+            395,
+            396,
+            397
+          ],
+          "id": "foundation:step-60",
+          "sourceFrame": 325
+        },
+        {
+          "step": 61,
+          "frame": 352,
+          "title": "Construct ground-floor slab",
+          "description": "Construct the ground-floor slab over the completed foundation beams.",
+          "changes": [
+            {
+              "group": "g125",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-61",
+          "sourceFrame": 352
+        },
+        {
+          "step": 62,
+          "frame": 432,
+          "title": "Complete concrete paving",
+          "description": "Complete the concrete paving around the new slab while retaining the site topography.",
+          "changes": [
+            {
+              "group": "g126",
+              "visible": true
+            }
+          ],
+          "id": "foundation:step-62",
+          "sourceFrame": 432
+        }
+      ],
+      "sourceFrames": [
+        1,
+        450
+      ],
+      "assetVersion": "7aaedcb92daa",
+      "bytes": 6582272
+    },
+    {
+      "id": "foundation_option2",
+      "title": "New foundations · Option 2",
+      "source": "Foundation_Option2_14s_v01.blend",
+      "asset": "models/sequence_foundation_option2.glb",
+      "initial": {
+        "title": "New foundations · Option 2",
+        "description": "Explore the alternative foundation construction. Drag the slider or press Play to follow the six main steps."
+      },
+      "groups": {
+        "g0": {
+          "initial": true,
+          "id": "foundation_option2:g0",
+          "categories": [
+            "loading",
+            "site_extras",
+            "interior",
+            "temporary",
+            "ground"
+          ],
+          "elementCount": 840
+        },
+        "g1": {
+          "initial": true,
+          "id": "foundation_option2:g1",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 66
+        },
+        "g2": {
+          "initial": true,
+          "id": "foundation_option2:g2",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 495
+        },
+        "g3": {
+          "initial": false,
+          "id": "foundation_option2:g3",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 1
+        },
+        "g4": {
+          "initial": false,
+          "id": "foundation_option2:g4",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 1
+        },
+        "g5": {
+          "initial": false,
+          "id": "foundation_option2:g5",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 1
+        },
+        "g6": {
+          "initial": false,
+          "id": "foundation_option2:g6",
+          "categories": [
+            "foundation"
+          ],
+          "elementCount": 45
+        },
+        "g7": {
+          "initial": false,
+          "id": "foundation_option2:g7",
+          "categories": [
+            "ground"
+          ],
+          "elementCount": 4
+        }
+      },
+      "stages": [
+        {
+          "step": 1,
+          "frame": 60,
+          "title": "Remove existing pile caps and piles",
+          "description": "Remove the existing pile caps and piles to prepare for the alternative foundation.",
+          "changes": [
+            {
+              "group": "g1",
+              "visible": false
+            }
+          ],
+          "id": "foundation_option2:step-1",
+          "sourceFrame": 60
+        },
+        {
+          "step": 2,
+          "frame": 120,
+          "title": "Place 75 mm blinding",
+          "description": "Place the concrete blinding layer beneath the new foundation.",
+          "changes": [
+            {
+              "group": "g5",
+              "visible": true
+            }
+          ],
+          "id": "foundation_option2:step-2",
+          "sourceFrame": 120
+        },
+        {
+          "step": 3,
+          "frame": 180,
+          "title": "Construct 700 mm foundation slab",
+          "description": "Construct the main foundation slab over the blinding.",
+          "changes": [
+            {
+              "group": "g3",
+              "visible": true
+            }
+          ],
+          "id": "foundation_option2:step-3",
+          "sourceFrame": 180
+        },
+        {
+          "step": 4,
+          "frame": 300,
+          "title": "Construct foundation walls",
+          "description": "Construct the reinforced concrete walls above the foundation slab.",
+          "changes": [
+            {
+              "group": "g6",
+              "visible": true
+            }
+          ],
+          "id": "foundation_option2:step-4",
+          "sourceFrame": 300
+        },
+        {
+          "step": 5,
+          "frame": 360,
+          "title": "Construct 200 mm surface slab",
+          "description": "Add the surface slab over the completed foundation walls.",
+          "changes": [
+            {
+              "group": "g4",
+              "visible": true
+            }
+          ],
+          "id": "foundation_option2:step-5",
+          "sourceFrame": 360
+        },
+        {
+          "step": 6,
+          "frame": 420,
+          "title": "Remove sheet piles and complete paving",
+          "description": "Remove all temporary sheet piles together and complete the surrounding paving. Retain the terrain.",
+          "changes": [
+            {
+              "group": "g2",
+              "visible": false
+            },
+            {
+              "group": "g7",
+              "visible": true
+            }
+          ],
+          "id": "foundation_option2:step-6",
+          "sourceFrame": 420
+        }
+      ],
+      "assetVersion": "40eee7c61908",
+      "bytes": 4645792
+    },
+    {
+      "id": "building",
+      "title": "New building",
+      "version": "V04",
+      "source": "New_Building_Construction_28s_v04.blend",
+      "asset": "models/sequence_building.glb",
+      "initial": {
+        "title": "Building & footbridge",
+        "description": "Build the new steel structure, envelope and footbridge. Drag the slider to explore; drag left to restore earlier stages."
+      },
+      "groups": {
+        "g0": {
+          "initial": true,
+          "id": "building:g0",
+          "categories": [
+            "loading",
+            "site_extras",
+            "interior",
+            "canopy",
+            "structure",
+            "foundation"
+          ],
+          "elementCount": 931
+        },
+        "g1": {
+          "initial": false,
+          "id": "building:g1",
+          "categories": [
+            "interior"
+          ],
+          "elementCount": 1194
+        },
+        "g2": {
+          "initial": false,
+          "id": "building:g2",
+          "categories": [
+            "facade"
+          ],
+          "elementCount": 4
+        },
+        "g3": {
+          "initial": false,
+          "id": "building:g3",
+          "categories": [
+            "canopy",
+            "roof",
+            "structure"
+          ],
+          "elementCount": 5861
+        },
+        "g4": {
+          "initial": false,
+          "id": "building:g4",
+          "categories": [
+            "interior",
+            "facade",
+            "roof"
+          ],
+          "elementCount": 52
+        },
+        "g5": {
+          "initial": false,
+          "id": "building:g5",
+          "categories": [
+            "facade",
+            "interior",
+            "roof"
+          ],
+          "elementCount": 246
+        },
+        "g6": {
+          "initial": false,
+          "id": "building:g6",
+          "categories": [
+            "facade",
+            "interior"
+          ],
+          "elementCount": 36
+        },
+        "g7": {
+          "initial": false,
+          "id": "building:g7",
+          "categories": [
+            "facade",
+            "interior"
+          ],
+          "elementCount": 34
+        },
+        "g8": {
+          "initial": false,
+          "id": "building:g8",
+          "categories": [
+            "facade",
+            "interior",
+            "roof"
+          ],
+          "elementCount": 49
+        },
+        "g9": {
+          "initial": false,
+          "id": "building:g9",
+          "categories": [
+            "facade",
+            "interior"
+          ],
+          "elementCount": 32
+        },
+        "g10": {
+          "initial": false,
+          "id": "building:g10",
+          "categories": [
+            "facade",
+            "interior"
+          ],
+          "elementCount": 35
+        },
+        "g11": {
+          "initial": false,
+          "id": "building:g11",
+          "categories": [
+            "facade",
+            "interior"
+          ],
+          "elementCount": 35
+        },
+        "g12": {
+          "initial": false,
+          "id": "building:g12",
+          "categories": [
+            "facade",
+            "interior"
+          ],
+          "elementCount": 33
+        },
+        "g13": {
+          "initial": false,
+          "id": "building:g13",
+          "categories": [
+            "facade",
+            "interior"
+          ],
+          "elementCount": 34
+        },
+        "g14": {
+          "initial": false,
+          "id": "building:g14",
+          "categories": [
+            "facade",
+            "interior"
+          ],
+          "elementCount": 36
+        },
+        "g15": {
+          "initial": false,
+          "id": "building:g15",
+          "categories": [
+            "facade",
+            "interior",
+            "roof"
+          ],
+          "elementCount": 47
+        },
+        "g16": {
+          "initial": false,
+          "id": "building:g16",
+          "categories": [
+            "facade",
+            "interior"
+          ],
+          "elementCount": 36
+        },
+        "g17": {
+          "initial": false,
+          "id": "building:g17",
+          "categories": [
+            "facade",
+            "interior"
+          ],
+          "elementCount": 34
+        },
+        "g18": {
+          "initial": false,
+          "id": "building:g18",
+          "categories": [
+            "facade",
+            "interior"
+          ],
+          "elementCount": 36
+        },
+        "g19": {
+          "initial": false,
+          "id": "building:g19",
+          "categories": [
+            "facade",
+            "interior",
+            "roof"
+          ],
+          "elementCount": 248
+        },
+        "g20": {
+          "initial": false,
+          "id": "building:g20",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 431
+        },
+        "g21": {
+          "initial": false,
+          "id": "building:g21",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 492
+        },
+        "g22": {
+          "initial": false,
+          "id": "building:g22",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 370
+        },
+        "g23": {
+          "initial": false,
+          "id": "building:g23",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 532
+        },
+        "g24": {
+          "initial": false,
+          "id": "building:g24",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 39
+        },
+        "g25": {
+          "initial": false,
+          "id": "building:g25",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 52
+        },
+        "g26": {
+          "initial": false,
+          "id": "building:g26",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 314
+        },
+        "g27": {
+          "initial": false,
+          "id": "building:g27",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 315
+        },
+        "g28": {
+          "initial": false,
+          "id": "building:g28",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 314
+        },
+        "g29": {
+          "initial": false,
+          "id": "building:g29",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 314
+        },
+        "g30": {
+          "initial": false,
+          "id": "building:g30",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 83
+        },
+        "g31": {
+          "initial": false,
+          "id": "building:g31",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 39
+        },
+        "g32": {
+          "initial": false,
+          "id": "building:g32",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 39
+        },
+        "g33": {
+          "initial": false,
+          "id": "building:g33",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 39
+        },
+        "g34": {
+          "initial": false,
+          "id": "building:g34",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 39
+        },
+        "g35": {
+          "initial": false,
+          "id": "building:g35",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 39
+        },
+        "g36": {
+          "initial": false,
+          "id": "building:g36",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 39
+        },
+        "g37": {
+          "initial": false,
+          "id": "building:g37",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 50
+        },
+        "g38": {
+          "initial": false,
+          "id": "building:g38",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 6
+        },
+        "g39": {
+          "initial": false,
+          "id": "building:g39",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 6
+        },
+        "g40": {
+          "initial": false,
+          "id": "building:g40",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 6
+        },
+        "g41": {
+          "initial": false,
+          "id": "building:g41",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 6
+        },
+        "g42": {
+          "initial": false,
+          "id": "building:g42",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 6
+        },
+        "g43": {
+          "initial": false,
+          "id": "building:g43",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 6
+        },
+        "g44": {
+          "initial": false,
+          "id": "building:g44",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 6
+        },
+        "g45": {
+          "initial": false,
+          "id": "building:g45",
+          "categories": [
+            "structure"
+          ],
+          "elementCount": 6
+        },
+        "g46": {
+          "initial": false,
+          "id": "building:g46",
+          "categories": [
+            "bridge"
+          ],
+          "elementCount": 90
+        },
+        "g47": {
+          "initial": false,
+          "id": "building:g47",
+          "categories": [
+            "bridge"
+          ],
+          "elementCount": 19
+        },
+        "g48": {
+          "initial": false,
+          "id": "building:g48",
+          "categories": [
+            "bridge"
+          ],
+          "elementCount": 1
+        },
+        "g49": {
+          "initial": false,
+          "id": "building:g49",
+          "categories": [
+            "roof"
+          ],
+          "elementCount": 350
+        },
+        "g50": {
+          "initial": true,
+          "id": "building:g50",
+          "categories": [
+            "temporary"
+          ],
+          "elementCount": 91
+        }
+      },
+      "stages": [
+        {
+          "step": 1,
+          "frame": 30,
+          "title": "Erect steel frame — bay 1",
+          "description": "Add the next bay of the main steel frame, progressing from left to right.",
+          "changes": [
+            {
+              "group": "g23",
+              "visible": true
+            }
+          ],
+          "id": "building:step-1",
+          "sourceFrame": 30
+        },
+        {
+          "step": 2,
+          "frame": 60,
+          "title": "Erect steel frame — bay 2",
+          "description": "Add the next bay of the main steel frame, progressing from left to right.",
+          "changes": [
+            {
+              "group": "g22",
+              "visible": true
+            }
+          ],
+          "id": "building:step-2",
+          "sourceFrame": 60
+        },
+        {
+          "step": 3,
+          "frame": 90,
+          "title": "Erect steel frame — bay 3",
+          "description": "Add the next bay of the main steel frame, progressing from left to right.",
+          "changes": [
+            {
+              "group": "g29",
+              "visible": true
+            }
+          ],
+          "id": "building:step-3",
+          "sourceFrame": 90
+        },
+        {
+          "step": 4,
+          "frame": 120,
+          "title": "Erect steel frame — bay 4",
+          "description": "Add the next bay of the main steel frame, progressing from left to right.",
+          "changes": [
+            {
+              "group": "g27",
+              "visible": true
+            }
+          ],
+          "id": "building:step-4",
+          "sourceFrame": 120
+        },
+        {
+          "step": 5,
+          "frame": 150,
+          "title": "Erect steel frame — bay 5",
+          "description": "Add the next bay of the main steel frame, progressing from left to right.",
+          "changes": [
+            {
+              "group": "g26",
+              "visible": true
+            }
+          ],
+          "id": "building:step-5",
+          "sourceFrame": 150
+        },
+        {
+          "step": 6,
+          "frame": 180,
+          "title": "Erect steel frame — bay 6",
+          "description": "Add the next bay of the main steel frame, progressing from left to right.",
+          "changes": [
+            {
+              "group": "g28",
+              "visible": true
+            }
+          ],
+          "id": "building:step-6",
+          "sourceFrame": 180
+        },
+        {
+          "step": 7,
+          "frame": 210,
+          "title": "Erect steel frame — bay 7",
+          "description": "Add the next bay of the main steel frame, progressing from left to right.",
+          "changes": [
+            {
+              "group": "g20",
+              "visible": true
+            }
+          ],
+          "id": "building:step-7",
+          "sourceFrame": 210
+        },
+        {
+          "step": 8,
+          "frame": 240,
+          "title": "Erect steel frame — bay 8",
+          "description": "Add the next bay of the main steel frame, progressing from left to right.",
+          "changes": [
+            {
+              "group": "g21",
+              "visible": true
+            }
+          ],
+          "id": "building:step-8",
+          "sourceFrame": 240
+        },
+        {
+          "step": 9,
+          "frame": 270,
+          "title": "Erect left canopy frame",
+          "description": "Add the canopy steelwork in its final position.",
+          "changes": [
+            {
+              "group": "g25",
+              "visible": true
+            }
+          ],
+          "id": "building:step-9",
+          "sourceFrame": 270
+        },
+        {
+          "step": 10,
+          "frame": 300,
+          "title": "Erect right canopy frame",
+          "description": "Add the canopy steelwork in its final position.",
+          "changes": [
+            {
+              "group": "g37",
+              "visible": true
+            }
+          ],
+          "id": "building:step-10",
+          "sourceFrame": 300
+        },
+        {
+          "step": 11,
+          "frame": 330,
+          "title": "Erect footbridge frame",
+          "description": "Add the footbridge steel frame and support columns.",
+          "changes": [
+            {
+              "group": "g46",
+              "visible": true
+            }
+          ],
+          "id": "building:step-11",
+          "sourceFrame": 330
+        },
+        {
+          "step": 12,
+          "frame": 358,
+          "title": "Install internal plates — level 8.8",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g39",
+              "visible": true
+            }
+          ],
+          "id": "building:step-12",
+          "sourceFrame": 358
+        },
+        {
+          "step": 13,
+          "frame": 366,
+          "title": "Install internal plates — level 11.6",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g24",
+              "visible": true
+            }
+          ],
+          "id": "building:step-13",
+          "sourceFrame": 366
+        },
+        {
+          "step": 14,
+          "frame": 370,
+          "title": "Install internal plates — level 13.4",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g45",
+              "visible": true
+            }
+          ],
+          "id": "building:step-14",
+          "sourceFrame": 370
+        },
+        {
+          "step": 15,
+          "frame": 375,
+          "title": "Install internal plates — level 15.2",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g32",
+              "visible": true
+            }
+          ],
+          "id": "building:step-15",
+          "sourceFrame": 375
+        },
+        {
+          "step": 16,
+          "frame": 379,
+          "title": "Install internal plates — level 16.7",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g42",
+              "visible": true
+            }
+          ],
+          "id": "building:step-16",
+          "sourceFrame": 379
+        },
+        {
+          "step": 17,
+          "frame": 383,
+          "title": "Install internal plates — level 18.2",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g31",
+              "visible": true
+            }
+          ],
+          "id": "building:step-17",
+          "sourceFrame": 383
+        },
+        {
+          "step": 18,
+          "frame": 386,
+          "title": "Install internal plates — level 19.2",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g38",
+              "visible": true
+            }
+          ],
+          "id": "building:step-18",
+          "sourceFrame": 386
+        },
+        {
+          "step": 19,
+          "frame": 389,
+          "title": "Install internal plates — level 20.1",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g35",
+              "visible": true
+            }
+          ],
+          "id": "building:step-19",
+          "sourceFrame": 389
+        },
+        {
+          "step": 20,
+          "frame": 391,
+          "title": "Install internal plates — level 21.1",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g41",
+              "visible": true
+            }
+          ],
+          "id": "building:step-20",
+          "sourceFrame": 391
+        },
+        {
+          "step": 21,
+          "frame": 394,
+          "title": "Install internal plates — level 22.0",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g33",
+              "visible": true
+            }
+          ],
+          "id": "building:step-21",
+          "sourceFrame": 394
+        },
+        {
+          "step": 22,
+          "frame": 396,
+          "title": "Install internal plates — level 23.0",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g43",
+              "visible": true
+            }
+          ],
+          "id": "building:step-22",
+          "sourceFrame": 396
+        },
+        {
+          "step": 23,
+          "frame": 399,
+          "title": "Install internal plates — level 24.0",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g34",
+              "visible": true
+            }
+          ],
+          "id": "building:step-23",
+          "sourceFrame": 399
+        },
+        {
+          "step": 24,
+          "frame": 402,
+          "title": "Install internal plates — level 24.9",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g40",
+              "visible": true
+            }
+          ],
+          "id": "building:step-24",
+          "sourceFrame": 402
+        },
+        {
+          "step": 25,
+          "frame": 404,
+          "title": "Install internal plates — level 25.9",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g36",
+              "visible": true
+            }
+          ],
+          "id": "building:step-25",
+          "sourceFrame": 404
+        },
+        {
+          "step": 26,
+          "frame": 412,
+          "title": "Install internal plates — level 28.8",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g44",
+              "visible": true
+            }
+          ],
+          "id": "building:step-26",
+          "sourceFrame": 412
+        },
+        {
+          "step": 27,
+          "frame": 420,
+          "title": "Install internal plates — level 31.7",
+          "description": "Add internal plates in the source model’s bottom-to-top order.",
+          "changes": [
+            {
+              "group": "g30",
+              "visible": true
+            }
+          ],
+          "id": "building:step-27",
+          "sourceFrame": 420
+        },
+        {
+          "step": 28,
+          "frame": 450,
+          "title": "Install barrel-roof supports",
+          "description": "Add the roof supports above the completed steel frame.",
+          "changes": [
+            {
+              "group": "g49",
+              "visible": true
+            }
+          ],
+          "id": "building:step-28",
+          "sourceFrame": 450
+        },
+        {
+          "step": 29,
+          "frame": 480,
+          "title": "Install roof and canopy coverings",
+          "description": "Add the barrel-roof finish and the canopy covering plates.",
+          "changes": [
+            {
+              "group": "g3",
+              "visible": true
+            }
+          ],
+          "id": "building:step-29",
+          "sourceFrame": 480
+        },
+        {
+          "step": 30,
+          "frame": 510,
+          "title": "Install facade — group 1",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g5",
+              "visible": true
+            }
+          ],
+          "id": "building:step-30",
+          "sourceFrame": 510
+        },
+        {
+          "step": 31,
+          "frame": 518,
+          "title": "Install facade — group 2",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g6",
+              "visible": true
+            }
+          ],
+          "id": "building:step-31",
+          "sourceFrame": 518
+        },
+        {
+          "step": 32,
+          "frame": 526,
+          "title": "Install facade — group 3",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g7",
+              "visible": true
+            }
+          ],
+          "id": "building:step-32",
+          "sourceFrame": 526
+        },
+        {
+          "step": 33,
+          "frame": 534,
+          "title": "Install facade — group 4",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g8",
+              "visible": true
+            }
+          ],
+          "id": "building:step-33",
+          "sourceFrame": 534
+        },
+        {
+          "step": 34,
+          "frame": 542,
+          "title": "Install facade — group 5",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g9",
+              "visible": true
+            }
+          ],
+          "id": "building:step-34",
+          "sourceFrame": 542
+        },
+        {
+          "step": 35,
+          "frame": 550,
+          "title": "Install facade — group 6",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g10",
+              "visible": true
+            }
+          ],
+          "id": "building:step-35",
+          "sourceFrame": 550
+        },
+        {
+          "step": 36,
+          "frame": 558,
+          "title": "Install facade — group 7",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g11",
+              "visible": true
+            }
+          ],
+          "id": "building:step-36",
+          "sourceFrame": 558
+        },
+        {
+          "step": 37,
+          "frame": 566,
+          "title": "Install facade — group 8",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g4",
+              "visible": true
+            }
+          ],
+          "id": "building:step-37",
+          "sourceFrame": 566
+        },
+        {
+          "step": 38,
+          "frame": 574,
+          "title": "Install facade — group 9",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g12",
+              "visible": true
+            }
+          ],
+          "id": "building:step-38",
+          "sourceFrame": 574
+        },
+        {
+          "step": 39,
+          "frame": 582,
+          "title": "Install facade — group 10",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g13",
+              "visible": true
+            }
+          ],
+          "id": "building:step-39",
+          "sourceFrame": 582
+        },
+        {
+          "step": 40,
+          "frame": 590,
+          "title": "Install facade — group 11",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g14",
+              "visible": true
+            }
+          ],
+          "id": "building:step-40",
+          "sourceFrame": 590
+        },
+        {
+          "step": 41,
+          "frame": 598,
+          "title": "Install facade — group 12",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g15",
+              "visible": true
+            }
+          ],
+          "id": "building:step-41",
+          "sourceFrame": 598
+        },
+        {
+          "step": 42,
+          "frame": 606,
+          "title": "Install facade — group 13",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g16",
+              "visible": true
+            }
+          ],
+          "id": "building:step-42",
+          "sourceFrame": 606
+        },
+        {
+          "step": 43,
+          "frame": 614,
+          "title": "Install facade — group 14",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g17",
+              "visible": true
+            }
+          ],
+          "id": "building:step-43",
+          "sourceFrame": 614
+        },
+        {
+          "step": 44,
+          "frame": 622,
+          "title": "Install facade — group 15",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g18",
+              "visible": true
+            }
+          ],
+          "id": "building:step-44",
+          "sourceFrame": 622
+        },
+        {
+          "step": 45,
+          "frame": 630,
+          "title": "Install facade — group 16",
+          "description": "Add the next group of external cladding, windows and louvres.",
+          "changes": [
+            {
+              "group": "g19",
+              "visible": true
+            }
+          ],
+          "id": "building:step-45",
+          "sourceFrame": 630
+        },
+        {
+          "step": 46,
+          "frame": 660,
+          "title": "Install building signage",
+          "description": "Add the AAT building signage.",
+          "changes": [
+            {
+              "group": "g2",
+              "visible": true
+            }
+          ],
+          "id": "building:step-46",
+          "sourceFrame": 660
+        },
+        {
+          "step": 47,
+          "frame": 700,
+          "title": "Install footbridge deck",
+          "description": "Add the footbridge deck in its final position.",
+          "changes": [
+            {
+              "group": "g48",
+              "visible": true
+            }
+          ],
+          "id": "building:step-47",
+          "sourceFrame": 700
+        },
+        {
+          "step": 48,
+          "frame": 720,
+          "title": "Complete footbridge enclosure",
+          "description": "Add the footbridge cladding and complete the enclosed connection.",
+          "changes": [
+            {
+              "group": "g47",
+              "visible": true
+            }
+          ],
+          "id": "building:step-48",
+          "sourceFrame": 720
+        },
+        {
+          "step": 49,
+          "frame": 765,
+          "title": "Complete permanent site boundary",
+          "description": "Remove temporary works and restore the permanent fence.",
+          "changes": [
+            {
+              "group": "g1",
+              "visible": true
+            },
+            {
+              "group": "g50",
+              "visible": false
+            }
+          ],
+          "id": "building:step-49",
+          "sourceFrame": 765
+        }
+      ],
+      "sourceFrames": [
+        1,
+        840
+      ],
+      "assetVersion": "bcacc183a36f",
+      "bytes": 35780920
+    }
+  ]
+}

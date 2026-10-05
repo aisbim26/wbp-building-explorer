@@ -1,34 +1,37 @@
-# AAT — Western Bypass Project Explorer
+# AAT · Western Bypass — Project Journey
 
 REBUILDING WESTERN BYPASS AND ASSOCIATED A&A WORKS FOR ASIA AIRFREIGHT TERMINAL CO LTD (AAT)
 
 [Open the website](https://aisbim26.github.io/wbp-building-explorer/)
 
-Choose one of the five phase buttons at the top: WBP demolition, foundation removal, new foundations, alternative foundations (Option 2), or new building and footbridge construction. Drag **Sequence progress** to reveal each step and its explanation. The arrows move one step; **Start over** restores the selected phase.
+The five source models form one continuous project journey with four chapters: demolition, foundation removal, new foundations, and the new building. Select a chapter on the left or use the project timeline. **Play** gives a ten-second overview after the required models are ready. Pause or move the slider at any time; changing tabs pauses playback.
 
-Components appear or disappear in their original positions. The slider represents construction steps, rather than video running time.
+The new-foundations chapter compares **Option 1 — Re-use existing piles and additional piles** with **Option 2 — Cellular Raft Foundation**. The cameras are linked. Both options follow their own original sequence; matching progress percentages do not represent matching construction dates, durations or equivalent engineering milestones. Desktop uses a side-by-side view; narrow screens use a stacked comparison.
 
 ## Viewing controls
 
-- Drag to orbit, scroll or pinch to zoom, and right-drag or use two fingers to pan.
-- On a phone, tap **Controls** to open or close the component panel. The model and progress slider remain available when the panel is closed.
-- **Roof off**, **Interior**, and the component checkboxes reveal individual parts.
-- **Below ground**, available in the foundation phases, reveals piles, caps and excavation support.
-- **Airport context** shows the surrounding buildings, adjoining tower panels and blue canopy, guardhouse and barriers. The context surface has a cutout matching the source soil footprint so it does not cover the foundation works.
-- **Reset view** returns the camera to the project; the zoom and pan range stays near the work area, including when airport context is enabled.
+The menu beside the AIS logo opens component controls. Roof off, Interior and Below ground affect both options in comparison mode. Drag to orbit, scroll or pinch to zoom, and right-drag or use two fingers to pan. Reset view returns to the works area. Airport context loads separately and retains its ground cutout, adjoining tower components, guardhouse and barriers.
 
-## Local copy
+The loading screen distinguishes downloading from preparation. Percentages use each asset's actual decoded byte size, because compressed HTTP transfer sizes are not comparable with the decoded stream. A view is released only after its models are prepared. Failed requests can be retried; an interrupted context load can be skipped without losing the project position.
 
-Run `Start-Viewer.ps1` or `node server.mjs`, then open http://127.0.0.1:4173/. Do not open index.html directly.
+Original Blender files and model geometry are unchanged by this redesign. Existing terrain repairs and retained-topography settings are preserved. Browser lighting can differ from rendered animation.
 
-Original Blender models are unchanged. Browser lighting and procedural material appearance can differ from rendered animation. Geometry is displayed in local coordinates; original GIS origin metadata remains in manifest.json.
+## Local use
 
-## Playback and loading
+Run `Start-Viewer.ps1` or `node server.mjs`, then open the displayed local URL. Do not open index.html directly. The viewer uses vendored Three.js dependencies and needs no package installation.
 
-Tap **Play** to advance through the selected phase in 10 seconds from start to finish. **Pause** holds the current step; resuming keeps the same pace. Playback from an intermediate step takes the remaining fraction of 10 seconds. Dragging the slider, using the step arrows, switching phase, or hiding the browser tab pauses playback.
+## Data and future integration
 
-The three-line button to the left of the project title opens the viewing controls. Models load only when their phase is selected and remain available for switching back during the same visit. Meshopt compression reduces model download size while retaining vertex values and construction groups. The loading message shows download progress, followed by model preparation.
+- `data/project.json`: project identity, original GIS origin, chapter ranges, option relationships, model byte sizes and content fingerprints, source frames, stable step and component IDs, and visibility changes.
+- `data/model-index.json`: source element IDs and names linked to the model groups and categories. This index is not downloaded during ordinary viewing.
+- `app/project.js`: pure position and visibility logic shared by the viewer and automated checks.
+- `app/viewer.js`: model loading, geometry, linked cameras, context and picking.
+- `main.js`: interface and playback orchestration.
 
-## Alternative foundations
+`window.wbpViewer` exposes `getState()`, `getProject()`, `setProgress(0..1)`, `jumpToChapter(id)` and `setContext(boolean)`. `wbp:statechange` publishes the current chapter, local steps, selected component, visible groups and readiness. IDs refer to this published data snapshot; future model exports must preserve or explicitly migrate identifiers. Picking resolves a web mesh group, not an individual element within a batched mesh. Source element membership is available in the separate index.
 
-Phase 04 presents the alternative foundation in six grouped steps based on the supplied animation. All sheet piles disappear together in the last step. Terrain is retained. Phase 05 presents the new building and footbridge. The AIS logo and blue interface identify the company; source model materials retain their original colours.
+This establishes a data and command boundary for a future Copilot. No AI service, chat feature, schedule inference or cost estimation is connected in this release.
+
+## Design reference
+
+The interface follows the Apple Design, Design Engineering and Mobile Native guidance in [Emil Kowalski's skills](https://github.com/emilkowalski/skills), while retaining the AIS logo and company blue. Reduced-motion, reduced-transparency, keyboard focus and touch-safe controls are supported. Desktop and mobile viewport layouts are checked in-browser; real iOS/Android device behavior still needs device testing.
