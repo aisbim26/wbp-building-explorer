@@ -187,3 +187,6 @@
   .play-controls .primary { min-width:66px; padding:0 10px; }
   #timeline-chapters button { font-size:9px; }
 }
+
+/* Use the available option header width; keep the final noun phrase together. */
+.option-heading p { max-width:none; }

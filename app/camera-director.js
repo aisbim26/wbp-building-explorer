@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import {cameraShots,sampleShot} from './camera-tour.js?v=20261005f';
+import {cameraShots,sampleShot} from './camera-tour.js?v=20261005g';
 
 export class CameraDirector {
  constructor(viewer,project){this.viewer=viewer;this.project=project;this.shots=cameraShots(project);this.active=false;this.shot=null;this.anchors=new Map();this.camera=new THREE.OrthographicCamera();}

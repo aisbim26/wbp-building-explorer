@@ -16,6 +16,7 @@ export function cameraShots(project){
  const pilesNear=anchor('foundation',[3,4,6]),pilesFar=anchor('foundation',[9,10,11]);
  const steel=anchor('building',[1,2,3,4,5,6,7,8]);
  const steelLow={...steel,offset:[0,-7,0]},steelHigh={...steel,offset:[0,7,0]};
+ const facade={...steel,offset:[0,1,0]};
  const bridge=anchor('building',[47,48]);
  return [
   {id:'roof-close-up',label:'Roof and structural details',chapter:d.id,start:d.start,azimuth:-45,elevation:42,keys:[
@@ -29,8 +30,10 @@ export function cameraShots(project){
    key(0,pilesNear,60,34),key(.16,pilesNear,60,34),key(.86,pilesFar,60,34),key(1,pilesFar,60,34)]},
   {id:'steel-elevation',label:'Steel structure — opposite elevation',chapter:b.id,start:b.start,azimuth:-71,elevation:17,keys:[
    key(0,steelLow,86,40,36,40),key(.2,steelLow,86,40,36,40),key(.85,steelHigh,86,40,36,40),key(1,steelHigh,86,40,36,40)]},
-  {id:'facade-to-bridge',label:'Roof and footbridge — close-up',chapter:b.id,start:stage(b,/Install barrel-roof supports/i),azimuth:-20,elevation:65,keys:[
-   key(0,steel,80,42,38,40),key(.35,steel,80,42,38,40),key(.85,bridge,44,28,34,32),key(1,bridge,44,28,34,32)]},
+  {id:'facade-side-view',label:'Facade installation — low oblique view',chapter:b.id,start:stage(b,/Install barrel-roof supports/i),azimuth:-25,elevation:20,keys:[
+   key(0,facade,80,46,84,62),key(1,facade,80,46,84,62)]},
+  {id:'footbridge-close-up',label:'Footbridge — close-up',chapter:b.id,start:stage(b,/Install footbridge deck/i),azimuth:-20,elevation:65,keys:[
+   key(0,bridge,44,28,34,32),key(1,bridge,44,28,34,32)]},
  ].map((shot,i,all)=>({...shot,end:all[i+1]?.start??project.totalSteps}));
 }
 export function sampleShot(shots,position){
