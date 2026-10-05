@@ -4,13 +4,13 @@ REBUILDING WESTERN BYPASS AND ASSOCIATED A&A WORKS FOR ASIA AIRFREIGHT TERMINAL 
 
 [Open the website](https://aisbim26.github.io/wbp-building-explorer/)
 
-The five source models form one continuous project journey with four chapters: demolition, foundation removal, new foundations, and the new building. Select a chapter on the left, click a phase name below the timeline, or use the project slider. **Play** gives a ten-second overview after the required models are ready. Pause or move the slider at any time; changing tabs pauses playback.
+The five source models form one continuous project journey with four chapters: demolition, foundation removal, new foundations, and the new building. On wide screens, select a chapter in the horizontal row above the model. On phones, select a phase below the timeline. Only one chapter navigation row is shown at a time. You can also use the project slider. **Play** gives a ten-second overview after the required models are ready. Pause or move the slider at any time; changing tabs pauses playback.
 
 The new-foundations chapter compares **Option 1 — Re-use existing piles and additional piles** with **Option 2 — Cellular Raft Foundation**. The cameras are linked. Both options follow their own original sequence; matching progress percentages do not represent matching construction dates, durations or equivalent engineering milestones. Desktop uses a side-by-side view; narrow screens use a stacked comparison.
 
 ## Viewing controls
 
-The menu beside the AIS logo opens component controls. Roof off, Interior and Below ground affect both options in comparison mode. Drag to orbit, scroll or pinch to zoom, and right-drag or use two fingers to pan. Reset view returns to the works area. Airport context loads separately and retains its ground cutout, adjoining tower components, guardhouse and barriers.
+The menu beside the AIS logo opens component controls. On phones, it also contains camera views, auto-rotate, reset view and start over, keeping the bottom toolbar compact. Each step card has an information button for the full description. Foundation options remain stacked on phones with short headings above full-width models. Roof off, Interior and Below ground affect both options in comparison mode. Drag to orbit, scroll or pinch to zoom, and right-drag or use two fingers to pan. Reset view returns to the works area. Airport context loads separately and retains its ground cutout, adjoining tower components, guardhouse and barriers.
 
 The loading screen distinguishes downloading from preparation. Percentages use each asset's actual decoded byte size, because compressed HTTP transfer sizes are not comparable with the decoded stream. A view is released only after its models are prepared. Failed requests can be retried; an interrupted context load can be skipped without losing the project position.
 
