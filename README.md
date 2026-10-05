@@ -4,7 +4,7 @@ REBUILDING WESTERN BYPASS AND ASSOCIATED A&A WORKS FOR ASIA AIRFREIGHT TERMINAL 
 
 [Open the website](https://aisbim26.github.io/wbp-building-explorer/)
 
-The five source models form one continuous project journey with four chapters: demolition, foundation removal, new foundations, and the new building. On wide screens, select a chapter in the horizontal row above the model. On phones, select a phase below the timeline. Only one chapter navigation row is shown at a time. You can also use the project slider. **Play** gives a ten-second overview after the required models are ready. Pause or move the slider at any time; changing tabs pauses playback.
+The five source models form one continuous project journey with four chapters: demolition, foundation removal, new foundations, and the new building. On wide screens, select a chapter in the horizontal row above the model. On phones, select a phase below the timeline. Only one chapter navigation row is shown at a time. You can also use the project slider. **Play** gives a 40-second overview after the required models are ready. Six camera shots with five smooth transitions follow demolition, T1 canopy and remaining structure, foundation removal, foundation comparison, steel construction, and building completion. The camera slowly orbits and tracks nearby work groups while keeping the works area in view. The two foundation options share a camera direction and focus. Pause or move the slider at any time; dragging/zooming the model, opening controls, or changing tabs pauses playback. Resume continues at the same pace; a full replay takes 40 seconds. Loading time is excluded. Turn off **Follow sequence camera** in View controls to use a fixed view. Reduced-motion preferences disable the camera tour.
 
 The new-foundations chapter compares **Option 1 — Re-use existing piles and additional piles** with **Option 2 — Cellular Raft Foundation**. The cameras are linked. Both options follow their own original sequence; matching progress percentages do not represent matching construction dates, durations or equivalent engineering milestones. Desktop uses a side-by-side view; narrow screens use a stacked comparison.
 
@@ -26,6 +26,8 @@ Run `Start-Viewer.ps1` or `node server.mjs`, then open the displayed local URL. 
 - `data/model-index.json`: source element IDs and names linked to the model groups and categories. This index is not downloaded during ordinary viewing.
 - `app/project.js`: pure position and visibility logic shared by the viewer and automated checks.
 - `app/viewer.js`: model loading, geometry, linked cameras, context and picking.
+- `app/camera-tour.js`: six sequence-linked shot definitions and work-group focus.
+- `app/camera-director.js`: smooth camera transitions and linked option framing.
 - `main.js`: interface and playback orchestration.
 
 `window.wbpViewer` exposes `getState()`, `getProject()`, `setProgress(0..1)`, `jumpToChapter(id)` and `setContext(boolean)`. `wbp:statechange` publishes the current chapter, local steps, selected component, visible groups and readiness. IDs refer to this published data snapshot; future model exports must preserve or explicitly migrate identifiers. Picking resolves a web mesh group, not an individual element within a batched mesh. Source element membership is available in the separate index.

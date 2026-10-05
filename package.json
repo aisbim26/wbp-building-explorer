@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node server.mjs",
-    "check": "node --check main.js && node --check app/viewer.js && node --check app/project.js && node --check server.mjs && node --check app/copilot.js && node --check app/layout.js"
+    "check": "node --check main.js && node --check app/viewer.js && node --check app/project.js && node --check server.mjs && node --check app/copilot.js && node --check app/layout.js && node --check playback.js && node --check app/camera-tour.js && node --check app/camera-director.js"
   },
   "description": "Self-contained Three.js r180 viewer with vendored dependencies. No installation needed."
 }
