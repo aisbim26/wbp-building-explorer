@@ -1,9 +1,9 @@
-import {CameraDirector} from './app/camera-director.js?v=20261005e';
+import {CameraDirector} from './app/camera-director.js?v=20261005f';
 import {initCompactLayout} from './app/layout.js?v=20261005d';
 import {initCopilotPreview} from './app/copilot.js?v=20261005b';
 import {resolvePosition,validateProject,clamp} from './app/project.js?v=20261005a';
-import {ModelViewer,parts} from './app/viewer.js?v=20261005e';
-import {createPlayback} from './playback.js?v=20261005e';
+import {ModelViewer,parts} from './app/viewer.js?v=20261005f';
+import {createPlayback} from './playback.js?v=20261005f';
 const $=id=>document.getElementById(id);
 let project,manifest,position=0,current,renderedChapter=null,ready=false,serial=0,loadingItems=[],error=null,selected=null,context=false,view='iso',preset='assembled';
 const checks={},hidden=new Set(),diagnostics=$('viewer-diagnostics');
