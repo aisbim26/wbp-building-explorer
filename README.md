@@ -4,7 +4,7 @@ REBUILDING WESTERN BYPASS AND ASSOCIATED A&A WORKS FOR ASIA AIRFREIGHT TERMINAL 
 
 [Open the website](https://aisbim26.github.io/wbp-building-explorer/)
 
-The five source models form one continuous project journey with four chapters: demolition, foundation removal, new foundations, and the new building. Select a chapter on the left or use the project timeline. **Play** gives a ten-second overview after the required models are ready. Pause or move the slider at any time; changing tabs pauses playback.
+The five source models form one continuous project journey with four chapters: demolition, foundation removal, new foundations, and the new building. Select a chapter on the left, click a phase name below the timeline, or use the project slider. **Play** gives a ten-second overview after the required models are ready. Pause or move the slider at any time; changing tabs pauses playback.
 
 The new-foundations chapter compares **Option 1 — Re-use existing piles and additional piles** with **Option 2 — Cellular Raft Foundation**. The cameras are linked. Both options follow their own original sequence; matching progress percentages do not represent matching construction dates, durations or equivalent engineering milestones. Desktop uses a side-by-side view; narrow screens use a stacked comparison.
 
@@ -30,7 +30,7 @@ Run `Start-Viewer.ps1` or `node server.mjs`, then open the displayed local URL. 
 
 `window.wbpViewer` exposes `getState()`, `getProject()`, `setProgress(0..1)`, `jumpToChapter(id)` and `setContext(boolean)`. `wbp:statechange` publishes the current chapter, local steps, selected component, visible groups and readiness. IDs refer to this published data snapshot; future model exports must preserve or explicitly migrate identifiers. Picking resolves a web mesh group, not an individual element within a batched mesh. Source element membership is available in the separate index.
 
-This establishes a data and command boundary for a future Copilot. No AI service, chat feature, schedule inference or cost estimation is connected in this release.
+The lower-right AI Copilot button opens an interface preview with a local conversation, suggested prompts and a composer. Step explanations quote the current viewer data; foundation comparisons use fixed project labels. Every reply is marked as a preview. Free-text messages receive a preview acknowledgement, are kept only in page memory and are never sent to an AI service. Opening the panel pauses playback. No AI service, schedule inference or cost estimation is connected.
 
 ## Design reference
 
